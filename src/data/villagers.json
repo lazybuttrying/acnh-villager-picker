@@ -1,0 +1,5085 @@
+[
+  {
+    "id": "cat10",
+    "names": {
+      "ko": "1호",
+      "en": "Kid Cat",
+      "ja": "１ごう"
+    },
+    "nameEn": "Kid Cat",
+    "personality": "Jock",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c3/Kid_Cat_NH.png"
+  },
+  {
+    "id": "hip04",
+    "names": {
+      "ko": "가브리엘",
+      "en": "Biff",
+      "ja": "ガブリエル"
+    },
+    "nameEn": "Biff",
+    "personality": "Jock",
+    "species": "Hippo",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/9c/Biff_NH.png"
+  },
+  {
+    "id": "chn00",
+    "names": {
+      "ko": "건태",
+      "en": "Goose",
+      "ja": "ケンタ"
+    },
+    "nameEn": "Goose",
+    "personality": "Jock",
+    "species": "Chicken",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/91/Goose_NH.png"
+  },
+  {
+    "id": "tig01",
+    "names": {
+      "ko": "고메스",
+      "en": "Rowan",
+      "ja": "ゴメス"
+    },
+    "nameEn": "Rowan",
+    "personality": "Jock",
+    "species": "Tiger",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/df/Rowan_NH.png"
+  },
+  {
+    "id": "flg02",
+    "names": {
+      "ko": "구리구리",
+      "en": "Frobert",
+      "ja": "コージィ"
+    },
+    "nameEn": "Frobert",
+    "personality": "Jock",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3b/Frobert_NH.png"
+  },
+  {
+    "id": "pgn11",
+    "names": {
+      "ko": "김말이",
+      "en": "Iggly",
+      "ja": "のりまき"
+    },
+    "nameEn": "Iggly",
+    "personality": "Jock",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/68/Iggly_NH.png"
+  },
+  {
+    "id": "rbt03",
+    "names": {
+      "ko": "닌토",
+      "en": "Snake",
+      "ja": "モモチ"
+    },
+    "nameEn": "Snake",
+    "personality": "Jock",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ec/Snake_NH.png"
+  },
+  {
+    "id": "flg04",
+    "names": {
+      "ko": "덕",
+      "en": "Drift",
+      "ja": "ドク"
+    },
+    "nameEn": "Drift",
+    "personality": "Jock",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/ac/Drift_NH.png"
+  },
+  {
+    "id": "brd04",
+    "names": {
+      "ko": "딩요",
+      "en": "Jitters",
+      "ja": "ジーニョ"
+    },
+    "nameEn": "Jitters",
+    "personality": "Jock",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a6/Jitters_NH.png"
+  },
+  {
+    "id": "cat13",
+    "names": {
+      "ko": "땀띠",
+      "en": "Stinky",
+      "ja": "アセクサ"
+    },
+    "nameEn": "Stinky",
+    "personality": "Jock",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/9c/Stinky_NH.png"
+  },
+  {
+    "id": "der01",
+    "names": {
+      "ko": "록키",
+      "en": "Bam",
+      "ja": "タケル"
+    },
+    "nameEn": "Bam",
+    "personality": "Jock",
+    "species": "Deer",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/2b/Bam_NH.png"
+  },
+  {
+    "id": "lon06",
+    "names": {
+      "ko": "릭",
+      "en": "Mott",
+      "ja": "リック"
+    },
+    "nameEn": "Mott",
+    "personality": "Jock",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/b8/Mott_NH.png"
+  },
+  {
+    "id": "gor02",
+    "names": {
+      "ko": "만복이",
+      "en": "Boone",
+      "ja": "まんたろう"
+    },
+    "nameEn": "Boone",
+    "personality": "Jock",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/19/Boone_NH.png"
+  },
+  {
+    "id": "gor04",
+    "names": {
+      "ko": "머슬",
+      "en": "Louie",
+      "ja": "マッスル"
+    },
+    "nameEn": "Louie",
+    "personality": "Jock",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/5a/Louie_NH.png"
+  },
+  {
+    "id": "pig15",
+    "names": {
+      "ko": "멧지",
+      "en": "Kevin",
+      "ja": "イノッチ"
+    },
+    "nameEn": "Kevin",
+    "personality": "Jock",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/71/Kevin_NH.png"
+  },
+  {
+    "id": "brd17",
+    "names": {
+      "ko": "문대",
+      "en": "Peck",
+      "ja": "ふみたろう"
+    },
+    "nameEn": "Peck",
+    "personality": "Jock",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/44/Peck_NH.png"
+  },
+  {
+    "id": "hrs00",
+    "names": {
+      "ko": "바야시코프",
+      "en": "Buck",
+      "ja": "ヴァヤシコフ"
+    },
+    "nameEn": "Buck",
+    "personality": "Jock",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7f/Buck_NH.png"
+  },
+  {
+    "id": "pig08",
+    "names": {
+      "ko": "박사",
+      "en": "Cobb",
+      "ja": "ハカセ"
+    },
+    "nameEn": "Cobb",
+    "personality": "Jock",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/9d/Cobb_NH.png"
+  },
+  {
+    "id": "tig04",
+    "names": {
+      "ko": "범호",
+      "en": "Leonardo",
+      "ja": "ヒョウタ"
+    },
+    "nameEn": "Leonardo",
+    "personality": "Jock",
+    "species": "Tiger",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/0a/Leonardo_NH.png"
+  },
+  {
+    "id": "bea00",
+    "names": {
+      "ko": "병태",
+      "en": "Teddy",
+      "ja": "たいへいた"
+    },
+    "nameEn": "Teddy",
+    "personality": "Jock",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/b9/Teddy_NH.png"
+  },
+  {
+    "id": "cbr02",
+    "names": {
+      "ko": "봉추",
+      "en": "Poncho",
+      "ja": "ポンチョ"
+    },
+    "nameEn": "Poncho",
+    "personality": "Jock",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/f0/Poncho_NH.png"
+  },
+  {
+    "id": "lon00",
+    "names": {
+      "ko": "선글",
+      "en": "Bud",
+      "ja": "グラさん"
+    },
+    "nameEn": "Bud",
+    "personality": "Jock",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1f/Bud_NH.png"
+  },
+  {
+    "id": "pbr02",
+    "names": {
+      "ko": "세바스찬",
+      "en": "Pierce",
+      "ja": "セバスチャン"
+    },
+    "nameEn": "Pierce",
+    "personality": "Jock",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/80/Pierce_NH.png"
+  },
+  {
+    "id": "lon07",
+    "names": {
+      "ko": "아더",
+      "en": "Rory",
+      "ja": "アーサー"
+    },
+    "nameEn": "Rory",
+    "personality": "Jock",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/db/Rory_NH.png"
+  },
+  {
+    "id": "cbr04",
+    "names": {
+      "ko": "아이다호",
+      "en": "Kody",
+      "ja": "アイダホ"
+    },
+    "nameEn": "Kody",
+    "personality": "Jock",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/20/Kody_NH.png"
+  },
+  {
+    "id": "elp06",
+    "names": {
+      "ko": "엑스엘리",
+      "en": "Axel",
+      "ja": "エックスエル"
+    },
+    "nameEn": "Axel",
+    "personality": "Jock",
+    "species": "Elephant",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/09/Axel_NH.png"
+  },
+  {
+    "id": "kal09",
+    "names": {
+      "ko": "오즈먼드",
+      "en": "Lyman",
+      "ja": "オズモンド"
+    },
+    "nameEn": "Lyman",
+    "personality": "Jock",
+    "species": "Koala",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a5/Lyman_NH.png"
+  },
+  {
+    "id": "flg10",
+    "names": {
+      "ko": "왕서방",
+      "en": "Cousteau",
+      "ja": "ハルマキ"
+    },
+    "nameEn": "Cousteau",
+    "personality": "Jock",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1c/Cousteau_NH.png"
+  },
+  {
+    "id": "mnk06",
+    "names": {
+      "ko": "원승",
+      "en": "Flip",
+      "ja": "さすけ"
+    },
+    "nameEn": "Flip",
+    "personality": "Jock",
+    "species": "Monkey",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c3/Flip_NH.png"
+  },
+  {
+    "id": "pbr07",
+    "names": {
+      "ko": "은수리",
+      "en": "Sterling",
+      "ja": "ギンカク"
+    },
+    "nameEn": "Sterling",
+    "personality": "Jock",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/4f/Sterling_NH.png"
+  },
+  {
+    "id": "mus05",
+    "names": {
+      "ko": "쟝",
+      "en": "Rod",
+      "ja": "ジャン"
+    },
+    "nameEn": "Rod",
+    "personality": "Jock",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ea/Rod_NH.png"
+  },
+  {
+    "id": "duk10",
+    "names": {
+      "ko": "지키미",
+      "en": "Scoot",
+      "ja": "マモル"
+    },
+    "nameEn": "Scoot",
+    "personality": "Jock",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ec/Scoot_NH.png"
+  },
+  {
+    "id": "shp15",
+    "names": {
+      "ko": "차둘",
+      "en": "Dom",
+      "ja": "ちゃちゃまる"
+    },
+    "nameEn": "Dom",
+    "personality": "Jock",
+    "species": "Sheep",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/75/Dom_NH.png"
+  },
+  {
+    "id": "cat20",
+    "names": {
+      "ko": "찰스",
+      "en": "Rudy",
+      "ja": "チャス"
+    },
+    "nameEn": "Rudy",
+    "personality": "Jock",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7e/Rudy_NH.png"
+  },
+  {
+    "id": "brd00",
+    "names": {
+      "ko": "참돌이",
+      "en": "Jay",
+      "ja": "ツバクロ"
+    },
+    "nameEn": "Jay",
+    "personality": "Jock",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7f/Jay_NH.png"
+  },
+  {
+    "id": "dog14",
+    "names": {
+      "ko": "챔프",
+      "en": "Mac",
+      "ja": "チャンプ"
+    },
+    "nameEn": "Mac",
+    "personality": "Jock",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/ab/Mac_NH.png"
+  },
+  {
+    "id": "bul07",
+    "names": {
+      "ko": "철소",
+      "en": "Coach",
+      "ja": "テッチャン"
+    },
+    "nameEn": "Coach",
+    "personality": "Jock",
+    "species": "Bull",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c1/Coach_NH.png"
+  },
+  {
+    "id": "flg01",
+    "names": {
+      "ko": "철컥",
+      "en": "Ribbot",
+      "ja": "ガチャ"
+    },
+    "nameEn": "Ribbot",
+    "personality": "Jock",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/94/Ribbot_NH.png"
+  },
+  {
+    "id": "brd18",
+    "names": {
+      "ko": "춘섭",
+      "en": "Sparro",
+      "ja": "ちゅんのすけ"
+    },
+    "nameEn": "Sparro",
+    "personality": "Jock",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/32/Sparro_NH.png"
+  },
+  {
+    "id": "duk00",
+    "names": {
+      "ko": "코코아",
+      "en": "Bill",
+      "ja": "ピータン"
+    },
+    "nameEn": "Bill",
+    "personality": "Jock",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c1/Bill_NH.png"
+  },
+  {
+    "id": "squ16",
+    "names": {
+      "ko": "크리스",
+      "en": "Sheldon",
+      "ja": "クリス"
+    },
+    "nameEn": "Sheldon",
+    "personality": "Jock",
+    "species": "Squirrel",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/ce/Sheldon_NH.png"
+  },
+  {
+    "id": "rhn00",
+    "names": {
+      "ko": "탱크",
+      "en": "Tank",
+      "ja": "くるぶし"
+    },
+    "nameEn": "Tank",
+    "personality": "Jock",
+    "species": "Rhino",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d9/Tank_NH.png"
+  },
+  {
+    "id": "flg09",
+    "names": {
+      "ko": "텀보",
+      "en": "Tad",
+      "ja": "タンボ"
+    },
+    "nameEn": "Tad",
+    "personality": "Jock",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/67/Tad_NH.png"
+  },
+  {
+    "id": "rbt08",
+    "names": {
+      "ko": "토시",
+      "en": "Genji",
+      "ja": "ゲンジ"
+    },
+    "nameEn": "Genji",
+    "personality": "Jock",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/67/Genji_NH.png"
+  },
+  {
+    "id": "tig02",
+    "names": {
+      "ko": "티볼트",
+      "en": "Tybalt",
+      "ja": "ハリマオ"
+    },
+    "nameEn": "Tybalt",
+    "personality": "Jock",
+    "species": "Tiger",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/0f/Tybalt_NH.png"
+  },
+  {
+    "id": "ant01",
+    "names": {
+      "ko": "퍼머거",
+      "en": "Antonio",
+      "ja": "マコト"
+    },
+    "nameEn": "Antonio",
+    "personality": "Jock",
+    "species": "Anteater",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d4/Antonio_NH.png"
+  },
+  {
+    "id": "pgn01",
+    "names": {
+      "ko": "펭수",
+      "en": "Roald",
+      "ja": "ペンタ"
+    },
+    "nameEn": "Roald",
+    "personality": "Jock",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/63/Roald_NH.png"
+  },
+  {
+    "id": "crd02",
+    "names": {
+      "ko": "풍작",
+      "en": "Boots",
+      "ja": "ホウサク"
+    },
+    "nameEn": "Boots",
+    "personality": "Jock",
+    "species": "Alligator",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3e/Boots_NH.png"
+  },
+  {
+    "id": "mus04",
+    "names": {
+      "ko": "피스",
+      "en": "Samson",
+      "ja": "ピース"
+    },
+    "nameEn": "Samson",
+    "personality": "Jock",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/9b/Samson_NH.png"
+  },
+  {
+    "id": "mus14",
+    "names": {
+      "ko": "핑",
+      "en": "Moose",
+      "ja": "ピン"
+    },
+    "nameEn": "Moose",
+    "personality": "Jock",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ee/Moose_NH.png"
+  },
+  {
+    "id": "crd06",
+    "names": {
+      "ko": "하이드",
+      "en": "Sly",
+      "ja": "ハイド"
+    },
+    "nameEn": "Sly",
+    "personality": "Jock",
+    "species": "Alligator",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/70/Sly_NH.png"
+  },
+  {
+    "id": "pig00",
+    "names": {
+      "ko": "햄까스",
+      "en": "Curly",
+      "ja": "ハムカツ"
+    },
+    "nameEn": "Curly",
+    "personality": "Jock",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3d/Curly_NH.png"
+  },
+  {
+    "id": "ham00",
+    "names": {
+      "ko": "햄스틴",
+      "en": "Hamlet",
+      "ja": "ハムスケ"
+    },
+    "nameEn": "Hamlet",
+    "personality": "Jock",
+    "species": "Hamster",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/46/Hamlet_NH.png"
+  },
+  {
+    "id": "ost03",
+    "names": {
+      "ko": "헤르츠",
+      "en": "Sprocket",
+      "ja": "ヘルツ"
+    },
+    "nameEn": "Sprocket",
+    "personality": "Jock",
+    "species": "Ostrich",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/8b/Sprocket_NH.png"
+  },
+  {
+    "id": "goa02",
+    "names": {
+      "ko": "힘드러",
+      "en": "Billy",
+      "ja": "アーシンド"
+    },
+    "nameEn": "Billy",
+    "personality": "Jock",
+    "species": "Goat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/26/Billy_NH.png"
+  },
+  {
+    "id": "elp02",
+    "names": {
+      "ko": "3호",
+      "en": "Big Top",
+      "ja": "３ごう"
+    },
+    "nameEn": "Big Top",
+    "personality": "Lazy",
+    "species": "Elephant",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/80/Big_Top_NH.png"
+  },
+  {
+    "id": "flg15",
+    "names": {
+      "ko": "개군",
+      "en": "Raddle",
+      "ja": "カックン"
+    },
+    "nameEn": "Raddle",
+    "personality": "Lazy",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7a/Raddle_NH.png"
+  },
+  {
+    "id": "cbr16",
+    "names": {
+      "ko": "곰시",
+      "en": "Barold",
+      "ja": "ニッシー"
+    },
+    "nameEn": "Barold",
+    "personality": "Lazy",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/9d/Barold_NH.png"
+  },
+  {
+    "id": "chn02",
+    "names": {
+      "ko": "김희",
+      "en": "Egbert",
+      "ja": "しもやけ"
+    },
+    "nameEn": "Egbert",
+    "personality": "Lazy",
+    "species": "Chicken",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3f/Egbert_NH.png"
+  },
+  {
+    "id": "mnk08",
+    "names": {
+      "ko": "델리",
+      "en": "Deli",
+      "ja": "デリー"
+    },
+    "nameEn": "Deli",
+    "personality": "Lazy",
+    "species": "Monkey",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/30/Deli_NH.png"
+  },
+  {
+    "id": "kal05",
+    "names": {
+      "ko": "동동이",
+      "en": "Ozzie",
+      "ja": "ドングリ"
+    },
+    "nameEn": "Ozzie",
+    "personality": "Lazy",
+    "species": "Koala",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3a/Ozzie_NH.png"
+  },
+  {
+    "id": "flg07",
+    "names": {
+      "ko": "드리미",
+      "en": "Jeremiah",
+      "ja": "クワトロ"
+    },
+    "nameEn": "Jeremiah",
+    "personality": "Lazy",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/93/Jeremiah_NH.png"
+  },
+  {
+    "id": "dog16",
+    "names": {
+      "ko": "땡칠이",
+      "en": "Benjamin",
+      "ja": "ハチ"
+    },
+    "nameEn": "Benjamin",
+    "personality": "Lazy",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/97/Benjamin_NH.png"
+  },
+  {
+    "id": "goa09",
+    "names": {
+      "ko": "래미",
+      "en": "Sherb",
+      "ja": "レム"
+    },
+    "nameEn": "Sherb",
+    "personality": "Lazy",
+    "species": "Goat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/18/Sherb_NH.png"
+  },
+  {
+    "id": "dog02",
+    "names": {
+      "ko": "럭키",
+      "en": "Lucky",
+      "ja": "ラッキー"
+    },
+    "nameEn": "Lucky",
+    "personality": "Lazy",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/59/Lucky_NH.png"
+  },
+  {
+    "id": "lon02",
+    "names": {
+      "ko": "렉스",
+      "en": "Rex",
+      "ja": "サンデー"
+    },
+    "nameEn": "Rex",
+    "personality": "Lazy",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/78/Rex_NH.png"
+  },
+  {
+    "id": "bul01",
+    "names": {
+      "ko": "로데오",
+      "en": "Rodeo",
+      "ja": "ロデオ"
+    },
+    "nameEn": "Rodeo",
+    "personality": "Lazy",
+    "species": "Bull",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/6c/Rodeo_NH.png"
+  },
+  {
+    "id": "dog03",
+    "names": {
+      "ko": "로빈",
+      "en": "Biskit",
+      "ja": "ロビン"
+    },
+    "nameEn": "Biskit",
+    "personality": "Lazy",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/78/Biskit_NH.png"
+  },
+  {
+    "id": "duk01",
+    "names": {
+      "ko": "리처드",
+      "en": "Joey",
+      "ja": "リチャード"
+    },
+    "nameEn": "Joey",
+    "personality": "Lazy",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/66/Joey_NH.png"
+  },
+  {
+    "id": "squ02",
+    "names": {
+      "ko": "리키",
+      "en": "Filbert",
+      "ja": "リッキー"
+    },
+    "nameEn": "Filbert",
+    "personality": "Lazy",
+    "species": "Squirrel",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/81/Filbert_NH.png"
+  },
+  {
+    "id": "hrs12",
+    "names": {
+      "ko": "마사마",
+      "en": "Papi",
+      "ja": "オカッピ"
+    },
+    "nameEn": "Papi",
+    "personality": "Lazy",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a7/Papi_NH.png"
+  },
+  {
+    "id": "hrs10",
+    "names": {
+      "ko": "마철이",
+      "en": "Clyde",
+      "ja": "デースケ"
+    },
+    "nameEn": "Clyde",
+    "personality": "Lazy",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/bb/Clyde_NH.png"
+  },
+  {
+    "id": "elp09",
+    "names": {
+      "ko": "맘모",
+      "en": "Tucker",
+      "ja": "はじめ"
+    },
+    "nameEn": "Tucker",
+    "personality": "Lazy",
+    "species": "Elephant",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7c/Tucker_NH.png"
+  },
+  {
+    "id": "pig03",
+    "names": {
+      "ko": "먹고파",
+      "en": "Hugh",
+      "ja": "クッチャネ"
+    },
+    "nameEn": "Hugh",
+    "personality": "Lazy",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/b6/Hugh_NH.png"
+  },
+  {
+    "id": "bul03",
+    "names": {
+      "ko": "모리스",
+      "en": "Stu",
+      "ja": "モーリス"
+    },
+    "nameEn": "Stu",
+    "personality": "Lazy",
+    "species": "Bull",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/fa/Stu_NH.png"
+  },
+  {
+    "id": "bea05",
+    "names": {
+      "ko": "박하스",
+      "en": "Nate",
+      "ja": "バッカス"
+    },
+    "nameEn": "Nate",
+    "personality": "Lazy",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/55/Nate_NH.png"
+  },
+  {
+    "id": "dog06",
+    "names": {
+      "ko": "벤",
+      "en": "Walker",
+      "ja": "ベン"
+    },
+    "nameEn": "Walker",
+    "personality": "Lazy",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/0f/Walker_NH.png"
+  },
+  {
+    "id": "duk08",
+    "names": {
+      "ko": "봉",
+      "en": "Derwin",
+      "ja": "ボン"
+    },
+    "nameEn": "Derwin",
+    "personality": "Lazy",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/98/Derwin_NH.png"
+  },
+  {
+    "id": "mus12",
+    "names": {
+      "ko": "브로콜리",
+      "en": "Broccolo",
+      "ja": "ブロッコリー"
+    },
+    "nameEn": "Broccolo",
+    "personality": "Lazy",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/69/Broccolo_NH.png"
+  },
+  {
+    "id": "rbt11",
+    "names": {
+      "ko": "비니거",
+      "en": "Claude",
+      "ja": "ビネガー"
+    },
+    "nameEn": "Claude",
+    "personality": "Lazy",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1f/Claude_NH.png"
+  },
+  {
+    "id": "pgn02",
+    "names": {
+      "ko": "빙수",
+      "en": "Cube",
+      "ja": "ビス"
+    },
+    "nameEn": "Cube",
+    "personality": "Lazy",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/10/Cube_NH.png"
+  },
+  {
+    "id": "cat06",
+    "names": {
+      "ko": "빙티",
+      "en": "Punchy",
+      "ja": "ビンタ"
+    },
+    "nameEn": "Punchy",
+    "personality": "Lazy",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/6d/Punchy_NH.png"
+  },
+  {
+    "id": "rhn04",
+    "names": {
+      "ko": "뿌람",
+      "en": "Hornsby",
+      "ja": "みつお"
+    },
+    "nameEn": "Hornsby",
+    "personality": "Lazy",
+    "species": "Rhino",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/95/Hornsby_NH.png"
+  },
+  {
+    "id": "hrs03",
+    "names": {
+      "ko": "샤브렌",
+      "en": "Elmer",
+      "ja": "サブレ"
+    },
+    "nameEn": "Elmer",
+    "personality": "Lazy",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/60/Elmer_NH.png"
+  },
+  {
+    "id": "mnk02",
+    "names": {
+      "ko": "시몬",
+      "en": "Simon",
+      "ja": "エテキチ"
+    },
+    "nameEn": "Simon",
+    "personality": "Lazy",
+    "species": "Monkey",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/68/Simon_NH.png"
+  },
+  {
+    "id": "rbt18",
+    "names": {
+      "ko": "아마민",
+      "en": "Cole",
+      "ja": "アマミン"
+    },
+    "nameEn": "Cole",
+    "personality": "Lazy",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/f6/Cole_NH.png"
+  },
+  {
+    "id": "duk11",
+    "names": {
+      "ko": "아잠만",
+      "en": "Weber",
+      "ja": "アチョット"
+    },
+    "nameEn": "Weber",
+    "personality": "Lazy",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/66/Weber_NH.png"
+  },
+  {
+    "id": "brd02",
+    "names": {
+      "ko": "안쵸비",
+      "en": "Anchovy",
+      "ja": "アンチョビ"
+    },
+    "nameEn": "Anchovy",
+    "personality": "Lazy",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ea/Anchovy_NH.png"
+  },
+  {
+    "id": "crd00",
+    "names": {
+      "ko": "알베르트",
+      "en": "Alfonso",
+      "ja": "アルベルト"
+    },
+    "nameEn": "Alfonso",
+    "personality": "Lazy",
+    "species": "Alligator",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e4/Alfonso_NH.png"
+  },
+  {
+    "id": "brd11",
+    "names": {
+      "ko": "야곱",
+      "en": "Jacob",
+      "ja": "ジャコテン"
+    },
+    "nameEn": "Jacob",
+    "personality": "Lazy",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3e/Jacob_NH.png"
+  },
+  {
+    "id": "dog15",
+    "names": {
+      "ko": "에드워드",
+      "en": "Marcel",
+      "ja": "もんじゃ"
+    },
+    "nameEn": "Marcel",
+    "personality": "Lazy",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3e/Marcel_NH.png"
+  },
+  {
+    "id": "crd08",
+    "names": {
+      "ko": "용남이",
+      "en": "Drago",
+      "ja": "タツオ"
+    },
+    "nameEn": "Drago",
+    "personality": "Lazy",
+    "species": "Alligator",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/f9/Drago_NH.png"
+  },
+  {
+    "id": "cbr03",
+    "names": {
+      "ko": "우띠",
+      "en": "Pudge",
+      "ja": "きんぞう"
+    },
+    "nameEn": "Pudge",
+    "personality": "Lazy",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/87/Pudge_NH.png"
+  },
+  {
+    "id": "gor08",
+    "names": {
+      "ko": "우락",
+      "en": "Al",
+      "ja": "たもつ"
+    },
+    "nameEn": "Al",
+    "personality": "Lazy",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c4/Al_NH.png"
+  },
+  {
+    "id": "der09",
+    "names": {
+      "ko": "자끄",
+      "en": "Erik",
+      "ja": "チャック"
+    },
+    "nameEn": "Erik",
+    "personality": "Lazy",
+    "species": "Deer",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/88/Erik_NH.png"
+  },
+  {
+    "id": "cat08",
+    "names": {
+      "ko": "진상",
+      "en": "Moe",
+      "ja": "ジンペイ"
+    },
+    "nameEn": "Moe",
+    "personality": "Lazy",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a4/Moe_NH.png"
+  },
+  {
+    "id": "flg12",
+    "names": {
+      "ko": "카일",
+      "en": "Prince",
+      "ja": "カール"
+    },
+    "nameEn": "Prince",
+    "personality": "Lazy",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a6/Prince_NH.png"
+  },
+  {
+    "id": "ost06",
+    "names": {
+      "ko": "타키",
+      "en": "Cranston",
+      "ja": "トキオ"
+    },
+    "nameEn": "Cranston",
+    "personality": "Lazy",
+    "species": "Ostrich",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/b7/Cranston_NH.png"
+  },
+  {
+    "id": "ocp02",
+    "names": {
+      "ko": "탁호",
+      "en": "Zucker",
+      "ja": "タコヤ"
+    },
+    "nameEn": "Zucker",
+    "personality": "Lazy",
+    "species": "Octopus",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7f/Zucker_NH.png"
+  },
+  {
+    "id": "rbt10",
+    "names": {
+      "ko": "토니",
+      "en": "Doc",
+      "ja": "トビオ"
+    },
+    "nameEn": "Doc",
+    "personality": "Lazy",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/cd/Doc_NH.png"
+  },
+  {
+    "id": "dog04",
+    "names": {
+      "ko": "토미",
+      "en": "Bones",
+      "ja": "トミ"
+    },
+    "nameEn": "Bones",
+    "personality": "Lazy",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/2b/Bones_NH.png"
+  },
+  {
+    "id": "elp05",
+    "names": {
+      "ko": "파올로",
+      "en": "Paolo",
+      "ja": "パオロ"
+    },
+    "nameEn": "Paolo",
+    "personality": "Lazy",
+    "species": "Elephant",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/59/Paolo_NH.png"
+  },
+  {
+    "id": "cbr05",
+    "names": {
+      "ko": "패치",
+      "en": "Stitches",
+      "ja": "パッチ"
+    },
+    "nameEn": "Stitches",
+    "personality": "Lazy",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/56/Stitches_NH.png"
+  },
+  {
+    "id": "cbr15",
+    "names": {
+      "ko": "팬타",
+      "en": "Chester",
+      "ja": "パンタ"
+    },
+    "nameEn": "Chester",
+    "personality": "Lazy",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/af/Chester_NH.png"
+  },
+  {
+    "id": "pgn10",
+    "names": {
+      "ko": "팽기",
+      "en": "Boomer",
+      "ja": "ショーイ"
+    },
+    "nameEn": "Boomer",
+    "personality": "Lazy",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7d/Boomer_NH.png"
+  },
+  {
+    "id": "chn01",
+    "names": {
+      "ko": "페니실린",
+      "en": "Benedict",
+      "ja": "ぺしみち"
+    },
+    "nameEn": "Benedict",
+    "personality": "Lazy",
+    "species": "Chicken",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3a/Benedict_NH.png"
+  },
+  {
+    "id": "pig05",
+    "names": {
+      "ko": "포크",
+      "en": "Spork",
+      "ja": "ポーク"
+    },
+    "nameEn": "Spork",
+    "personality": "Lazy",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c2/Spork_NH.png"
+  },
+  {
+    "id": "duk09",
+    "names": {
+      "ko": "푸아그라",
+      "en": "Drake",
+      "ja": "フォアグラ"
+    },
+    "nameEn": "Drake",
+    "personality": "Lazy",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e0/Drake_NH.png"
+  },
+  {
+    "id": "der07",
+    "names": {
+      "ko": "피터",
+      "en": "Beau",
+      "ja": "ペーター"
+    },
+    "nameEn": "Beau",
+    "personality": "Lazy",
+    "species": "Deer",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d4/Beau_NH.png"
+  },
+  {
+    "id": "pgn06",
+    "names": {
+      "ko": "하키",
+      "en": "Puck",
+      "ja": "ホッケー"
+    },
+    "nameEn": "Puck",
+    "personality": "Lazy",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/53/Puck_NH.png"
+  },
+  {
+    "id": "ham05",
+    "names": {
+      "ko": "햄둥",
+      "en": "Clay",
+      "ja": "どぐろう"
+    },
+    "nameEn": "Clay",
+    "personality": "Lazy",
+    "species": "Hamster",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/6c/Clay_NH.png"
+  },
+  {
+    "id": "pgn09",
+    "names": {
+      "ko": "호떡",
+      "en": "Wade",
+      "ja": "カマボコ"
+    },
+    "nameEn": "Wade",
+    "personality": "Lazy",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/52/Wade_NH.png"
+  },
+  {
+    "id": "rbt14",
+    "names": {
+      "ko": "홉킨스",
+      "en": "Hopkins",
+      "ja": "プースケ"
+    },
+    "nameEn": "Hopkins",
+    "personality": "Lazy",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c1/Hopkins_NH.png"
+  },
+  {
+    "id": "elp01",
+    "names": {
+      "ko": "휴지",
+      "en": "Dizzy",
+      "ja": "ヒュージ"
+    },
+    "nameEn": "Dizzy",
+    "personality": "Lazy",
+    "species": "Elephant",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/63/Dizzy_NH.png"
+  },
+  {
+    "id": "cat00",
+    "names": {
+      "ko": "히죽",
+      "en": "Bob",
+      "ja": "ニコバン"
+    },
+    "nameEn": "Bob",
+    "personality": "Lazy",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ea/Bob_NH.png"
+  },
+  {
+    "id": "cat09",
+    "names": {
+      "ko": "가북희",
+      "en": "Kabuki",
+      "ja": "かぶきち"
+    },
+    "nameEn": "Kabuki",
+    "personality": "Cranky",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/2a/Kabuki_NH.png"
+  },
+  {
+    "id": "squ10",
+    "names": {
+      "ko": "갈가리",
+      "en": "Ricky",
+      "ja": "カジロウ"
+    },
+    "nameEn": "Ricky",
+    "personality": "Cranky",
+    "species": "Squirrel",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/8d/Ricky_NH.png"
+  },
+  {
+    "id": "bea06",
+    "names": {
+      "ko": "거무틱",
+      "en": "Groucho",
+      "ja": "クロー"
+    },
+    "nameEn": "Groucho",
+    "personality": "Cranky",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1d/Groucho_NH.png"
+  },
+  {
+    "id": "hip00",
+    "names": {
+      "ko": "곤잘레스",
+      "en": "Rocco",
+      "ja": "ゴンザレス"
+    },
+    "nameEn": "Rocco",
+    "personality": "Cranky",
+    "species": "Hippo",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/02/Rocco_NH.png"
+  },
+  {
+    "id": "cbr06",
+    "names": {
+      "ko": "곰비",
+      "en": "Vladimir",
+      "ja": "ガビ"
+    },
+    "nameEn": "Vladimir",
+    "personality": "Cranky",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/75/Vladimir_NH.png"
+  },
+  {
+    "id": "kgr08",
+    "names": {
+      "ko": "관록",
+      "en": "Walt",
+      "ja": "カンロク"
+    },
+    "nameEn": "Walt",
+    "personality": "Cranky",
+    "species": "Kangaroo",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/bf/Walt_NH.png"
+  },
+  {
+    "id": "kal04",
+    "names": {
+      "ko": "근성",
+      "en": "Gonzo",
+      "ja": "ゴンゾー"
+    },
+    "nameEn": "Gonzo",
+    "personality": "Cranky",
+    "species": "Koala",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/09/Gonzo_NH.png"
+  },
+  {
+    "id": "pbr03",
+    "names": {
+      "ko": "근엄",
+      "en": "Buzz",
+      "ja": "ひでよし"
+    },
+    "nameEn": "Buzz",
+    "personality": "Cranky",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/05/Buzz_NH.png"
+  },
+  {
+    "id": "pig02",
+    "names": {
+      "ko": "글레이",
+      "en": "Rasher",
+      "ja": "グレオ"
+    },
+    "nameEn": "Rasher",
+    "personality": "Cranky",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e1/Rasher_NH.png"
+  },
+  {
+    "id": "chn11",
+    "names": {
+      "ko": "금끼오",
+      "en": "Knox",
+      "ja": "キンカク"
+    },
+    "nameEn": "Knox",
+    "personality": "Cranky",
+    "species": "Chicken",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/03/Knox_NH.png"
+  },
+  {
+    "id": "bul08",
+    "names": {
+      "ko": "노르망",
+      "en": "Vic",
+      "ja": "ノルマン"
+    },
+    "nameEn": "Vic",
+    "personality": "Cranky",
+    "species": "Bull",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1d/Vic_NH.png"
+  },
+  {
+    "id": "wol01",
+    "names": {
+      "ko": "늑태",
+      "en": "Lobo",
+      "ja": "ブンジロウ"
+    },
+    "nameEn": "Lobo",
+    "personality": "Cranky",
+    "species": "Wolf",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d1/Lobo_NH.png"
+  },
+  {
+    "id": "mus01",
+    "names": {
+      "ko": "단무지",
+      "en": "Limberg",
+      "ja": "らっきょ"
+    },
+    "nameEn": "Limberg",
+    "personality": "Cranky",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/b0/Limberg_NH.png"
+  },
+  {
+    "id": "pgn03",
+    "names": {
+      "ko": "달만이",
+      "en": "Hopper",
+      "ja": "ダルマン"
+    },
+    "nameEn": "Hopper",
+    "personality": "Cranky",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/cb/Hopper_NH.png"
+  },
+  {
+    "id": "bea11",
+    "names": {
+      "ko": "대공",
+      "en": "Ike",
+      "ja": "ダイク"
+    },
+    "nameEn": "Ike",
+    "personality": "Cranky",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/34/Ike_NH.png"
+  },
+  {
+    "id": "rbt04",
+    "names": {
+      "ko": "대길",
+      "en": "Gaston",
+      "ja": "モサキチ"
+    },
+    "nameEn": "Gaston",
+    "personality": "Cranky",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/59/Gaston_NH.png"
+  },
+  {
+    "id": "wol00",
+    "names": {
+      "ko": "대장",
+      "en": "Chief",
+      "ja": "チーフ"
+    },
+    "nameEn": "Chief",
+    "personality": "Cranky",
+    "species": "Wolf",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/13/Chief_NH.png"
+  },
+  {
+    "id": "gor01",
+    "names": {
+      "ko": "덤벨",
+      "en": "Peewee",
+      "ja": "ダンベル"
+    },
+    "nameEn": "Peewee",
+    "personality": "Cranky",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/2a/Peewee_NH.png"
+  },
+  {
+    "id": "bea02",
+    "names": {
+      "ko": "뚝심",
+      "en": "Curt",
+      "ja": "ガンテツ"
+    },
+    "nameEn": "Curt",
+    "personality": "Cranky",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/27/Curt_NH.png"
+  },
+  {
+    "id": "wol02",
+    "names": {
+      "ko": "로보",
+      "en": "Wolfgang",
+      "ja": "ロボ"
+    },
+    "nameEn": "Wolfgang",
+    "personality": "Cranky",
+    "species": "Wolf",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/aa/Wolfgang_NH.png"
+  },
+  {
+    "id": "kgr09",
+    "names": {
+      "ko": "마이크",
+      "en": "Rooney",
+      "ja": "マイク"
+    },
+    "nameEn": "Rooney",
+    "personality": "Cranky",
+    "species": "Kangaroo",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/79/Rooney_NH.png"
+  },
+  {
+    "id": "cbr07",
+    "names": {
+      "ko": "머피",
+      "en": "Murphy",
+      "ja": "のりお"
+    },
+    "nameEn": "Murphy",
+    "personality": "Cranky",
+    "species": "Cub",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7c/Murphy_NH.png"
+  },
+  {
+    "id": "mnk04",
+    "names": {
+      "ko": "몽티",
+      "en": "Monty",
+      "ja": "サルモンティ"
+    },
+    "nameEn": "Monty",
+    "personality": "Cranky",
+    "species": "Monkey",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d7/Monty_NH.png"
+  },
+  {
+    "id": "bea09",
+    "names": {
+      "ko": "무뚝",
+      "en": "Grizzly",
+      "ja": "ムー"
+    },
+    "nameEn": "Grizzly",
+    "personality": "Cranky",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/4b/Grizzly_NH.png"
+  },
+  {
+    "id": "ocp00",
+    "names": {
+      "ko": "문복",
+      "en": "Octavian",
+      "ja": "おくたろう"
+    },
+    "nameEn": "Octavian",
+    "personality": "Cranky",
+    "species": "Octopus",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1b/Octavian_NH.png"
+  },
+  {
+    "id": "bul00",
+    "names": {
+      "ko": "반데스",
+      "en": "Angus",
+      "ja": "セルバンテス"
+    },
+    "nameEn": "Angus",
+    "personality": "Cranky",
+    "species": "Bull",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/5f/Angus_NH.png"
+  },
+  {
+    "id": "cat15",
+    "names": {
+      "ko": "밴덤",
+      "en": "Tom",
+      "ja": "バンタム"
+    },
+    "nameEn": "Tom",
+    "personality": "Cranky",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d1/Tom_NH.png"
+  },
+  {
+    "id": "pig09",
+    "names": {
+      "ko": "보리",
+      "en": "Boris",
+      "ja": "ダリー"
+    },
+    "nameEn": "Boris",
+    "personality": "Cranky",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ef/Boris_NH.png"
+  },
+  {
+    "id": "gor05",
+    "names": {
+      "ko": "보이드",
+      "en": "Boyd",
+      "ja": "ボイド"
+    },
+    "nameEn": "Boyd",
+    "personality": "Cranky",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/21/Boyd_NH.png"
+  },
+  {
+    "id": "der03",
+    "names": {
+      "ko": "브루스",
+      "en": "Bruce",
+      "ja": "ブルース"
+    },
+    "nameEn": "Bruce",
+    "personality": "Cranky",
+    "species": "Deer",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/08/Bruce_NH.png"
+  },
+  {
+    "id": "goa04",
+    "names": {
+      "ko": "빌리",
+      "en": "Gruff",
+      "ja": "ビリー"
+    },
+    "nameEn": "Gruff",
+    "personality": "Cranky",
+    "species": "Goat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/25/Gruff_NH.png"
+  },
+  {
+    "id": "ant00",
+    "names": {
+      "ko": "사지마",
+      "en": "Cyrano",
+      "ja": "さくらじま"
+    },
+    "nameEn": "Cyrano",
+    "personality": "Cranky",
+    "species": "Anteater",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/48/Cyrano_NH.png"
+  },
+  {
+    "id": "flg05",
+    "names": {
+      "ko": "샘",
+      "en": "Wart Jr.",
+      "ja": "サム"
+    },
+    "nameEn": "Wart Jr.",
+    "personality": "Cranky",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/21/Wart_Jr._NH.png"
+  },
+  {
+    "id": "hrs04",
+    "names": {
+      "ko": "슈베르트",
+      "en": "Roscoe",
+      "ja": "シュバルツ"
+    },
+    "nameEn": "Roscoe",
+    "personality": "Cranky",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/8e/Roscoe_NH.png"
+  },
+  {
+    "id": "rhn02",
+    "names": {
+      "ko": "스쿼트",
+      "en": "Spike",
+      "ja": "スクワット"
+    },
+    "nameEn": "Spike",
+    "personality": "Cranky",
+    "species": "Rhino",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/f1/Spike_NH.png"
+  },
+  {
+    "id": "squ08",
+    "names": {
+      "ko": "스파크",
+      "en": "Static",
+      "ja": "スパーク"
+    },
+    "nameEn": "Static",
+    "personality": "Cranky",
+    "species": "Squirrel",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/68/Static_NH.png"
+  },
+  {
+    "id": "wol06",
+    "names": {
+      "ko": "시베리아",
+      "en": "Fang",
+      "ja": "シベリア"
+    },
+    "nameEn": "Fang",
+    "personality": "Cranky",
+    "species": "Wolf",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/9d/Fang_NH.png"
+  },
+  {
+    "id": "pbr00",
+    "names": {
+      "ko": "아폴로",
+      "en": "Apollo",
+      "ja": "アポロ"
+    },
+    "nameEn": "Apollo",
+    "personality": "Cranky",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/28/Apollo_NH.png"
+  },
+  {
+    "id": "gor00",
+    "names": {
+      "ko": "앨런",
+      "en": "Cesar",
+      "ja": "アラン"
+    },
+    "nameEn": "Cesar",
+    "personality": "Cranky",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/23/Cesar_NH.png"
+  },
+  {
+    "id": "hip08",
+    "names": {
+      "ko": "올리버",
+      "en": "Harry",
+      "ja": "オリバー"
+    },
+    "nameEn": "Harry",
+    "personality": "Cranky",
+    "species": "Hippo",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/1a/Harry_NH.png"
+  },
+  {
+    "id": "brd06",
+    "names": {
+      "ko": "일섭",
+      "en": "Admiral",
+      "ja": "イッテツ"
+    },
+    "nameEn": "Admiral",
+    "personality": "Cranky",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/ed/Admiral_NH.png"
+  },
+  {
+    "id": "mus09",
+    "names": {
+      "ko": "조르쥐",
+      "en": "Rizzo",
+      "ja": "ちょろきち"
+    },
+    "nameEn": "Rizzo",
+    "personality": "Cranky",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/6/69/Rizzo_NH.png"
+  },
+  {
+    "id": "dog01",
+    "names": {
+      "ko": "존",
+      "en": "Butch",
+      "ja": "ジョン"
+    },
+    "nameEn": "Butch",
+    "personality": "Cranky",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/2b/Butch_NH.png"
+  },
+  {
+    "id": "flg03",
+    "names": {
+      "ko": "충성",
+      "en": "Camofrog",
+      "ja": "フルメタル"
+    },
+    "nameEn": "Camofrog",
+    "personality": "Cranky",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e1/Camofrog_NH.png"
+  },
+  {
+    "id": "bea03",
+    "names": {
+      "ko": "츄양",
+      "en": "Chow",
+      "ja": "チャウヤン"
+    },
+    "nameEn": "Chow",
+    "personality": "Cranky",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/d1/Chow_NH.png"
+  },
+  {
+    "id": "wol04",
+    "names": {
+      "ko": "켄",
+      "en": "Dobie",
+      "ja": "けん"
+    },
+    "nameEn": "Dobie",
+    "personality": "Cranky",
+    "species": "Wolf",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/76/Dobie_NH.png"
+  },
+  {
+    "id": "pbr05",
+    "names": {
+      "ko": "쿠스케처",
+      "en": "Avery",
+      "ja": "クスケチャ"
+    },
+    "nameEn": "Avery",
+    "personality": "Cranky",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/dd/Avery_NH.png"
+  },
+  {
+    "id": "lon01",
+    "names": {
+      "ko": "킹",
+      "en": "Elvis",
+      "ja": "キング"
+    },
+    "nameEn": "Elvis",
+    "personality": "Cranky",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/cc/Elvis_NH.png"
+  },
+  {
+    "id": "flg17",
+    "names": {
+      "ko": "투투",
+      "en": "Croque",
+      "ja": "タイシ"
+    },
+    "nameEn": "Croque",
+    "personality": "Cranky",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/70/Croque_NH.png"
+  },
+  {
+    "id": "bul05",
+    "names": {
+      "ko": "티본",
+      "en": "T-Bone",
+      "ja": "ボルシチ"
+    },
+    "nameEn": "T-Bone",
+    "personality": "Cranky",
+    "species": "Bull",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e0/T-Bone_NH.png"
+  },
+  {
+    "id": "crd04",
+    "names": {
+      "ko": "파도맨",
+      "en": "Del",
+      "ja": "ヤマト"
+    },
+    "nameEn": "Del",
+    "personality": "Cranky",
+    "species": "Alligator",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/46/Del_NH.png"
+  },
+  {
+    "id": "elp12",
+    "names": {
+      "ko": "펑크스",
+      "en": "Cyd",
+      "ja": "パンクス"
+    },
+    "nameEn": "Cyd",
+    "personality": "Cranky",
+    "species": "Elephant",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/5d/Cyd_NH.png"
+  },
+  {
+    "id": "ham07",
+    "names": {
+      "ko": "햄쥐",
+      "en": "Hamphrey",
+      "ja": "ハムジ"
+    },
+    "nameEn": "Hamphrey",
+    "personality": "Cranky",
+    "species": "Hamster",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a9/Hamphrey_NH.png"
+  },
+  {
+    "id": "pbr06",
+    "names": {
+      "ko": "헐크",
+      "en": "Frank",
+      "ja": "ハルク"
+    },
+    "nameEn": "Frank",
+    "personality": "Cranky",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/75/Frank_NH.png"
+  },
+  {
+    "id": "tig00",
+    "names": {
+      "ko": "호랭이",
+      "en": "Rolf",
+      "ja": "チョモラン"
+    },
+    "nameEn": "Rolf",
+    "personality": "Cranky",
+    "species": "Tiger",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/9/93/Rolf_NH.png"
+  },
+  {
+    "id": "bea14",
+    "names": {
+      "ko": "곰도로스",
+      "en": "Klaus",
+      "ja": "クマロス"
+    },
+    "nameEn": "Klaus",
+    "personality": "Smug",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/5c/Klaus_NH.png"
+  },
+  {
+    "id": "ham02",
+    "names": {
+      "ko": "글라햄",
+      "en": "Graham",
+      "ja": "グラハム"
+    },
+    "nameEn": "Graham",
+    "personality": "Smug",
+    "species": "Hamster",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/a1/Graham_NH.png"
+  },
+  {
+    "id": "hrs06",
+    "names": {
+      "ko": "꺼벙",
+      "en": "Ed",
+      "ja": "キザノホマレ"
+    },
+    "nameEn": "Ed",
+    "personality": "Smug",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c9/Ed_NH.png"
+  },
+  {
+    "id": "der02",
+    "names": {
+      "ko": "넬슨",
+      "en": "Zell",
+      "ja": "ネルソン"
+    },
+    "nameEn": "Zell",
+    "personality": "Smug",
+    "species": "Deer",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c0/Zell_NH.png"
+  },
+  {
+    "id": "duk17",
+    "names": {
+      "ko": "덕근",
+      "en": "Quillson",
+      "ja": "タックン"
+    },
+    "nameEn": "Quillson",
+    "personality": "Smug",
+    "species": "Duck",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e4/Quillson_NH.png"
+  },
+  {
+    "id": "hip09",
+    "names": {
+      "ko": "데이빗",
+      "en": "Hippeux",
+      "ja": "ディビッド"
+    },
+    "nameEn": "Hippeux",
+    "personality": "Smug",
+    "species": "Hippo",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/26/Hippeux_NH.png"
+  },
+  {
+    "id": "pig14",
+    "names": {
+      "ko": "돈후앙",
+      "en": "Chops",
+      "ja": "トンファン"
+    },
+    "nameEn": "Chops",
+    "personality": "Smug",
+    "species": "Pig",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/32/Chops_NH.png"
+  },
+  {
+    "id": "lon08",
+    "names": {
+      "ko": "라이오넬",
+      "en": "Lionel",
+      "ja": "ライオネル"
+    },
+    "nameEn": "Lionel",
+    "personality": "Smug",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/b/bb/Lionel_NH.png"
+  },
+  {
+    "id": "wol10",
+    "names": {
+      "ko": "리카르도",
+      "en": "Kyle",
+      "ja": "リカルド"
+    },
+    "nameEn": "Kyle",
+    "personality": "Smug",
+    "species": "Wolf",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/46/Kyle_NH.png"
+  },
+  {
+    "id": "brd15",
+    "names": {
+      "ko": "마스카라스",
+      "en": "Lucha",
+      "ja": "マスカラス"
+    },
+    "nameEn": "Lucha",
+    "personality": "Smug",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/4a/Lucha_NH.png"
+  },
+  {
+    "id": "dog18",
+    "names": {
+      "ko": "밥",
+      "en": "Shep",
+      "ja": "ボブ"
+    },
+    "nameEn": "Shep",
+    "personality": "Smug",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c1/Shep_NH.png"
+  },
+  {
+    "id": "bea13",
+    "names": {
+      "ko": "베어드",
+      "en": "Beardo",
+      "ja": "ベアード"
+    },
+    "nameEn": "Beardo",
+    "personality": "Smug",
+    "species": "Bear",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/c0/Beardo_NH.png"
+  },
+  {
+    "id": "pgn12",
+    "names": {
+      "ko": "볼트",
+      "en": "Tex",
+      "ja": "ボルト"
+    },
+    "nameEn": "Tex",
+    "personality": "Smug",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/4/44/Tex_NH.png"
+  },
+  {
+    "id": "rbt15",
+    "names": {
+      "ko": "산토스",
+      "en": "O'Hare",
+      "ja": "サントス"
+    },
+    "nameEn": "O'Hare",
+    "personality": "Smug",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/c/cf/O'Hare_NH.png"
+  },
+  {
+    "id": "gor10",
+    "names": {
+      "ko": "스나일",
+      "en": "Hans",
+      "ja": "スナイル"
+    },
+    "nameEn": "Hans",
+    "personality": "Smug",
+    "species": "Gorilla",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/15/Hans_NH.png"
+  },
+  {
+    "id": "flg11",
+    "names": {
+      "ko": "스트로",
+      "en": "Huck",
+      "ja": "ストロー"
+    },
+    "nameEn": "Huck",
+    "personality": "Smug",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/17/Huck_NH.png"
+  },
+  {
+    "id": "hrs11",
+    "names": {
+      "ko": "안소니",
+      "en": "Colton",
+      "ja": "アンソニー"
+    },
+    "nameEn": "Colton",
+    "personality": "Smug",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/8/8c/Colton_NH.png"
+  },
+  {
+    "id": "ant09",
+    "names": {
+      "ko": "안토니오",
+      "en": "Olaf",
+      "ja": "アントニオ"
+    },
+    "nameEn": "Olaf",
+    "personality": "Smug",
+    "species": "Anteater",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/1/11/Olaf_NH.png"
+  },
+  {
+    "id": "goa07",
+    "names": {
+      "ko": "염두리",
+      "en": "Kidd",
+      "ja": "やさお"
+    },
+    "nameEn": "Kidd",
+    "personality": "Smug",
+    "species": "Goat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/7/7a/Kidd_NH.png"
+  },
+  {
+    "id": "chn13",
+    "names": {
+      "ko": "오골",
+      "en": "Ken",
+      "ja": "クロベエ"
+    },
+    "nameEn": "Ken",
+    "personality": "Smug",
+    "species": "Chicken",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/e/e0/Ken_NH.png"
+  },
+  {
+    "id": "hrs13",
+    "names": {
+      "ko": "유니오",
+      "en": "Julian",
+      "ja": "ジュリー"
+    },
+    "nameEn": "Julian",
+    "personality": "Smug",
+    "species": "Horse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/f2/Julian_NH.png"
+  },
+  {
+    "id": "cat23",
+    "names": {
+      "ko": "잭슨",
+      "en": "Raymond",
+      "ja": "ジャック"
+    },
+    "nameEn": "Raymond",
+    "personality": "Smug",
+    "species": "Cat",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/2a/Raymond_NH.png"
+  },
+  {
+    "id": "ham03",
+    "names": {
+      "ko": "지미",
+      "en": "Rodney",
+      "ja": "ジミー"
+    },
+    "nameEn": "Rodney",
+    "personality": "Smug",
+    "species": "Hamster",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/35/Rodney_NH.png"
+  },
+  {
+    "id": "brd16",
+    "names": {
+      "ko": "쪼끼",
+      "en": "Jacques",
+      "ja": "ジョッキー"
+    },
+    "nameEn": "Jacques",
+    "personality": "Smug",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/0/03/Jacques_NH.png"
+  },
+  {
+    "id": "squ17",
+    "names": {
+      "ko": "쭈니",
+      "en": "Marshal",
+      "ja": "ジュン"
+    },
+    "nameEn": "Marshal",
+    "personality": "Smug",
+    "species": "Squirrel",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/d/da/Marshal_NH.png"
+  },
+  {
+    "id": "mus18",
+    "names": {
+      "ko": "치즈",
+      "en": "Chadder",
+      "ja": "チーズ"
+    },
+    "nameEn": "Chadder",
+    "personality": "Smug",
+    "species": "Mouse",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/32/Chadder_NH.png"
+  },
+  {
+    "id": "shp08",
+    "names": {
+      "ko": "카를로스",
+      "en": "Curlos",
+      "ja": "カルロス"
+    },
+    "nameEn": "Curlos",
+    "personality": "Smug",
+    "species": "Sheep",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/37/Curlos_NH.png"
+  },
+  {
+    "id": "ost07",
+    "names": {
+      "ko": "케인",
+      "en": "Phil",
+      "ja": "ケイン"
+    },
+    "nameEn": "Phil",
+    "personality": "Smug",
+    "species": "Ostrich",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/f2/Phil_NH.png"
+  },
+  {
+    "id": "kal10",
+    "names": {
+      "ko": "코알",
+      "en": "Eugene",
+      "ja": "ロッキー"
+    },
+    "nameEn": "Eugene",
+    "personality": "Smug",
+    "species": "Koala",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/a/ab/Eugene_NH.png"
+  },
+  {
+    "id": "der05",
+    "names": {
+      "ko": "톰슨",
+      "en": "Lopez",
+      "ja": "トムソン"
+    },
+    "nameEn": "Lopez",
+    "personality": "Smug",
+    "species": "Deer",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/5/53/Lopez_NH.png"
+  },
+  {
+    "id": "lon04",
+    "names": {
+      "ko": "티처",
+      "en": "Leopold",
+      "ja": "ティーチャー"
+    },
+    "nameEn": "Leopold",
+    "personality": "Smug",
+    "species": "Lion",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3a/Leopold_NH.png"
+  },
+  {
+    "id": "pbr08",
+    "names": {
+      "ko": "프랭크",
+      "en": "Keaton",
+      "ja": "フランク"
+    },
+    "nameEn": "Keaton",
+    "personality": "Smug",
+    "species": "Eagle",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/3/3b/Keaton_NH.png"
+  },
+  {
+    "id": "shp13",
+    "names": {
+      "ko": "피엘",
+      "en": "Pietro",
+      "ja": "ジュペッティ"
+    },
+    "nameEn": "Pietro",
+    "personality": "Smug",
+    "species": "Sheep",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/f/fb/Pietro_NH.png"
+  },
+  {
+    "id": "flg19",
+    "names": {
+      "ko": "헨리",
+      "en": "Henry",
+      "ja": "ヘンリー"
+    },
+    "nameEn": "Henry",
+    "personality": "Smug",
+    "species": "Frog",
+    "gender": "Male",
+    "image": "https://dodo.ac/np/images/2/26/Henry_NH.png"
+  },
+  {
+    "id": "squ05",
+    "names": {
+      "ko": "2호",
+      "en": "Agent S",
+      "ja": "２ごう"
+    },
+    "nameEn": "Agent S",
+    "personality": "Peppy",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a7/Agent_S_NH.png"
+  },
+  {
+    "id": "flg06",
+    "names": {
+      "ko": "가위",
+      "en": "Puddles",
+      "ja": "チョキ"
+    },
+    "nameEn": "Puddles",
+    "personality": "Peppy",
+    "species": "Frog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/f9/Puddles_NH.png"
+  },
+  {
+    "id": "squ04",
+    "names": {
+      "ko": "그리미",
+      "en": "Nibbles",
+      "ja": "ガリガリ"
+    },
+    "nameEn": "Nibbles",
+    "personality": "Peppy",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/97/Nibbles_NH.png"
+  },
+  {
+    "id": "cbr00",
+    "names": {
+      "ko": "글루민",
+      "en": "Bluebear",
+      "ja": "グルミン"
+    },
+    "nameEn": "Bluebear",
+    "personality": "Peppy",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/49/Bluebear_NH.png"
+  },
+  {
+    "id": "duk02",
+    "names": {
+      "ko": "나키",
+      "en": "Pate",
+      "ja": "ナッキー"
+    },
+    "nameEn": "Pate",
+    "personality": "Peppy",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6b/Pate_NH.png"
+  },
+  {
+    "id": "shp09",
+    "names": {
+      "ko": "눈송이",
+      "en": "Wendy",
+      "ja": "みぞれ"
+    },
+    "nameEn": "Wendy",
+    "personality": "Peppy",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/23/Wendy_NH.png"
+  },
+  {
+    "id": "duk07",
+    "names": {
+      "ko": "다랑어",
+      "en": "Freckles",
+      "ja": "マグロ"
+    },
+    "nameEn": "Freckles",
+    "personality": "Peppy",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/7d/Freckles_NH.png"
+  },
+  {
+    "id": "mus10",
+    "names": {
+      "ko": "라자냐",
+      "en": "Anicotti",
+      "ja": "ラザニア"
+    },
+    "nameEn": "Anicotti",
+    "personality": "Peppy",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/80/Anicotti_NH.png"
+  },
+  {
+    "id": "rbt06",
+    "names": {
+      "ko": "로타",
+      "en": "Pippy",
+      "ja": "ロッタ"
+    },
+    "nameEn": "Pippy",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a1/Pippy_NH.png"
+  },
+  {
+    "id": "rbt09",
+    "names": {
+      "ko": "루나",
+      "en": "Ruby",
+      "ja": "ルナ"
+    },
+    "nameEn": "Ruby",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/41/Ruby_NH.png"
+  },
+  {
+    "id": "tig03",
+    "names": {
+      "ko": "루주",
+      "en": "Bangle",
+      "ja": "ルーズ"
+    },
+    "nameEn": "Bangle",
+    "personality": "Peppy",
+    "species": "Tiger",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/68/Bangle_NH.png"
+  },
+  {
+    "id": "rbt00",
+    "names": {
+      "ko": "릴리안",
+      "en": "Bunnie",
+      "ja": "リリアン"
+    },
+    "nameEn": "Bunnie",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b2/Bunnie_NH.png"
+  },
+  {
+    "id": "bea01",
+    "names": {
+      "ko": "링링",
+      "en": "Pinky",
+      "ja": "タンタン"
+    },
+    "nameEn": "Pinky",
+    "personality": "Peppy",
+    "species": "Bear",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/bf/Pinky_NH.png"
+  },
+  {
+    "id": "dog09",
+    "names": {
+      "ko": "마롱",
+      "en": "Maddie",
+      "ja": "マロン"
+    },
+    "nameEn": "Maddie",
+    "personality": "Peppy",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/06/Maddie_NH.png"
+  },
+  {
+    "id": "wol12",
+    "names": {
+      "ko": "모니카",
+      "en": "Audie",
+      "ja": "モニカ"
+    },
+    "nameEn": "Audie",
+    "personality": "Peppy",
+    "species": "Wolf",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/1b/Audie_NH.png"
+  },
+  {
+    "id": "rbt17",
+    "names": {
+      "ko": "미미",
+      "en": "Bonbon",
+      "ja": "ミミィ"
+    },
+    "nameEn": "Bonbon",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/cc/Bonbon_NH.png"
+  },
+  {
+    "id": "cow00",
+    "names": {
+      "ko": "밀크",
+      "en": "Patty",
+      "ja": "カルピ"
+    },
+    "nameEn": "Patty",
+    "personality": "Peppy",
+    "species": "Cow",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/f1/Patty_NH.png"
+  },
+  {
+    "id": "cat05",
+    "names": {
+      "ko": "백프로",
+      "en": "Tangy",
+      "ja": "ヒャクパー"
+    },
+    "nameEn": "Tangy",
+    "personality": "Peppy",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6f/Tangy_NH.png"
+  },
+  {
+    "id": "tig06",
+    "names": {
+      "ko": "백희",
+      "en": "Bianca",
+      "ja": "コユキ"
+    },
+    "nameEn": "Bianca",
+    "personality": "Peppy",
+    "species": "Tiger",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6f/Bianca_NH.png"
+  },
+  {
+    "id": "dog08",
+    "names": {
+      "ko": "베리",
+      "en": "Cookie",
+      "ja": "ペリーヌ"
+    },
+    "nameEn": "Cookie",
+    "personality": "Peppy",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d9/Cookie_NH.png"
+  },
+  {
+    "id": "cat02",
+    "names": {
+      "ko": "부케",
+      "en": "Rosie",
+      "ja": "ブーケ"
+    },
+    "nameEn": "Rosie",
+    "personality": "Peppy",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/67/Rosie_NH.png"
+  },
+  {
+    "id": "mus08",
+    "names": {
+      "ko": "사탕",
+      "en": "Candi",
+      "ja": "かんゆ"
+    },
+    "nameEn": "Candi",
+    "personality": "Peppy",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/57/Candi_NH.png"
+  },
+  {
+    "id": "rbt01",
+    "names": {
+      "ko": "서머",
+      "en": "Dotty",
+      "ja": "マーサ"
+    },
+    "nameEn": "Dotty",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/cc/Dotty_NH.png"
+  },
+  {
+    "id": "hrs01",
+    "names": {
+      "ko": "센트엘로",
+      "en": "Victoria",
+      "ja": "セントアロー"
+    },
+    "nameEn": "Victoria",
+    "personality": "Peppy",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/da/Victoria_NH.png"
+  },
+  {
+    "id": "ant03",
+    "names": {
+      "ko": "아롱이",
+      "en": "Anabelle",
+      "ja": "あるみ"
+    },
+    "nameEn": "Anabelle",
+    "personality": "Peppy",
+    "species": "Anteater",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d8/Anabelle_NH.png"
+  },
+  {
+    "id": "cbr10",
+    "names": {
+      "ko": "아세로라",
+      "en": "Cheri",
+      "ja": "アセロラ"
+    },
+    "nameEn": "Cheri",
+    "personality": "Peppy",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d5/Cheri_NH.png"
+  },
+  {
+    "id": "ham01",
+    "names": {
+      "ko": "애플",
+      "en": "Apple",
+      "ja": "アップル"
+    },
+    "nameEn": "Apple",
+    "personality": "Peppy",
+    "species": "Hamster",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/57/Apple_NH.png"
+  },
+  {
+    "id": "mnk03",
+    "names": {
+      "ko": "에이프릴",
+      "en": "Tammi",
+      "ja": "エイプリル"
+    },
+    "nameEn": "Tammi",
+    "personality": "Peppy",
+    "species": "Monkey",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a8/Tammi_NH.png"
+  },
+  {
+    "id": "bea07",
+    "names": {
+      "ko": "연유",
+      "en": "Tutu",
+      "ja": "れんにゅう"
+    },
+    "nameEn": "Tutu",
+    "personality": "Peppy",
+    "species": "Bear",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/93/Tutu_NH.png"
+  },
+  {
+    "id": "cat17",
+    "names": {
+      "ko": "예링",
+      "en": "Felicity",
+      "ja": "みかっち"
+    },
+    "nameEn": "Felicity",
+    "personality": "Peppy",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c7/Felicity_NH.png"
+  },
+  {
+    "id": "cat16",
+    "names": {
+      "ko": "유네찌",
+      "en": "Merry",
+      "ja": "さっち"
+    },
+    "nameEn": "Merry",
+    "personality": "Peppy",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/4f/Merry_NH.png"
+  },
+  {
+    "id": "mus02",
+    "names": {
+      "ko": "이자벨",
+      "en": "Bella",
+      "ja": "イザベラ"
+    },
+    "nameEn": "Bella",
+    "personality": "Peppy",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c0/Bella_NH.png"
+  },
+  {
+    "id": "duk05",
+    "names": {
+      "ko": "주디",
+      "en": "Pompom",
+      "ja": "のりっぺ"
+    },
+    "nameEn": "Pompom",
+    "personality": "Peppy",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/32/Pompom_NH.png"
+  },
+  {
+    "id": "mus17",
+    "names": {
+      "ko": "찍순이",
+      "en": "Penelope",
+      "ja": "チューこ"
+    },
+    "nameEn": "Penelope",
+    "personality": "Peppy",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/15/Penelope_NH.png"
+  },
+  {
+    "id": "hip02",
+    "names": {
+      "ko": "차코",
+      "en": "Bubbles",
+      "ja": "チャコ"
+    },
+    "nameEn": "Bubbles",
+    "personality": "Peppy",
+    "species": "Hippo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/0e/Bubbles_NH.png"
+  },
+  {
+    "id": "pig11",
+    "names": {
+      "ko": "체리",
+      "en": "Peggy",
+      "ja": "ちえり"
+    },
+    "nameEn": "Peggy",
+    "personality": "Peppy",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/28/Peggy_NH.png"
+  },
+  {
+    "id": "rbt16",
+    "names": {
+      "ko": "초코",
+      "en": "Carmen",
+      "ja": "チョコ"
+    },
+    "nameEn": "Carmen",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/eb/Carmen_NH.png"
+  },
+  {
+    "id": "hrs05",
+    "names": {
+      "ko": "카로틴",
+      "en": "Winnie",
+      "ja": "マキバスター"
+    },
+    "nameEn": "Winnie",
+    "personality": "Peppy",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b8/Winnie_NH.png"
+  },
+  {
+    "id": "duk13",
+    "names": {
+      "ko": "케첩",
+      "en": "Ketchup",
+      "ja": "ケチャップ"
+    },
+    "nameEn": "Ketchup",
+    "personality": "Peppy",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/42/Ketchup_NH.png"
+  },
+  {
+    "id": "pgn14",
+    "names": {
+      "ko": "크리미",
+      "en": "Sprinkle",
+      "ja": "フラッペ"
+    },
+    "nameEn": "Sprinkle",
+    "personality": "Peppy",
+    "species": "Penguin",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/44/Sprinkle_NH.png"
+  },
+  {
+    "id": "rbt13",
+    "names": {
+      "ko": "크리스틴",
+      "en": "Chrissy",
+      "ja": "クリスチーヌ"
+    },
+    "nameEn": "Chrissy",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6a/Chrissy_NH.png"
+  },
+  {
+    "id": "pig01",
+    "names": {
+      "ko": "탱고",
+      "en": "Truffles",
+      "ja": "トンコ"
+    },
+    "nameEn": "Truffles",
+    "personality": "Peppy",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/eb/Truffles_NH.png"
+  },
+  {
+    "id": "brd05",
+    "names": {
+      "ko": "파이프",
+      "en": "Piper",
+      "ja": "レイコ"
+    },
+    "nameEn": "Piper",
+    "personality": "Peppy",
+    "species": "Bird",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/09/Piper_NH.png"
+  },
+  {
+    "id": "ant02",
+    "names": {
+      "ko": "패트라",
+      "en": "Pango",
+      "ja": "パトラ"
+    },
+    "nameEn": "Pango",
+    "personality": "Peppy",
+    "species": "Anteater",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d5/Pango_NH.png"
+  },
+  {
+    "id": "rbt05",
+    "names": {
+      "ko": "패티카",
+      "en": "Gabi",
+      "ja": "ペチカ"
+    },
+    "nameEn": "Gabi",
+    "personality": "Peppy",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/86/Gabi_NH.png"
+  },
+  {
+    "id": "ost09",
+    "names": {
+      "ko": "플라라",
+      "en": "Flora",
+      "ja": "フララ"
+    },
+    "nameEn": "Flora",
+    "personality": "Peppy",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/8e/Flora_NH.png"
+  },
+  {
+    "id": "brd03",
+    "names": {
+      "ko": "핀틱",
+      "en": "Twiggy",
+      "ja": "ピーチク"
+    },
+    "nameEn": "Twiggy",
+    "personality": "Peppy",
+    "species": "Bird",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/67/Twiggy_NH.png"
+  },
+  {
+    "id": "squ00",
+    "names": {
+      "ko": "핑키",
+      "en": "Peanut",
+      "ja": "ももこ"
+    },
+    "nameEn": "Peanut",
+    "personality": "Peppy",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d5/Peanut_NH.png"
+  },
+  {
+    "id": "cat12",
+    "names": {
+      "ko": "호냥이",
+      "en": "Tabby",
+      "ja": "トラこ"
+    },
+    "nameEn": "Tabby",
+    "personality": "Peppy",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/2f/Tabby_NH.png"
+  },
+  {
+    "id": "shp02",
+    "names": {
+      "ko": "곱슬이",
+      "en": "Eunice",
+      "ja": "モヘア"
+    },
+    "nameEn": "Eunice",
+    "personality": "Normal",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/97/Eunice_NH.png"
+  },
+  {
+    "id": "duk16",
+    "names": {
+      "ko": "귀오미",
+      "en": "Molly",
+      "ja": "カモミ"
+    },
+    "nameEn": "Molly",
+    "personality": "Normal",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/29/Molly_NH.png"
+  },
+  {
+    "id": "pig13",
+    "names": {
+      "ko": "꽃지",
+      "en": "Gala",
+      "ja": "ためこ"
+    },
+    "nameEn": "Gala",
+    "personality": "Normal",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/e6/Gala_NH.png"
+  },
+  {
+    "id": "squ15",
+    "names": {
+      "ko": "다람",
+      "en": "Poppy",
+      "ja": "グミ"
+    },
+    "nameEn": "Poppy",
+    "personality": "Normal",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c4/Poppy_NH.png"
+  },
+  {
+    "id": "squ07",
+    "names": {
+      "ko": "라라미",
+      "en": "Sally",
+      "ja": "ララミー"
+    },
+    "nameEn": "Sally",
+    "personality": "Normal",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a3/Sally_NH.png"
+  },
+  {
+    "id": "flg00",
+    "names": {
+      "ko": "레이니",
+      "en": "Lily",
+      "ja": "レイニー"
+    },
+    "nameEn": "Lily",
+    "personality": "Normal",
+    "species": "Frog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/42/Lily_NH.png"
+  },
+  {
+    "id": "rhn01",
+    "names": {
+      "ko": "론다",
+      "en": "Rhonda",
+      "ja": "ユメコ"
+    },
+    "nameEn": "Rhonda",
+    "personality": "Normal",
+    "species": "Rhino",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/df/Rhonda_NH.png"
+  },
+  {
+    "id": "pig04",
+    "names": {
+      "ko": "루시",
+      "en": "Lucy",
+      "ja": "ルーシー"
+    },
+    "nameEn": "Lucy",
+    "personality": "Normal",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/e5/Lucy_NH.png"
+  },
+  {
+    "id": "wol09",
+    "names": {
+      "ko": "릴리",
+      "en": "Skye",
+      "ja": "リリィ"
+    },
+    "nameEn": "Skye",
+    "personality": "Normal",
+    "species": "Wolf",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d1/Skye_NH.png"
+  },
+  {
+    "id": "pig10",
+    "names": {
+      "ko": "마가렛",
+      "en": "Maggie",
+      "ja": "マーガレット"
+    },
+    "nameEn": "Maggie",
+    "personality": "Normal",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b8/Maggie_NH.png"
+  },
+  {
+    "id": "cat01",
+    "names": {
+      "ko": "마르",
+      "en": "Mitzi",
+      "ja": "マール"
+    },
+    "nameEn": "Mitzi",
+    "personality": "Normal",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/63/Mitzi_NH.png"
+  },
+  {
+    "id": "mus15",
+    "names": {
+      "ko": "마르카",
+      "en": "Bettina",
+      "ja": "マルコ"
+    },
+    "nameEn": "Bettina",
+    "personality": "Normal",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/bd/Bettina_NH.png"
+  },
+  {
+    "id": "duk04",
+    "names": {
+      "ko": "마리모",
+      "en": "Deena",
+      "ja": "まりも"
+    },
+    "nameEn": "Deena",
+    "personality": "Normal",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b8/Deena_NH.png"
+  },
+  {
+    "id": "kgr10",
+    "names": {
+      "ko": "마리아",
+      "en": "Marcie",
+      "ja": "マリア"
+    },
+    "nameEn": "Marcie",
+    "personality": "Normal",
+    "species": "Kangaroo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/2b/Marcie_NH.png"
+  },
+  {
+    "id": "kgr02",
+    "names": {
+      "ko": "마미",
+      "en": "Carrie",
+      "ja": "マミィ"
+    },
+    "nameEn": "Carrie",
+    "personality": "Normal",
+    "species": "Kangaroo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6a/Carrie_NH.png"
+  },
+  {
+    "id": "hrs08",
+    "names": {
+      "ko": "말자",
+      "en": "Peaches",
+      "ja": "ドサコ"
+    },
+    "nameEn": "Peaches",
+    "personality": "Normal",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/0d/Peaches_NH.png"
+  },
+  {
+    "id": "shp00",
+    "names": {
+      "ko": "메리어스",
+      "en": "Vesta",
+      "ja": "メリヤス"
+    },
+    "nameEn": "Vesta",
+    "personality": "Normal",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/7c/Vesta_NH.png"
+  },
+  {
+    "id": "cbr13",
+    "names": {
+      "ko": "메이",
+      "en": "June",
+      "ja": "メイ"
+    },
+    "nameEn": "June",
+    "personality": "Normal",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/85/June_NH.png"
+  },
+  {
+    "id": "cbr01",
+    "names": {
+      "ko": "메이첼",
+      "en": "Maple",
+      "ja": "メープル"
+    },
+    "nameEn": "Maple",
+    "personality": "Normal",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a2/Maple_NH.png"
+  },
+  {
+    "id": "kal01",
+    "names": {
+      "ko": "멜버른",
+      "en": "Alice",
+      "ja": "メルボルン"
+    },
+    "nameEn": "Alice",
+    "personality": "Normal",
+    "species": "Koala",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/e1/Alice_NH.png"
+  },
+  {
+    "id": "ocp01",
+    "names": {
+      "ko": "문리나",
+      "en": "Marina",
+      "ja": "タコリーナ"
+    },
+    "nameEn": "Marina",
+    "personality": "Normal",
+    "species": "Octopus",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/25/Marina_NH.png"
+  },
+  {
+    "id": "cow06",
+    "names": {
+      "ko": "미자",
+      "en": "Norma",
+      "ja": "いさこ"
+    },
+    "nameEn": "Norma",
+    "personality": "Normal",
+    "species": "Cow",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/e7/Norma_NH.png"
+  },
+  {
+    "id": "dog07",
+    "names": {
+      "ko": "바닐라",
+      "en": "Daisy",
+      "ja": "バニラ"
+    },
+    "nameEn": "Daisy",
+    "personality": "Normal",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/96/Daisy_NH.png"
+  },
+  {
+    "id": "dog10",
+    "names": {
+      "ko": "베이글",
+      "en": "Bea",
+      "ja": "ベーグル"
+    },
+    "nameEn": "Bea",
+    "personality": "Normal",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c2/Bea_NH.png"
+  },
+  {
+    "id": "hip03",
+    "names": {
+      "ko": "베티",
+      "en": "Bertha",
+      "ja": "あんこ"
+    },
+    "nameEn": "Bertha",
+    "personality": "Normal",
+    "species": "Hippo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a7/Bertha_NH.png"
+  },
+  {
+    "id": "ost01",
+    "names": {
+      "ko": "빅토리아",
+      "en": "Gladys",
+      "ja": "ちとせ"
+    },
+    "nameEn": "Gladys",
+    "personality": "Normal",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/35/Gladys_NH.png"
+  },
+  {
+    "id": "ham06",
+    "names": {
+      "ko": "뽀야미",
+      "en": "Flurry",
+      "ja": "ゆきみ"
+    },
+    "nameEn": "Flurry",
+    "personality": "Normal",
+    "species": "Hamster",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/03/Flurry_NH.png"
+  },
+  {
+    "id": "hrs02",
+    "names": {
+      "ko": "사반나",
+      "en": "Savannah",
+      "ja": "サバンナ"
+    },
+    "nameEn": "Savannah",
+    "personality": "Normal",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/46/Savannah_NH.png"
+  },
+  {
+    "id": "cat18",
+    "names": {
+      "ko": "사이다",
+      "en": "Lolly",
+      "ja": "ラムネ"
+    },
+    "nameEn": "Lolly",
+    "personality": "Normal",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/16/Lolly_NH.png"
+  },
+  {
+    "id": "ost02",
+    "names": {
+      "ko": "샌디",
+      "en": "Sandy",
+      "ja": "ラン"
+    },
+    "nameEn": "Sandy",
+    "personality": "Normal",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a9/Sandy_NH.png"
+  },
+  {
+    "id": "elp04",
+    "names": {
+      "ko": "샐리",
+      "en": "Margie",
+      "ja": "サリー"
+    },
+    "nameEn": "Margie",
+    "personality": "Normal",
+    "species": "Elephant",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/54/Margie_NH.png"
+  },
+  {
+    "id": "ant08",
+    "names": {
+      "ko": "설백",
+      "en": "Annalisa",
+      "ja": "みやび"
+    },
+    "nameEn": "Annalisa",
+    "personality": "Normal",
+    "species": "Anteater",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/f0/Annalisa_NH.png"
+  },
+  {
+    "id": "der00",
+    "names": {
+      "ko": "솔미",
+      "en": "Fauna",
+      "ja": "ドレミ"
+    },
+    "nameEn": "Fauna",
+    "personality": "Normal",
+    "species": "Deer",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/91/Fauna_NH.png"
+  },
+  {
+    "id": "goa01",
+    "names": {
+      "ko": "순이",
+      "en": "Nan",
+      "ja": "スミ"
+    },
+    "nameEn": "Nan",
+    "personality": "Normal",
+    "species": "Goat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b8/Nan_NH.png"
+  },
+  {
+    "id": "rhn07",
+    "names": {
+      "ko": "스트로베리",
+      "en": "Merengue",
+      "ja": "パティ"
+    },
+    "nameEn": "Merengue",
+    "personality": "Normal",
+    "species": "Rhino",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/0c/Merengue_NH.png"
+  },
+  {
+    "id": "kal03",
+    "names": {
+      "ko": "시드니",
+      "en": "Sydney",
+      "ja": "シドニー"
+    },
+    "nameEn": "Sydney",
+    "personality": "Normal",
+    "species": "Koala",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/3f/Sydney_NH.png"
+  },
+  {
+    "id": "squ14",
+    "names": {
+      "ko": "실바나",
+      "en": "Sylvana",
+      "ja": "もんぺ"
+    },
+    "nameEn": "Sylvana",
+    "personality": "Normal",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/fc/Sylvana_NH.png"
+  },
+  {
+    "id": "kal02",
+    "names": {
+      "ko": "아델레이드",
+      "en": "Melba",
+      "ja": "アデレード"
+    },
+    "nameEn": "Melba",
+    "personality": "Normal",
+    "species": "Koala",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/43/Melba_NH.png"
+  },
+  {
+    "id": "shp03",
+    "names": {
+      "ko": "아크릴",
+      "en": "Stella",
+      "ja": "アクリル"
+    },
+    "nameEn": "Stella",
+    "personality": "Normal",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/95/Stella_NH.png"
+  },
+  {
+    "id": "kgr00",
+    "names": {
+      "ko": "애플리케",
+      "en": "Kitt",
+      "ja": "アップリケ"
+    },
+    "nameEn": "Kitt",
+    "personality": "Normal",
+    "species": "Kangaroo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/75/Kitt_NH.png"
+  },
+  {
+    "id": "crd07",
+    "names": {
+      "ko": "앨리",
+      "en": "Gayle",
+      "ja": "アリゲッティ"
+    },
+    "nameEn": "Gayle",
+    "personality": "Normal",
+    "species": "Alligator",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/5e/Gayle_NH.png"
+  },
+  {
+    "id": "elp07",
+    "names": {
+      "ko": "에끌레르",
+      "en": "Ellie",
+      "ja": "エクレア"
+    },
+    "nameEn": "Ellie",
+    "personality": "Normal",
+    "species": "Elephant",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/38/Ellie_NH.png"
+  },
+  {
+    "id": "chn05",
+    "names": {
+      "ko": "에바",
+      "en": "Ava",
+      "ja": "ドミグラ"
+    },
+    "nameEn": "Ava",
+    "personality": "Normal",
+    "species": "Chicken",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/cc/Ava_NH.png"
+  },
+  {
+    "id": "flg13",
+    "names": {
+      "ko": "에스메랄다",
+      "en": "Jambette",
+      "ja": "エスメラルダ"
+    },
+    "nameEn": "Jambette",
+    "personality": "Normal",
+    "species": "Frog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/35/Jambette_NH.png"
+  },
+  {
+    "id": "pgn00",
+    "names": {
+      "ko": "오로라",
+      "en": "Aurora",
+      "ja": "オーロラ"
+    },
+    "nameEn": "Aurora",
+    "personality": "Normal",
+    "species": "Penguin",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/59/Aurora_NH.png"
+  },
+  {
+    "id": "cbr09",
+    "names": {
+      "ko": "올리브",
+      "en": "Olive",
+      "ja": "ピッコロ"
+    },
+    "nameEn": "Olive",
+    "personality": "Normal",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/5c/Olive_NH.png"
+  },
+  {
+    "id": "goa00",
+    "names": {
+      "ko": "윤이",
+      "en": "Chevre",
+      "ja": "ユキ"
+    },
+    "nameEn": "Chevre",
+    "personality": "Normal",
+    "species": "Goat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c9/Chevre_NH.png"
+  },
+  {
+    "id": "rbt02",
+    "names": {
+      "ko": "이요",
+      "en": "Coco",
+      "ja": "やよい"
+    },
+    "nameEn": "Coco",
+    "personality": "Normal",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/83/Coco_NH.png"
+  },
+  {
+    "id": "cbr14",
+    "names": {
+      "ko": "재스민",
+      "en": "Pekoe",
+      "ja": "ジャスミン"
+    },
+    "nameEn": "Pekoe",
+    "personality": "Normal",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/df/Pekoe_NH.png"
+  },
+  {
+    "id": "dog00",
+    "names": {
+      "ko": "카라멜",
+      "en": "Goldie",
+      "ja": "キャラメル"
+    },
+    "nameEn": "Goldie",
+    "personality": "Normal",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/83/Goldie_NH.png"
+  },
+  {
+    "id": "squ06",
+    "names": {
+      "ko": "캐롤라인",
+      "en": "Caroline",
+      "ja": "キャロライン"
+    },
+    "nameEn": "Caroline",
+    "personality": "Normal",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/26/Caroline_NH.png"
+  },
+  {
+    "id": "cat04",
+    "names": {
+      "ko": "캐비어",
+      "en": "Kiki",
+      "ja": "キャビア"
+    },
+    "nameEn": "Kiki",
+    "personality": "Normal",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c5/Kiki_NH.png"
+  },
+  {
+    "id": "bea15",
+    "names": {
+      "ko": "캔디",
+      "en": "Megan",
+      "ja": "キャンディ"
+    },
+    "nameEn": "Megan",
+    "personality": "Normal",
+    "species": "Bear",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/55/Megan_NH.png"
+  },
+  {
+    "id": "mnk01",
+    "names": {
+      "ko": "키키",
+      "en": "Nana",
+      "ja": "チッチ"
+    },
+    "nameEn": "Nana",
+    "personality": "Normal",
+    "species": "Monkey",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b1/Nana_NH.png"
+  },
+  {
+    "id": "elp10",
+    "names": {
+      "ko": "티나",
+      "en": "Tia",
+      "ja": "ティーナ"
+    },
+    "nameEn": "Tia",
+    "personality": "Normal",
+    "species": "Elephant",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/0d/Tia_NH.png"
+  },
+  {
+    "id": "mus00",
+    "names": {
+      "ko": "티미",
+      "en": "Dora",
+      "ja": "とめ"
+    },
+    "nameEn": "Dora",
+    "personality": "Normal",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/de/Dora_NH.png"
+  },
+  {
+    "id": "pbr09",
+    "names": {
+      "ko": "티파니",
+      "en": "Celia",
+      "ja": "ティファニー"
+    },
+    "nameEn": "Celia",
+    "personality": "Normal",
+    "species": "Eagle",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/00/Celia_NH.png"
+  },
+  {
+    "id": "squ11",
+    "names": {
+      "ko": "파슬리",
+      "en": "Cally",
+      "ja": "パセリ"
+    },
+    "nameEn": "Cally",
+    "personality": "Normal",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a6/Cally_NH.png"
+  },
+  {
+    "id": "brd08",
+    "names": {
+      "ko": "핑글이",
+      "en": "Midge",
+      "ja": "うずまき"
+    },
+    "nameEn": "Midge",
+    "personality": "Normal",
+    "species": "Bird",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/af/Midge_NH.png"
+  },
+  {
+    "id": "squ13",
+    "names": {
+      "ko": "나타샤",
+      "en": "Tasha",
+      "ja": "ナターシャ"
+    },
+    "nameEn": "Tasha",
+    "personality": "Snooty",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/35/Tasha_NH.png"
+  },
+  {
+    "id": "der08",
+    "names": {
+      "ko": "나탈리",
+      "en": "Diana",
+      "ja": "ナタリー"
+    },
+    "nameEn": "Diana",
+    "personality": "Snooty",
+    "species": "Deer",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/1f/Diana_NH.png"
+  },
+  {
+    "id": "squ03",
+    "names": {
+      "ko": "레베카",
+      "en": "Pecan",
+      "ja": "レベッカ"
+    },
+    "nameEn": "Pecan",
+    "personality": "Snooty",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/60/Pecan_NH.png"
+  },
+  {
+    "id": "flg16",
+    "names": {
+      "ko": "린다",
+      "en": "Gigi",
+      "ja": "リンダ"
+    },
+    "nameEn": "Gigi",
+    "personality": "Snooty",
+    "species": "Frog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/86/Gigi_NH.png"
+  },
+  {
+    "id": "shp07",
+    "names": {
+      "ko": "마리",
+      "en": "Willow",
+      "ja": "マリー"
+    },
+    "nameEn": "Willow",
+    "personality": "Snooty",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/62/Willow_NH.png"
+  },
+  {
+    "id": "duk15",
+    "names": {
+      "ko": "마릴린",
+      "en": "Gloria",
+      "ja": "スワンソン"
+    },
+    "nameEn": "Gloria",
+    "personality": "Snooty",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/14/Gloria_NH.png"
+  },
+  {
+    "id": "cow01",
+    "names": {
+      "ko": "마틸다",
+      "en": "Tipper",
+      "ja": "まきば"
+    },
+    "nameEn": "Tipper",
+    "personality": "Snooty",
+    "species": "Cow",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/75/Tipper_NH.png"
+  },
+  {
+    "id": "mnk05",
+    "names": {
+      "ko": "몽자",
+      "en": "Elise",
+      "ja": "モンこ"
+    },
+    "nameEn": "Elise",
+    "personality": "Snooty",
+    "species": "Monkey",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/0c/Elise_NH.png"
+  },
+  {
+    "id": "duk12",
+    "names": {
+      "ko": "미란다",
+      "en": "Miranda",
+      "ja": "ミランダ"
+    },
+    "nameEn": "Miranda",
+    "personality": "Snooty",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/8c/Miranda_NH.png"
+  },
+  {
+    "id": "cbr19",
+    "names": {
+      "ko": "미애",
+      "en": "Judy",
+      "ja": "みすず"
+    },
+    "nameEn": "Judy",
+    "personality": "Snooty",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d4/Judy_NH.png"
+  },
+  {
+    "id": "squ09",
+    "names": {
+      "ko": "민트",
+      "en": "Mint",
+      "ja": "ミント"
+    },
+    "nameEn": "Mint",
+    "personality": "Snooty",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/5b/Mint_NH.png"
+  },
+  {
+    "id": "wol08",
+    "names": {
+      "ko": "바네사",
+      "en": "Vivian",
+      "ja": "ヴァネッサ"
+    },
+    "nameEn": "Vivian",
+    "personality": "Snooty",
+    "species": "Wolf",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/24/Vivian_NH.png"
+  },
+  {
+    "id": "rbt07",
+    "names": {
+      "ko": "바슬레",
+      "en": "Tiffany",
+      "ja": "バズレー"
+    },
+    "nameEn": "Tiffany",
+    "personality": "Snooty",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/f0/Tiffany_NH.png"
+  },
+  {
+    "id": "goa06",
+    "names": {
+      "ko": "벨마",
+      "en": "Velma",
+      "ja": "ピティエ"
+    },
+    "nameEn": "Velma",
+    "personality": "Snooty",
+    "species": "Goat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/59/Velma_NH.png"
+  },
+  {
+    "id": "mus16",
+    "names": {
+      "ko": "복자",
+      "en": "Greta",
+      "ja": "ふくこ"
+    },
+    "nameEn": "Greta",
+    "personality": "Snooty",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/bd/Greta_NH.png"
+  },
+  {
+    "id": "pig16",
+    "names": {
+      "ko": "브리트니",
+      "en": "Pancetti",
+      "ja": "ブリトニー"
+    },
+    "nameEn": "Pancetti",
+    "personality": "Snooty",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/ec/Pancetti_NH.png"
+  },
+  {
+    "id": "dog05",
+    "names": {
+      "ko": "블랜더",
+      "en": "Portia",
+      "ja": "ブレンダ"
+    },
+    "nameEn": "Portia",
+    "personality": "Snooty",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/ce/Portia_NH.png"
+  },
+  {
+    "id": "wol03",
+    "names": {
+      "ko": "비앙카",
+      "en": "Whitney",
+      "ja": "ビアンカ"
+    },
+    "nameEn": "Whitney",
+    "personality": "Snooty",
+    "species": "Wolf",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/36/Whitney_NH.png"
+  },
+  {
+    "id": "hip05",
+    "names": {
+      "ko": "비티",
+      "en": "Bitty",
+      "ja": "エーミー"
+    },
+    "nameEn": "Bitty",
+    "personality": "Snooty",
+    "species": "Hippo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/74/Bitty_NH.png"
+  },
+  {
+    "id": "mus03",
+    "names": {
+      "ko": "사라",
+      "en": "Bree",
+      "ja": "サラ"
+    },
+    "nameEn": "Bree",
+    "personality": "Snooty",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/12/Bree_NH.png"
+  },
+  {
+    "id": "pgn04",
+    "names": {
+      "ko": "사브리나",
+      "en": "Friga",
+      "ja": "サブリナ"
+    },
+    "nameEn": "Friga",
+    "personality": "Snooty",
+    "species": "Penguin",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/8c/Friga_NH.png"
+  },
+  {
+    "id": "wol05",
+    "names": {
+      "ko": "산드라",
+      "en": "Freya",
+      "ja": "ツンドラ"
+    },
+    "nameEn": "Freya",
+    "personality": "Snooty",
+    "species": "Wolf",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/ee/Freya_NH.png"
+  },
+  {
+    "id": "ham04",
+    "names": {
+      "ko": "샨티",
+      "en": "Soleil",
+      "ja": "シャンティ"
+    },
+    "nameEn": "Soleil",
+    "personality": "Snooty",
+    "species": "Hamster",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/de/Soleil_NH.png"
+  },
+  {
+    "id": "cat14",
+    "names": {
+      "ko": "쇼콜라",
+      "en": "Kitty",
+      "ja": "ショコラ"
+    },
+    "nameEn": "Kitty",
+    "personality": "Snooty",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/21/Kitty_NH.png"
+  },
+  {
+    "id": "ant06",
+    "names": {
+      "ko": "스누티",
+      "en": "Snooty",
+      "ja": "こまち"
+    },
+    "nameEn": "Snooty",
+    "personality": "Snooty",
+    "species": "Anteater",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/63/Snooty_NH.png"
+  },
+  {
+    "id": "duk06",
+    "names": {
+      "ko": "스미모",
+      "en": "Mallary",
+      "ja": "スミモモ"
+    },
+    "nameEn": "Mallary",
+    "personality": "Snooty",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/2/28/Mallary_NH.png"
+  },
+  {
+    "id": "tig05",
+    "names": {
+      "ko": "신디",
+      "en": "Claudia",
+      "ja": "マリリン"
+    },
+    "nameEn": "Claudia",
+    "personality": "Snooty",
+    "species": "Tiger",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d6/Claudia_NH.png"
+  },
+  {
+    "id": "ost08",
+    "names": {
+      "ko": "신옥",
+      "en": "Blanche",
+      "ja": "しのぶ"
+    },
+    "nameEn": "Blanche",
+    "personality": "Snooty",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/df/Blanche_NH.png"
+  },
+  {
+    "id": "squ01",
+    "names": {
+      "ko": "실루엣",
+      "en": "Blaire",
+      "ja": "シルエット"
+    },
+    "nameEn": "Blaire",
+    "personality": "Snooty",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/73/Blaire_NH.png"
+  },
+  {
+    "id": "hrs09",
+    "names": {
+      "ko": "실부플레",
+      "en": "Annalise",
+      "ja": "シルブプレ"
+    },
+    "nameEn": "Annalise",
+    "personality": "Snooty",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c4/Annalise_NH.png"
+  },
+  {
+    "id": "chn09",
+    "names": {
+      "ko": "아리아",
+      "en": "Becky",
+      "ja": "アリア"
+    },
+    "nameEn": "Becky",
+    "personality": "Snooty",
+    "species": "Chicken",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/74/Becky_NH.png"
+  },
+  {
+    "id": "hrs07",
+    "names": {
+      "ko": "아이소토프",
+      "en": "Cleo",
+      "ja": "アイソトープ"
+    },
+    "nameEn": "Cleo",
+    "personality": "Snooty",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/e9/Cleo_NH.png"
+  },
+  {
+    "id": "pbr01",
+    "names": {
+      "ko": "안데스",
+      "en": "Amelia",
+      "ja": "アンデス"
+    },
+    "nameEn": "Amelia",
+    "personality": "Snooty",
+    "species": "Eagle",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/ab/Amelia_NH.png"
+  },
+  {
+    "id": "kgr01",
+    "names": {
+      "ko": "안젤라",
+      "en": "Mathilda",
+      "ja": "アザラク"
+    },
+    "nameEn": "Mathilda",
+    "personality": "Snooty",
+    "species": "Kangaroo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/58/Mathilda_NH.png"
+  },
+  {
+    "id": "duk03",
+    "names": {
+      "ko": "앤",
+      "en": "Maelle",
+      "ja": "アンヌ"
+    },
+    "nameEn": "Maelle",
+    "personality": "Snooty",
+    "species": "Duck",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/93/Maelle_NH.png"
+  },
+  {
+    "id": "elp03",
+    "names": {
+      "ko": "엘레핀",
+      "en": "Eloise",
+      "ja": "エレフィン"
+    },
+    "nameEn": "Eloise",
+    "personality": "Snooty",
+    "species": "Elephant",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/b1/Eloise_NH.png"
+  },
+  {
+    "id": "elp00",
+    "names": {
+      "ko": "오팔",
+      "en": "Opal",
+      "ja": "オパール"
+    },
+    "nameEn": "Opal",
+    "personality": "Snooty",
+    "species": "Elephant",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/ce/Opal_NH.png"
+  },
+  {
+    "id": "cat03",
+    "names": {
+      "ko": "올리비아",
+      "en": "Olivia",
+      "ja": "オリビア"
+    },
+    "nameEn": "Olivia",
+    "personality": "Snooty",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/36/Olivia_NH.png"
+  },
+  {
+    "id": "kal00",
+    "names": {
+      "ko": "유카리",
+      "en": "Yuka",
+      "ja": "ユーカリ"
+    },
+    "nameEn": "Yuka",
+    "personality": "Snooty",
+    "species": "Koala",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/ca/Yuka_NH.png"
+  },
+  {
+    "id": "shp10",
+    "names": {
+      "ko": "잔디",
+      "en": "Timbra",
+      "ja": "つかさ"
+    },
+    "nameEn": "Timbra",
+    "personality": "Snooty",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6f/Timbra_NH.png"
+  },
+  {
+    "id": "cat11",
+    "names": {
+      "ko": "제인",
+      "en": "Monique",
+      "ja": "ジェーン"
+    },
+    "nameEn": "Monique",
+    "personality": "Snooty",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/cc/Monique_NH.png"
+  },
+  {
+    "id": "ost05",
+    "names": {
+      "ko": "줄리아",
+      "en": "Julia",
+      "ja": "ジュリア"
+    },
+    "nameEn": "Julia",
+    "personality": "Snooty",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/42/Julia_NH.png"
+  },
+  {
+    "id": "gor07",
+    "names": {
+      "ko": "줌마",
+      "en": "Violet",
+      "ja": "ウズメ"
+    },
+    "nameEn": "Violet",
+    "personality": "Snooty",
+    "species": "Gorilla",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/6b/Violet_NH.png"
+  },
+  {
+    "id": "shp04",
+    "names": {
+      "ko": "캐시미어",
+      "en": "Cashmere",
+      "ja": "ラムール"
+    },
+    "nameEn": "Cashmere",
+    "personality": "Snooty",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/eb/Cashmere_NH.png"
+  },
+  {
+    "id": "crd01",
+    "names": {
+      "ko": "크로크",
+      "en": "Alli",
+      "ja": "クロコ"
+    },
+    "nameEn": "Alli",
+    "personality": "Snooty",
+    "species": "Alligator",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/8e/Alli_NH.png"
+  },
+  {
+    "id": "cat19",
+    "names": {
+      "ko": "클레오",
+      "en": "Ankha",
+      "ja": "ナイル"
+    },
+    "nameEn": "Ankha",
+    "personality": "Snooty",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/56/Ankha_NH.png"
+  },
+  {
+    "id": "cat07",
+    "names": {
+      "ko": "타마",
+      "en": "Purrl",
+      "ja": "たま"
+    },
+    "nameEn": "Purrl",
+    "personality": "Snooty",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/a2/Purrl_NH.png"
+  },
+  {
+    "id": "ost00",
+    "names": {
+      "ko": "택주",
+      "en": "Queenie",
+      "ja": "タキュ"
+    },
+    "nameEn": "Queenie",
+    "personality": "Snooty",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/f1/Queenie_NH.png"
+  },
+  {
+    "id": "shp01",
+    "names": {
+      "ko": "트로와",
+      "en": "Baabara",
+      "ja": "トロワ"
+    },
+    "nameEn": "Baabara",
+    "personality": "Snooty",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/df/Baabara_NH.png"
+  },
+  {
+    "id": "brd01",
+    "names": {
+      "ko": "파틱",
+      "en": "Robin",
+      "ja": "パーチク"
+    },
+    "nameEn": "Robin",
+    "personality": "Snooty",
+    "species": "Bird",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/8/85/Robin_NH.png"
+  },
+  {
+    "id": "kgr05",
+    "names": {
+      "ko": "펑키맘",
+      "en": "Astrid",
+      "ja": "キッズ"
+    },
+    "nameEn": "Astrid",
+    "personality": "Snooty",
+    "species": "Kangaroo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d5/Astrid_NH.png"
+  },
+  {
+    "id": "pgn05",
+    "names": {
+      "ko": "폴라",
+      "en": "Gwen",
+      "ja": "ポーラ"
+    },
+    "nameEn": "Gwen",
+    "personality": "Snooty",
+    "species": "Penguin",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/be/Gwen_NH.png"
+  },
+  {
+    "id": "rbt12",
+    "names": {
+      "ko": "프랑소와",
+      "en": "Francine",
+      "ja": "フランソワ"
+    },
+    "nameEn": "Francine",
+    "personality": "Snooty",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/34/Francine_NH.png"
+  },
+  {
+    "id": "cow07",
+    "names": {
+      "ko": "화자",
+      "en": "Naomi",
+      "ja": "ハナコ"
+    },
+    "nameEn": "Naomi",
+    "personality": "Snooty",
+    "species": "Cow",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/f/f6/Naomi_NH.png"
+  },
+  {
+    "id": "chn12",
+    "names": {
+      "ko": "히킨",
+      "en": "Broffina",
+      "ja": "カサンドラ"
+    },
+    "nameEn": "Broffina",
+    "personality": "Snooty",
+    "species": "Chicken",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/7a/Broffina_NH.png"
+  },
+  {
+    "id": "gor09",
+    "names": {
+      "ko": "4호",
+      "en": "Rocket",
+      "ja": "４ごう"
+    },
+    "nameEn": "Rocket",
+    "personality": "Uchi",
+    "species": "Gorilla",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/58/Rocket_NH.png"
+  },
+  {
+    "id": "der04",
+    "names": {
+      "ko": "나디아",
+      "en": "Deirdre",
+      "ja": "ナディア"
+    },
+    "nameEn": "Deirdre",
+    "personality": "Uchi",
+    "species": "Deer",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/3c/Deirdre_NH.png"
+  },
+  {
+    "id": "bea08",
+    "names": {
+      "ko": "네이아",
+      "en": "Ursala",
+      "ja": "ネーヤ"
+    },
+    "nameEn": "Ursala",
+    "personality": "Uchi",
+    "species": "Bear",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/65/Ursala_NH.png"
+  },
+  {
+    "id": "pgn13",
+    "names": {
+      "ko": "레이라",
+      "en": "Flo",
+      "ja": "レイラ"
+    },
+    "nameEn": "Flo",
+    "personality": "Uchi",
+    "species": "Penguin",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/b/bb/Flo_NH.png"
+  },
+  {
+    "id": "bea10",
+    "names": {
+      "ko": "레이첼",
+      "en": "Paula",
+      "ja": "レイチェル"
+    },
+    "nameEn": "Paula",
+    "personality": "Uchi",
+    "species": "Bear",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/0/0f/Paula_NH.png"
+  },
+  {
+    "id": "hrs16",
+    "names": {
+      "ko": "리아나",
+      "en": "Reneigh",
+      "ja": "リアーナ"
+    },
+    "nameEn": "Reneigh",
+    "personality": "Uchi",
+    "species": "Horse",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/92/Reneigh_NH.png"
+  },
+  {
+    "id": "rbt19",
+    "names": {
+      "ko": "미랑",
+      "en": "Mira",
+      "ja": "ミラコ"
+    },
+    "nameEn": "Mira",
+    "personality": "Uchi",
+    "species": "Rabbit",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d1/Mira_NH.png"
+  },
+  {
+    "id": "goa08",
+    "names": {
+      "ko": "바바라",
+      "en": "Pashmina",
+      "ja": "バーバラ"
+    },
+    "nameEn": "Pashmina",
+    "personality": "Uchi",
+    "species": "Goat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/3e/Pashmina_NH.png"
+  },
+  {
+    "id": "rhn08",
+    "names": {
+      "ko": "뿔님이",
+      "en": "Renée",
+      "ja": "おさい"
+    },
+    "nameEn": "Renée",
+    "personality": "Uchi",
+    "species": "Rhino",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/ef/Ren%C3%A9e_NH.png"
+  },
+  {
+    "id": "kgr06",
+    "names": {
+      "ko": "실비아",
+      "en": "Sylvia",
+      "ja": "シルビア"
+    },
+    "nameEn": "Sylvia",
+    "personality": "Uchi",
+    "species": "Kangaroo",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/9/93/Sylvia_NH.png"
+  },
+  {
+    "id": "pig17",
+    "names": {
+      "ko": "아그네스",
+      "en": "Agnes",
+      "ja": "アグネス"
+    },
+    "nameEn": "Agnes",
+    "personality": "Uchi",
+    "species": "Pig",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/42/Agnes_NH.png"
+  },
+  {
+    "id": "cbr17",
+    "names": {
+      "ko": "아네사",
+      "en": "Tammy",
+      "ja": "アネッサ"
+    },
+    "nameEn": "Tammy",
+    "personality": "Uchi",
+    "species": "Cub",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/aa/Tammy_NH.png"
+  },
+  {
+    "id": "flg18",
+    "names": {
+      "ko": "아이다",
+      "en": "Diva",
+      "ja": "アイーダ"
+    },
+    "nameEn": "Diva",
+    "personality": "Uchi",
+    "species": "Frog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/4/44/Diva_NH.png"
+  },
+  {
+    "id": "squ18",
+    "names": {
+      "ko": "아이리스",
+      "en": "Hazel",
+      "ja": "アイリス"
+    },
+    "nameEn": "Hazel",
+    "personality": "Uchi",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/17/Hazel_NH.png"
+  },
+  {
+    "id": "shp11",
+    "names": {
+      "ko": "웬디",
+      "en": "Frita",
+      "ja": "ウェンディ"
+    },
+    "nameEn": "Frita",
+    "personality": "Uchi",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/d/d5/Frita_NH.png"
+  },
+  {
+    "id": "der06",
+    "names": {
+      "ko": "제시카",
+      "en": "Fuchsia",
+      "ja": "ジェシカ"
+    },
+    "nameEn": "Fuchsia",
+    "personality": "Uchi",
+    "species": "Deer",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/67/Fuchsia_NH.png"
+  },
+  {
+    "id": "mnk07",
+    "names": {
+      "ko": "젤리",
+      "en": "Shari",
+      "ja": "シェリー"
+    },
+    "nameEn": "Shari",
+    "personality": "Uchi",
+    "species": "Monkey",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/7/72/Shari_NH.png"
+  },
+  {
+    "id": "bea12",
+    "names": {
+      "ko": "챠미",
+      "en": "Charlise",
+      "ja": "チャーミー"
+    },
+    "nameEn": "Charlise",
+    "personality": "Uchi",
+    "species": "Bear",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/a/ac/Charlise_NH.png"
+  },
+  {
+    "id": "cat21",
+    "names": {
+      "ko": "쵸이",
+      "en": "Katt",
+      "ja": "ちょい"
+    },
+    "nameEn": "Katt",
+    "personality": "Uchi",
+    "species": "Cat",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/c/c9/Katt_NH.png"
+  },
+  {
+    "id": "kal08",
+    "names": {
+      "ko": "캔버라",
+      "en": "Canberra",
+      "ja": "キャンベラ"
+    },
+    "nameEn": "Canberra",
+    "personality": "Uchi",
+    "species": "Koala",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/e/e6/Canberra_NH.png"
+  },
+  {
+    "id": "chn10",
+    "names": {
+      "ko": "파타야",
+      "en": "Plucky",
+      "ja": "パタヤ"
+    },
+    "nameEn": "Plucky",
+    "personality": "Uchi",
+    "species": "Chicken",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/6/63/Plucky_NH.png"
+  },
+  {
+    "id": "shp12",
+    "names": {
+      "ko": "프릴",
+      "en": "Muffy",
+      "ja": "フリル"
+    },
+    "nameEn": "Muffy",
+    "personality": "Uchi",
+    "species": "Sheep",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/1/16/Muffy_NH.png"
+  },
+  {
+    "id": "dog17",
+    "names": {
+      "ko": "한나",
+      "en": "Cherry",
+      "ja": "ハンナ"
+    },
+    "nameEn": "Cherry",
+    "personality": "Uchi",
+    "species": "Dog",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/3/3e/Cherry_NH.png"
+  },
+  {
+    "id": "ost10",
+    "names": {
+      "ko": "휘니",
+      "en": "Phoebe",
+      "ja": "ヒノコ"
+    },
+    "nameEn": "Phoebe",
+    "personality": "Uchi",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "https://dodo.ac/np/images/5/50/Phoebe_NH.png"
+  }
+]
