@@ -20,7 +20,7 @@ export function VillagerGrid() {
   const { locale } = useLocale()
   const { ratings, setTier, remove: removeRating } = useRatings()
   const { has: isBlacklisted, toggle: toggleBlacklist, remove: removeBlacklist } = useBlacklist()
-  const { has: isResident, toggle: toggleResident, remove: removeResident } = useResidents()
+  const { residents, has: isResident, toggle: toggleResident, remove: removeResident } = useResidents()
   const [filter, setFilter] = useState<VillagerFilter>(EMPTY_FILTER)
 
   // 평가/블랙리스트/거주중 3개는 상호배타. 하나를 켜면 나머지는 해제.
@@ -58,8 +58,8 @@ export function VillagerGrid() {
   }, [])
 
   const filtered = useMemo(
-    () => applyFilter(VILLAGERS, filter, locale, ratings),
-    [filter, locale, ratings],
+    () => applyFilter(VILLAGERS, filter, locale, ratings, residents),
+    [filter, locale, ratings, residents],
   )
 
   return (
@@ -75,6 +75,10 @@ export function VillagerGrid() {
         }
         ratedOnly={filter.ratedOnly}
         onRatedOnlyChange={(ratedOnly) => setFilter((f) => ({ ...f, ratedOnly }))}
+        residentOnly={filter.residentOnly}
+        onResidentOnlyChange={(residentOnly) =>
+          setFilter((f) => ({ ...f, residentOnly }))
+        }
         speciesList={speciesList}
         personalityCounts={personalityCounts}
         shownCount={filtered.length}

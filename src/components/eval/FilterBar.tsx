@@ -24,6 +24,7 @@ export interface VillagerFilter {
   species: string[] // 빈 배열 = 전체. 다중 선택.
   personality: PersonalityKey | null
   ratedOnly: boolean
+  residentOnly: boolean
 }
 
 export const EMPTY_FILTER: VillagerFilter = {
@@ -31,10 +32,12 @@ export const EMPTY_FILTER: VillagerFilter = {
   species: [],
   personality: null,
   ratedOnly: false,
+  residentOnly: false,
 }
 
 /**
- * Pure filter helper. `ratings` maps villagerId -> Tier (presence = rated).
+ * Pure filter helper. `ratings` maps villagerId -> Tier (presence = rated),
+ * `residents` maps villagerId -> true (presence = currently living).
  * Search matches the current-locale name AND the English name (case-insensitive).
  */
 export function applyFilter(
@@ -42,6 +45,7 @@ export function applyFilter(
   filter: VillagerFilter,
   locale: Locale,
   ratings: Record<string, unknown>,
+  residents: Record<string, unknown>,
 ): Villager[] {
   const q = filter.search.trim().toLowerCase()
   const speciesSet = filter.species.length ? new Set(filter.species) : null
@@ -49,6 +53,7 @@ export function applyFilter(
     if (speciesSet && !speciesSet.has(v.species)) return false
     if (filter.personality && v.personality !== filter.personality) return false
     if (filter.ratedOnly && !(v.id in ratings)) return false
+    if (filter.residentOnly && !(v.id in residents)) return false
     if (q) {
       const localeName = villagerName(v, locale).toLowerCase()
       const enName = v.nameEn.toLowerCase()
@@ -67,6 +72,8 @@ export function FilterBar({
   onPersonalityChange,
   ratedOnly,
   onRatedOnlyChange,
+  residentOnly,
+  onResidentOnlyChange,
   speciesList,
   personalityCounts,
   shownCount,
@@ -80,6 +87,8 @@ export function FilterBar({
   onPersonalityChange: (v: PersonalityKey | null) => void
   ratedOnly: boolean
   onRatedOnlyChange: (v: boolean) => void
+  residentOnly: boolean
+  onResidentOnlyChange: (v: boolean) => void
   /** Distinct species keys present in the data. */
   speciesList: string[]
   /** Per-personality total count (so shallow pools like Uchi stay visible). */
@@ -205,6 +214,15 @@ export function FilterBar({
           aria-label={t('filter.ratedOnly')}
         >
           {t('filter.ratedOnly')}
+        </Toggle>
+
+        <Toggle
+          variant="outline"
+          pressed={residentOnly}
+          onPressedChange={onResidentOnlyChange}
+          aria-label={t('filter.residentOnly')}
+        >
+          {t('filter.residentOnly')}
         </Toggle>
       </div>
 

@@ -1,0 +1,114 @@
+import type { ComponentType } from 'react'
+import {
+  ArrowLeft,
+  ArrowRight,
+  ClipboardList,
+  Download,
+  Home,
+  Languages,
+  Sparkles,
+} from 'lucide-react'
+import { useLocale, LanguageSwitcher } from '@/i18n'
+import { Button } from '@/components/ui/button'
+
+// 사이트 소개 랜딩. 라우터 없이 useView('about')일 때 App이 이 화면만 렌더한다.
+// onEnter: 메인 앱으로 진입/복귀(상단 뒤로가기 버튼 + 하단 CTA 공용).
+
+interface Feature {
+  icon: ComponentType<{ className?: string }>
+  titleKey: string
+  descKey: string
+}
+
+const FEATURES: Feature[] = [
+  { icon: ClipboardList, titleKey: 'landing.feat.rate.title', descKey: 'landing.feat.rate.desc' },
+  { icon: Sparkles, titleKey: 'landing.feat.recommend.title', descKey: 'landing.feat.recommend.desc' },
+  { icon: Home, titleKey: 'landing.feat.manage.title', descKey: 'landing.feat.manage.desc' },
+  { icon: Languages, titleKey: 'landing.feat.i18n.title', descKey: 'landing.feat.i18n.desc' },
+  { icon: Download, titleKey: 'landing.feat.export.title', descKey: 'landing.feat.export.desc' },
+]
+
+const STEP_KEYS = ['landing.step.1', 'landing.step.2', 'landing.step.3'] as const
+
+export function LandingPage({ onEnter }: { onEnter: () => void }) {
+  const { t } = useLocale()
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* 상단 바: 앱으로 돌아가기 + 언어 스위처 */}
+      <header className="sticky top-0 z-20 border-b bg-background/90 backdrop-blur">
+        <div className="container flex items-center justify-between gap-4 py-3">
+          <Button variant="ghost" size="sm" className="gap-1.5" onClick={onEnter}>
+            <ArrowLeft className="h-4 w-4" />
+            <span>{t('landing.back')}</span>
+          </Button>
+          <LanguageSwitcher />
+        </div>
+      </header>
+
+      <main className="container max-w-3xl py-10">
+        {/* 히어로 */}
+        <section className="flex flex-col items-center text-center">
+          <span className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
+            <Sparkles className="h-7 w-7" />
+          </span>
+          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{t('app.title')}</h1>
+          <p className="mt-3 text-lg font-medium text-primary">{t('landing.tagline')}</p>
+          <p className="mt-4 max-w-2xl text-pretty text-muted-foreground">{t('landing.intro')}</p>
+          <Button size="lg" className="mt-8 gap-2" onClick={onEnter}>
+            {t('landing.start')}
+            <ArrowRight className="h-4 w-4" />
+          </Button>
+        </section>
+
+        {/* 주요 기능 */}
+        <section className="mt-16">
+          <h2 className="mb-5 text-center text-xl font-bold">{t('landing.featuresTitle')}</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            {FEATURES.map(({ icon: Icon, titleKey, descKey }) => (
+              <div
+                key={titleKey}
+                className="flex gap-3 rounded-xl border bg-card p-4 text-card-foreground"
+              >
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                  <Icon className="h-5 w-5" />
+                </span>
+                <div className="min-w-0">
+                  <h3 className="font-semibold">{t(titleKey)}</h3>
+                  <p className="mt-1 text-sm text-muted-foreground">{t(descKey)}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* 사용 방법 */}
+        <section className="mt-16">
+          <h2 className="mb-5 text-center text-xl font-bold">{t('landing.howTitle')}</h2>
+          <ol className="mx-auto flex max-w-xl flex-col gap-3">
+            {STEP_KEYS.map((key, i) => (
+              <li key={key} className="flex items-center gap-3 rounded-lg border bg-card p-3">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
+                  {i + 1}
+                </span>
+                <span className="text-sm">{t(key)}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        {/* 하단 CTA */}
+        <section className="mt-16 flex flex-col items-center">
+          <Button size="lg" className="gap-2" onClick={onEnter}>
+            {t('landing.start')}
+            <ArrowRight className="h-4 w-4" />
+          </Button>
+        </section>
+      </main>
+
+      <footer className="container py-8 text-center text-xs text-muted-foreground">
+        {t('landing.disclaimer')}
+      </footer>
+    </div>
+  )
+}

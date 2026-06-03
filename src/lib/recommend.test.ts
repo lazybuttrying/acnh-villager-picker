@@ -184,6 +184,35 @@ describe('recommend', () => {
     expect(res.team.length).toBe(3)
   })
 
+  // ⑦ Pinned members (e.g. current residents) are always in the team and never swapped out.
+  it('always includes pinned members and scores with them', () => {
+    const pool: Villager[] = []
+    const speciesList = ['Cat', 'Dog', 'Bear', 'Bird']
+    PERSONALITY_KEYS.forEach((p, pi) => {
+      for (let k = 0; k < 3; k++) {
+        pool.push(mk(`${p}-${k}`, p, speciesList[(pi + k) % speciesList.length]))
+      }
+    })
+    const scores: Scores = {}
+    for (const v of pool) scores[v.id] = TIER_SCORE.B
+
+    // Two pinned residents (NOT in pool — caller excludes them), both unrated, share a species.
+    const pinned = [mk('res-1', 'Jock', 'Octopus'), mk('res-2', 'Lazy', 'Octopus')]
+
+    const res = recommend(pool, scores, PRESETS.fav, 10, pinned)
+    expect(res.team.length).toBe(10)
+    // pinned present
+    expect(res.team.find((v) => v.id === 'res-1')).toBeTruthy()
+    expect(res.team.find((v) => v.id === 'res-2')).toBeTruthy()
+    // pinned occupy the first slots (never swapped)
+    expect(res.team[0].id).toBe('res-1')
+    expect(res.team[1].id).toBe('res-2')
+    // score == totalScore of the returned team (includes pinned + their penalties)
+    expect(res.score).toBeCloseTo(totalScore(res.team, scores, PRESETS.fav), 9)
+    // no duplicate ids even though pinned excluded from pool
+    expect(new Set(res.team.map((v) => v.id)).size).toBe(10)
+  })
+
   // missing populated when a personality absent from pool
   it('reports missing personalities absent from pool', () => {
     const pool: Villager[] = []

@@ -59,24 +59,32 @@ export function coverageOK(set: Villager[]): boolean {
  * ⚠️ 커버리지 주의: 8성격 전부 커버는 팀이 **8명 이상일 때만** 가능하다.
  * teamSize < 8이면 8성격 하드 제약을 풀고, 성격/종족 소프트 패널티(totalScore)만으로
  * 다양성을 유도한다. teamSize ≥ 8이면 풀에 존재하는 모든 성격 커버를 강제한다.
+ *
+ * @param pinned 항상 팀에 고정 포함되는 주민(예: 현재 거주 중). 절대 교체/제외되지 않는다.
+ *   `pool`에는 pinned를 넣지 말 것(중복 방지). 점수는 pinned 포함으로 계산된다.
  */
 export function recommend(
   pool: Villager[],
   scores: Scores,
   w: Weights,
   teamSize: number = TEAM_SIZE,
+  pinned: Villager[] = [],
 ): { team: Villager[]; score: number; missing: PersonalityKey[] } {
   const size = Math.max(1, Math.floor(teamSize))
-  const availablePersonalities = new Set<PersonalityKey>(pool.map((v) => v.personality))
+  // 커버리지는 pool + pinned 양쪽의 성격을 기준으로 본다.
+  const availablePersonalities = new Set<PersonalityKey>([
+    ...pool.map((v) => v.personality),
+    ...pinned.map((v) => v.personality),
+  ])
   // 8성격 전부 커버는 인원이 8 이상일 때만 의미가 있다.
   const enforceCoverage = size >= PERSONALITY_KEYS.length
 
-  // missing: 풀에 단 한 명도 없는 성격(데이터/블랙리스트 사유). 커버리지 강제 시에만 보고.
+  // missing: pool+pinned 통틀어 한 명도 없는 성격. 커버리지 강제 시에만 보고.
   const missing: PersonalityKey[] = enforceCoverage
     ? PERSONALITY_KEYS.filter((p) => !availablePersonalities.has(p))
     : []
 
-  // 커버리지 충족 판정(일반화): 강제 모드면 풀에 존재하는 모든 성격이 팀에 있어야 함.
+  // 커버리지 충족 판정(일반화): 강제 모드면 가용한 모든 성격이 팀에 있어야 함.
   const coverageEnough = (set: Villager[]): boolean => {
     if (!enforceCoverage) return true
     const seen = new Set<PersonalityKey>()
@@ -90,10 +98,22 @@ export function recommend(
   const team: Villager[] = []
   const selected = new Set<string>()
 
-  // 커버리지 강제 시에만: 성격별 최고 호감도 1명씩 시드(미평가뿐이어도 커버 위해 선택).
+  // 고정 멤버(거주 중 등)를 먼저 팀에 넣는다(중복/초과 방지, size까지만).
+  for (const v of pinned) {
+    if (team.length >= size) break
+    if (selected.has(v.id)) continue
+    team.push(v)
+    selected.add(v.id)
+  }
+  const pinnedCount = team.length // 이 인덱스 미만은 2-opt 교체 금지
+
+  // 커버리지 강제 시: 아직 안 덮인 성격을 풀에서 최고 호감도 1명씩 시드.
   if (enforceCoverage) {
+    const covered = new Set(team.map((v) => v.personality))
     for (const p of PERSONALITY_KEYS) {
-      const candidates = pool.filter((v) => v.personality === p)
+      if (team.length >= size) break
+      if (covered.has(p)) continue
+      const candidates = pool.filter((v) => v.personality === p && !selected.has(v.id))
       if (candidates.length === 0) continue
       let best = candidates[0]
       let bestScore = scores[best.id] ?? 0
@@ -134,7 +154,8 @@ export function recommend(
   for (let pass = 0; pass < MAX_PASSES; pass++) {
     let improved = false
     let curScore = totalScore(team, scores, w)
-    for (let i = 0; i < team.length; i++) {
+    for (let i = pinnedCount; i < team.length; i++) {
+      // i < pinnedCount 은 고정 멤버 → 교체 금지
       const removed = team[i]
       for (const v of pool) {
         if (selected.has(v.id)) continue
