@@ -10,6 +10,8 @@ import { recommend, PRESETS } from '@/lib/recommend'
 import { useLocale, LanguageSwitcher } from '@/i18n'
 import { useView } from '@/hooks/useView'
 import { LandingPage } from '@/components/landing/LandingPage'
+import { PrivacyPolicy } from '@/components/legal/PrivacyPolicy'
+import { AdSlot } from '@/components/ads/AdSlot'
 import { VillagerGrid } from '@/components/eval/VillagerGrid'
 import { SelectionSummary } from '@/components/eval/SelectionSummary'
 import { RecommendPanel } from '@/components/viz/RecommendPanel'
@@ -22,7 +24,7 @@ const PRESET_ORDER: PresetId[] = ['fav', 'species', 'personality']
 
 function App() {
   const { locale, t } = useLocale()
-  const { view, goAbout, goApp } = useView()
+  const { view, goAbout, goApp, goPrivacy } = useView()
   const { ratings, scores } = useRatings()
   const { blacklist } = useBlacklist()
   const { residents } = useResidents()
@@ -89,6 +91,9 @@ function App() {
   // 소개 랜딩 뷰 — 해시('#about')일 때 메인 UI 대신 전체 화면 차지. (훅은 위에서 모두 호출 후 분기)
   if (view === 'about') {
     return <LandingPage onEnter={goApp} />
+  }
+  if (view === 'privacy') {
+    return <PrivacyPolicy onBack={goApp} />
   }
 
   return (
@@ -157,8 +162,14 @@ function App() {
         </Sheet>
       </div>
 
-      <footer className="container py-6 text-center text-xs text-muted-foreground">
-        비공식 팬 제작 · Animal Crossing 및 관련 명칭/이미지는 Nintendo의 자산입니다. (Nintendo 비제휴)
+      {/* 광고(보수적): env 미설정 시 null이라 현재 UX 변화 없음 */}
+      <AdSlot slot={import.meta.env.VITE_ADSENSE_SLOT_MAIN} className="px-4 pb-4" />
+
+      <footer className="container flex flex-col items-center gap-2 py-6 text-center text-xs text-muted-foreground">
+        <p>{t('footer.disclaimer')}</p>
+        <button type="button" onClick={goPrivacy} className="underline hover:text-primary">
+          {t('footer.privacy')}
+        </button>
       </footer>
     </div>
   )

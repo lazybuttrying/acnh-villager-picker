@@ -10,6 +10,7 @@ import {
 } from 'lucide-react'
 import { useLocale, LanguageSwitcher } from '@/i18n'
 import { Button } from '@/components/ui/button'
+import { AdSlot } from '@/components/ads/AdSlot'
 
 // 사이트 소개 랜딩. 라우터 없이 useView('about')일 때 App이 이 화면만 렌더한다.
 // onEnter: 메인 앱으로 진입/복귀(상단 뒤로가기 버튼 + 하단 CTA 공용).
@@ -104,6 +105,9 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
             ))}
           </ol>
         </section>
+
+        {/* 광고(보수적): env 미설정 시 null */}
+        <AdSlot slot={import.meta.env.VITE_ADSENSE_SLOT_LANDING} className="mt-16" />
 
         {/* 점수 산출 방법 */}
         <section className="mt-16">

@@ -95,6 +95,33 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.score.formula': '팀 점수 = 내 호감도 합 − 종족 겹침 − 성격 겹침',
     'landing.disclaimer':
       '비공식 팬 제작 사이트입니다. Animal Crossing 및 관련 명칭·이미지는 Nintendo의 자산이며, 본 사이트는 Nintendo와 제휴하지 않았습니다.',
+    'ads.label': '광고',
+    'footer.privacy': '개인정보처리방침',
+    'footer.disclaimer':
+      '비공식 팬 제작 · Animal Crossing 및 관련 명칭/이미지는 Nintendo의 자산입니다. (Nintendo 비제휴)',
+    'privacy.title': '개인정보처리방침',
+    'privacy.updated': '최종 수정일',
+    'privacy.back': '돌아가기',
+    'privacy.intro':
+      '본 사이트(모동숲 드림 주민 조합기)는 별도의 서버나 회원가입 없이 브라우저에서 동작하는 정적 웹사이트입니다. 아래는 데이터 사용과 광고에 관한 안내입니다.',
+    'privacy.localStorage.title': '브라우저 저장소(localStorage)',
+    'privacy.localStorage.body':
+      '주민 평가, 거주·제외 목록, 언어 설정은 오직 사용자의 브라우저(localStorage)에만 저장되며 외부 서버로 전송되지 않습니다. 브라우저 데이터를 삭제하면 함께 지워집니다.',
+    'privacy.ads.title': '광고 (Google AdSense)',
+    'privacy.ads.body':
+      '본 사이트는 Google AdSense를 통해 광고를 게재할 수 있습니다. Google 및 제3자 광고 사업자는 쿠키 등을 사용해 사용자의 이전 방문 기록을 바탕으로 맞춤 광고를 제공할 수 있습니다.',
+    'privacy.cookies.title': '쿠키',
+    'privacy.cookies.body':
+      '광고 게재 과정에서 Google이 쿠키를 사용할 수 있습니다. 사용자는 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있습니다.',
+    'privacy.consent.title': 'EU/EEA 사용자 동의',
+    'privacy.consent.body':
+      '유럽 경제 지역(EEA)·영국 등에서 접속하는 경우, Google 인증 동의 관리 메시지를 통해 맞춤 광고 및 쿠키 사용에 대한 동의 여부를 선택할 수 있습니다.',
+    'privacy.optout.title': '맞춤 광고 설정·해제',
+    'privacy.optout.body':
+      '맞춤 광고는 아래 Google 광고 설정에서 끄거나 관리할 수 있으며, 광고 관련 정책은 다음에서 확인할 수 있습니다.',
+    'privacy.contact.title': '문의',
+    'privacy.contact.body':
+      '개인정보 관련 문의는 GitHub 저장소(github.com/lazybuttrying/acnh-villager-picker)의 이슈를 통해 연락해 주세요.',
   },
   en: {
     'app.title': 'Animal Crossing Villager Picker',
@@ -190,6 +217,33 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.score.formula': 'Team score = sum of your ratings − species overlap − personality overlap',
     'landing.disclaimer':
       'This is an unofficial fan-made site. Animal Crossing and related names and images are property of Nintendo. This site is not affiliated with Nintendo.',
+    'ads.label': 'Advertisement',
+    'footer.privacy': 'Privacy Policy',
+    'footer.disclaimer':
+      'Unofficial fan-made · Animal Crossing names/images are property of Nintendo. (Not affiliated with Nintendo)',
+    'privacy.title': 'Privacy Policy',
+    'privacy.updated': 'Last updated',
+    'privacy.back': 'Back',
+    'privacy.intro':
+      'This site (ACNH Villager Picker) is a static web app that runs entirely in your browser with no server or sign-up. Below is how your data and advertising are handled.',
+    'privacy.localStorage.title': 'Browser storage (localStorage)',
+    'privacy.localStorage.body':
+      'Your villager ratings, resident/exclusion lists, and language preference are stored only in your browser (localStorage) and are never sent to any server. Clearing your browser data removes them.',
+    'privacy.ads.title': 'Advertising (Google AdSense)',
+    'privacy.ads.body':
+      'This site may display ads through Google AdSense. Google and third-party vendors may use cookies to serve ads based on your prior visits to this and other websites.',
+    'privacy.cookies.title': 'Cookies',
+    'privacy.cookies.body':
+      'Google may use cookies when serving ads. You can block or delete cookies in your browser settings.',
+    'privacy.consent.title': 'Consent for EU/EEA users',
+    'privacy.consent.body':
+      'If you visit from the European Economic Area (EEA), the UK, or similar regions, a Google-certified consent message lets you choose whether to allow personalized ads and cookies.',
+    'privacy.optout.title': 'Manage or opt out of personalized ads',
+    'privacy.optout.body':
+      'You can turn off or manage personalized ads in Google Ad Settings, and review the related advertising policies here:',
+    'privacy.contact.title': 'Contact',
+    'privacy.contact.body':
+      'For privacy inquiries, please reach out via issues on the GitHub repository (github.com/lazybuttrying/acnh-villager-picker).',
   },
   ja: {
     'app.title': 'どうぶつの森 住民ピッカー',
@@ -285,5 +339,32 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.score.formula': 'チームスコア = 評価の合計 − 種族の重なり − 性格の重なり',
     'landing.disclaimer':
       '非公式のファンサイトです。どうぶつの森および関連する名称・画像はNintendoの資産であり、本サイトはNintendoと提携していません。',
+    'ads.label': '広告',
+    'footer.privacy': 'プライバシーポリシー',
+    'footer.disclaimer':
+      '非公式ファン制作 · どうぶつの森および関連する名称・画像はNintendoの資産です。(Nintendo非提携)',
+    'privacy.title': 'プライバシーポリシー',
+    'privacy.updated': '最終更新日',
+    'privacy.back': '戻る',
+    'privacy.intro':
+      '本サイト（あつ森 ドリーム住民ピッカー）は、サーバーや会員登録なしにブラウザ上で動作する静的Webサイトです。以下はデータの取り扱いと広告に関する案内です。',
+    'privacy.localStorage.title': 'ブラウザストレージ（localStorage）',
+    'privacy.localStorage.body':
+      '住民の評価、同居・除外リスト、言語設定はユーザーのブラウザ（localStorage）にのみ保存され、外部サーバーへ送信されることはありません。ブラウザのデータを削除すると一緒に消去されます。',
+    'privacy.ads.title': '広告（Google AdSense）',
+    'privacy.ads.body':
+      '本サイトはGoogle AdSenseを通じて広告を表示する場合があります。Googleおよび第三者の広告事業者は、Cookieなどを使用して過去のアクセス情報に基づくパーソナライズ広告を配信することがあります。',
+    'privacy.cookies.title': 'Cookie',
+    'privacy.cookies.body':
+      '広告配信の際にGoogleがCookieを使用する場合があります。ユーザーはブラウザの設定でCookieをブロックまたは削除できます。',
+    'privacy.consent.title': 'EU/EEAユーザーの同意',
+    'privacy.consent.body':
+      '欧州経済領域（EEA）・英国などからアクセスする場合、Google認定の同意管理メッセージを通じて、パーソナライズ広告およびCookieの使用に同意するかどうかを選択できます。',
+    'privacy.optout.title': 'パーソナライズ広告の設定・オプトアウト',
+    'privacy.optout.body':
+      'パーソナライズ広告は以下のGoogle広告設定でオフにしたり管理したりでき、広告関連ポリシーは次で確認できます。',
+    'privacy.contact.title': 'お問い合わせ',
+    'privacy.contact.body':
+      'プライバシーに関するお問い合わせは、GitHubリポジトリ（github.com/lazybuttrying/acnh-villager-picker）のIssueからご連絡ください。',
   },
 }

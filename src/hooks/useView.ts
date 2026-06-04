@@ -1,18 +1,26 @@
 import { useCallback, useEffect, useState } from 'react'
 
-// 라우터 없이 해시 한 칸으로 뷰를 가른다. '#about' = 소개 랜딩, 그 외 = 메인 앱.
-// 해시 기반이라 GitHub Pages(base:'./') 및 브라우저 뒤로가기와 그대로 호환된다.
-export type View = 'app' | 'about'
+// 라우터 없이 해시 한 칸으로 뷰를 가른다. '#about' = 소개 랜딩, '#privacy' = 개인정보처리방침,
+// 그 외 = 메인 앱. 해시 기반이라 정적 호스팅(base:'./') 및 브라우저 뒤로가기와 그대로 호환된다.
+export type View = 'app' | 'about' | 'privacy'
 
 function parseHash(): View {
-  return window.location.hash.replace(/^#\/?/, '') === 'about' ? 'about' : 'app'
+  const h = window.location.hash.replace(/^#\/?/, '')
+  if (h === 'about') return 'about'
+  if (h === 'privacy') return 'privacy'
+  return 'app'
 }
 
 function scrollTop(): void {
   window.scrollTo({ top: 0 })
 }
 
-export function useView(): { view: View; goAbout: () => void; goApp: () => void } {
+export function useView(): {
+  view: View
+  goAbout: () => void
+  goApp: () => void
+  goPrivacy: () => void
+} {
   const [view, setView] = useState<View>(parseHash)
 
   useEffect(() => {
@@ -29,6 +37,10 @@ export function useView(): { view: View; goAbout: () => void; goApp: () => void 
     window.location.hash = 'about'
   }, [])
 
+  const goPrivacy = useCallback(() => {
+    window.location.hash = 'privacy'
+  }, [])
+
   const goApp = useCallback(() => {
     // 해시 제거로 깔끔한 URL 유지. replaceState는 hashchange를 발생시키지 않으므로 직접 갱신.
     if (window.location.hash) {
@@ -38,5 +50,5 @@ export function useView(): { view: View; goAbout: () => void; goApp: () => void 
     scrollTop()
   }, [])
 
-  return { view, goAbout, goApp }
+  return { view, goAbout, goApp, goPrivacy }
 }
