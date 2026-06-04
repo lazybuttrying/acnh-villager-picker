@@ -1,0 +1,15 @@
+# Netlify 배포 설정 — 모동숲 드림 주민 조합기 (정적 React/Vite SPA)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Vite 8 / TypeScript 6 호환 LTS 고정 (로컬 v25에 의존하지 않도록)
+  NODE_VERSION = "22"
+
+# 해시 라우팅이라 실경로는 "/" 하나뿐이지만,
+# 직접 진입/새로고침 시 SPA 폴백 안전망으로 둠.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

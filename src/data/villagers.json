@@ -10,7 +10,7 @@
     "personality": "Jock",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c3/Kid_Cat_NH.png"
+    "image": "villagers/Kid_Cat_NH.png"
   },
   {
     "id": "hip04",
@@ -23,7 +23,7 @@
     "personality": "Jock",
     "species": "Hippo",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/9c/Biff_NH.png"
+    "image": "villagers/Biff_NH.png"
   },
   {
     "id": "chn00",
@@ -36,7 +36,7 @@
     "personality": "Jock",
     "species": "Chicken",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/91/Goose_NH.png"
+    "image": "villagers/Goose_NH.png"
   },
   {
     "id": "tig01",
@@ -49,7 +49,7 @@
     "personality": "Jock",
     "species": "Tiger",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/df/Rowan_NH.png"
+    "image": "villagers/Rowan_NH.png"
   },
   {
     "id": "flg02",
@@ -62,7 +62,7 @@
     "personality": "Jock",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3b/Frobert_NH.png"
+    "image": "villagers/Frobert_NH.png"
   },
   {
     "id": "pgn11",
@@ -75,7 +75,7 @@
     "personality": "Jock",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/68/Iggly_NH.png"
+    "image": "villagers/Iggly_NH.png"
   },
   {
     "id": "rbt03",
@@ -88,7 +88,7 @@
     "personality": "Jock",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ec/Snake_NH.png"
+    "image": "villagers/Snake_NH.png"
   },
   {
     "id": "flg04",
@@ -101,7 +101,7 @@
     "personality": "Jock",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/ac/Drift_NH.png"
+    "image": "villagers/Drift_NH.png"
   },
   {
     "id": "brd04",
@@ -114,7 +114,7 @@
     "personality": "Jock",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a6/Jitters_NH.png"
+    "image": "villagers/Jitters_NH.png"
   },
   {
     "id": "cat13",
@@ -127,7 +127,7 @@
     "personality": "Jock",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/9c/Stinky_NH.png"
+    "image": "villagers/Stinky_NH.png"
   },
   {
     "id": "der01",
@@ -140,7 +140,7 @@
     "personality": "Jock",
     "species": "Deer",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/2b/Bam_NH.png"
+    "image": "villagers/Bam_NH.png"
   },
   {
     "id": "lon06",
@@ -153,7 +153,7 @@
     "personality": "Jock",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/b8/Mott_NH.png"
+    "image": "villagers/Mott_NH.png"
   },
   {
     "id": "gor02",
@@ -166,7 +166,7 @@
     "personality": "Jock",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/19/Boone_NH.png"
+    "image": "villagers/Boone_NH.png"
   },
   {
     "id": "gor04",
@@ -179,7 +179,7 @@
     "personality": "Jock",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/5a/Louie_NH.png"
+    "image": "villagers/Louie_NH.png"
   },
   {
     "id": "pig15",
@@ -192,7 +192,7 @@
     "personality": "Jock",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/71/Kevin_NH.png"
+    "image": "villagers/Kevin_NH.png"
   },
   {
     "id": "brd17",
@@ -205,7 +205,7 @@
     "personality": "Jock",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/44/Peck_NH.png"
+    "image": "villagers/Peck_NH.png"
   },
   {
     "id": "hrs00",
@@ -218,7 +218,7 @@
     "personality": "Jock",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7f/Buck_NH.png"
+    "image": "villagers/Buck_NH.png"
   },
   {
     "id": "pig08",
@@ -231,7 +231,7 @@
     "personality": "Jock",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/9d/Cobb_NH.png"
+    "image": "villagers/Cobb_NH.png"
   },
   {
     "id": "tig04",
@@ -244,7 +244,7 @@
     "personality": "Jock",
     "species": "Tiger",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/0a/Leonardo_NH.png"
+    "image": "villagers/Leonardo_NH.png"
   },
   {
     "id": "bea00",
@@ -257,7 +257,7 @@
     "personality": "Jock",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/b9/Teddy_NH.png"
+    "image": "villagers/Teddy_NH.png"
   },
   {
     "id": "cbr02",
@@ -270,7 +270,7 @@
     "personality": "Jock",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/f0/Poncho_NH.png"
+    "image": "villagers/Poncho_NH.png"
   },
   {
     "id": "lon00",
@@ -283,7 +283,7 @@
     "personality": "Jock",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1f/Bud_NH.png"
+    "image": "villagers/Bud_NH.png"
   },
   {
     "id": "pbr02",
@@ -296,7 +296,7 @@
     "personality": "Jock",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/80/Pierce_NH.png"
+    "image": "villagers/Pierce_NH.png"
   },
   {
     "id": "lon07",
@@ -309,7 +309,7 @@
     "personality": "Jock",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/db/Rory_NH.png"
+    "image": "villagers/Rory_NH.png"
   },
   {
     "id": "cbr04",
@@ -322,7 +322,7 @@
     "personality": "Jock",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/20/Kody_NH.png"
+    "image": "villagers/Kody_NH.png"
   },
   {
     "id": "elp06",
@@ -335,7 +335,7 @@
     "personality": "Jock",
     "species": "Elephant",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/09/Axel_NH.png"
+    "image": "villagers/Axel_NH.png"
   },
   {
     "id": "kal09",
@@ -348,7 +348,7 @@
     "personality": "Jock",
     "species": "Koala",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a5/Lyman_NH.png"
+    "image": "villagers/Lyman_NH.png"
   },
   {
     "id": "flg10",
@@ -361,7 +361,7 @@
     "personality": "Jock",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1c/Cousteau_NH.png"
+    "image": "villagers/Cousteau_NH.png"
   },
   {
     "id": "mnk06",
@@ -374,7 +374,7 @@
     "personality": "Jock",
     "species": "Monkey",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c3/Flip_NH.png"
+    "image": "villagers/Flip_NH.png"
   },
   {
     "id": "pbr07",
@@ -387,7 +387,7 @@
     "personality": "Jock",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/4f/Sterling_NH.png"
+    "image": "villagers/Sterling_NH.png"
   },
   {
     "id": "mus05",
@@ -400,7 +400,7 @@
     "personality": "Jock",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ea/Rod_NH.png"
+    "image": "villagers/Rod_NH.png"
   },
   {
     "id": "duk10",
@@ -413,7 +413,7 @@
     "personality": "Jock",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ec/Scoot_NH.png"
+    "image": "villagers/Scoot_NH.png"
   },
   {
     "id": "shp15",
@@ -426,7 +426,7 @@
     "personality": "Jock",
     "species": "Sheep",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/75/Dom_NH.png"
+    "image": "villagers/Dom_NH.png"
   },
   {
     "id": "cat20",
@@ -439,7 +439,7 @@
     "personality": "Jock",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7e/Rudy_NH.png"
+    "image": "villagers/Rudy_NH.png"
   },
   {
     "id": "brd00",
@@ -452,7 +452,7 @@
     "personality": "Jock",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7f/Jay_NH.png"
+    "image": "villagers/Jay_NH.png"
   },
   {
     "id": "dog14",
@@ -465,7 +465,7 @@
     "personality": "Jock",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/ab/Mac_NH.png"
+    "image": "villagers/Mac_NH.png"
   },
   {
     "id": "bul07",
@@ -478,7 +478,7 @@
     "personality": "Jock",
     "species": "Bull",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c1/Coach_NH.png"
+    "image": "villagers/Coach_NH.png"
   },
   {
     "id": "flg01",
@@ -491,7 +491,7 @@
     "personality": "Jock",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/94/Ribbot_NH.png"
+    "image": "villagers/Ribbot_NH.png"
   },
   {
     "id": "brd18",
@@ -504,7 +504,7 @@
     "personality": "Jock",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/32/Sparro_NH.png"
+    "image": "villagers/Sparro_NH.png"
   },
   {
     "id": "duk00",
@@ -517,7 +517,7 @@
     "personality": "Jock",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c1/Bill_NH.png"
+    "image": "villagers/Bill_NH.png"
   },
   {
     "id": "squ16",
@@ -530,7 +530,7 @@
     "personality": "Jock",
     "species": "Squirrel",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/ce/Sheldon_NH.png"
+    "image": "villagers/Sheldon_NH.png"
   },
   {
     "id": "rhn00",
@@ -543,7 +543,7 @@
     "personality": "Jock",
     "species": "Rhino",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d9/Tank_NH.png"
+    "image": "villagers/Tank_NH.png"
   },
   {
     "id": "flg09",
@@ -556,7 +556,7 @@
     "personality": "Jock",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/67/Tad_NH.png"
+    "image": "villagers/Tad_NH.png"
   },
   {
     "id": "rbt08",
@@ -569,7 +569,7 @@
     "personality": "Jock",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/67/Genji_NH.png"
+    "image": "villagers/Genji_NH.png"
   },
   {
     "id": "tig02",
@@ -582,7 +582,7 @@
     "personality": "Jock",
     "species": "Tiger",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/0f/Tybalt_NH.png"
+    "image": "villagers/Tybalt_NH.png"
   },
   {
     "id": "ant01",
@@ -595,7 +595,7 @@
     "personality": "Jock",
     "species": "Anteater",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d4/Antonio_NH.png"
+    "image": "villagers/Antonio_NH.png"
   },
   {
     "id": "pgn01",
@@ -608,7 +608,7 @@
     "personality": "Jock",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/63/Roald_NH.png"
+    "image": "villagers/Roald_NH.png"
   },
   {
     "id": "crd02",
@@ -621,7 +621,7 @@
     "personality": "Jock",
     "species": "Alligator",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3e/Boots_NH.png"
+    "image": "villagers/Boots_NH.png"
   },
   {
     "id": "mus04",
@@ -634,7 +634,7 @@
     "personality": "Jock",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/9b/Samson_NH.png"
+    "image": "villagers/Samson_NH.png"
   },
   {
     "id": "mus14",
@@ -647,7 +647,7 @@
     "personality": "Jock",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ee/Moose_NH.png"
+    "image": "villagers/Moose_NH.png"
   },
   {
     "id": "crd06",
@@ -660,7 +660,7 @@
     "personality": "Jock",
     "species": "Alligator",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/70/Sly_NH.png"
+    "image": "villagers/Sly_NH.png"
   },
   {
     "id": "pig00",
@@ -673,7 +673,7 @@
     "personality": "Jock",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3d/Curly_NH.png"
+    "image": "villagers/Curly_NH.png"
   },
   {
     "id": "ham00",
@@ -686,7 +686,7 @@
     "personality": "Jock",
     "species": "Hamster",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/46/Hamlet_NH.png"
+    "image": "villagers/Hamlet_NH.png"
   },
   {
     "id": "ost03",
@@ -699,7 +699,7 @@
     "personality": "Jock",
     "species": "Ostrich",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/8b/Sprocket_NH.png"
+    "image": "villagers/Sprocket_NH.png"
   },
   {
     "id": "goa02",
@@ -712,7 +712,7 @@
     "personality": "Jock",
     "species": "Goat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/26/Billy_NH.png"
+    "image": "villagers/Billy_NH.png"
   },
   {
     "id": "elp02",
@@ -725,7 +725,7 @@
     "personality": "Lazy",
     "species": "Elephant",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/80/Big_Top_NH.png"
+    "image": "villagers/Big_Top_NH.png"
   },
   {
     "id": "flg15",
@@ -738,7 +738,7 @@
     "personality": "Lazy",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7a/Raddle_NH.png"
+    "image": "villagers/Raddle_NH.png"
   },
   {
     "id": "cbr16",
@@ -751,7 +751,7 @@
     "personality": "Lazy",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/9d/Barold_NH.png"
+    "image": "villagers/Barold_NH.png"
   },
   {
     "id": "chn02",
@@ -764,7 +764,7 @@
     "personality": "Lazy",
     "species": "Chicken",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3f/Egbert_NH.png"
+    "image": "villagers/Egbert_NH.png"
   },
   {
     "id": "mnk08",
@@ -777,7 +777,7 @@
     "personality": "Lazy",
     "species": "Monkey",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/30/Deli_NH.png"
+    "image": "villagers/Deli_NH.png"
   },
   {
     "id": "kal05",
@@ -790,7 +790,7 @@
     "personality": "Lazy",
     "species": "Koala",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3a/Ozzie_NH.png"
+    "image": "villagers/Ozzie_NH.png"
   },
   {
     "id": "flg07",
@@ -803,7 +803,7 @@
     "personality": "Lazy",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/93/Jeremiah_NH.png"
+    "image": "villagers/Jeremiah_NH.png"
   },
   {
     "id": "dog16",
@@ -816,7 +816,7 @@
     "personality": "Lazy",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/97/Benjamin_NH.png"
+    "image": "villagers/Benjamin_NH.png"
   },
   {
     "id": "goa09",
@@ -829,7 +829,7 @@
     "personality": "Lazy",
     "species": "Goat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/18/Sherb_NH.png"
+    "image": "villagers/Sherb_NH.png"
   },
   {
     "id": "dog02",
@@ -842,7 +842,7 @@
     "personality": "Lazy",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/59/Lucky_NH.png"
+    "image": "villagers/Lucky_NH.png"
   },
   {
     "id": "lon02",
@@ -855,7 +855,7 @@
     "personality": "Lazy",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/78/Rex_NH.png"
+    "image": "villagers/Rex_NH.png"
   },
   {
     "id": "bul01",
@@ -868,7 +868,7 @@
     "personality": "Lazy",
     "species": "Bull",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/6c/Rodeo_NH.png"
+    "image": "villagers/Rodeo_NH.png"
   },
   {
     "id": "dog03",
@@ -881,7 +881,7 @@
     "personality": "Lazy",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/78/Biskit_NH.png"
+    "image": "villagers/Biskit_NH.png"
   },
   {
     "id": "duk01",
@@ -894,7 +894,7 @@
     "personality": "Lazy",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/66/Joey_NH.png"
+    "image": "villagers/Joey_NH.png"
   },
   {
     "id": "squ02",
@@ -907,7 +907,7 @@
     "personality": "Lazy",
     "species": "Squirrel",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/81/Filbert_NH.png"
+    "image": "villagers/Filbert_NH.png"
   },
   {
     "id": "hrs12",
@@ -920,7 +920,7 @@
     "personality": "Lazy",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a7/Papi_NH.png"
+    "image": "villagers/Papi_NH.png"
   },
   {
     "id": "hrs10",
@@ -933,7 +933,7 @@
     "personality": "Lazy",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/bb/Clyde_NH.png"
+    "image": "villagers/Clyde_NH.png"
   },
   {
     "id": "elp09",
@@ -946,7 +946,7 @@
     "personality": "Lazy",
     "species": "Elephant",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7c/Tucker_NH.png"
+    "image": "villagers/Tucker_NH.png"
   },
   {
     "id": "pig03",
@@ -959,7 +959,7 @@
     "personality": "Lazy",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/b6/Hugh_NH.png"
+    "image": "villagers/Hugh_NH.png"
   },
   {
     "id": "bul03",
@@ -972,7 +972,7 @@
     "personality": "Lazy",
     "species": "Bull",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/fa/Stu_NH.png"
+    "image": "villagers/Stu_NH.png"
   },
   {
     "id": "bea05",
@@ -985,7 +985,7 @@
     "personality": "Lazy",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/55/Nate_NH.png"
+    "image": "villagers/Nate_NH.png"
   },
   {
     "id": "dog06",
@@ -998,7 +998,7 @@
     "personality": "Lazy",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/0f/Walker_NH.png"
+    "image": "villagers/Walker_NH.png"
   },
   {
     "id": "duk08",
@@ -1011,7 +1011,7 @@
     "personality": "Lazy",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/98/Derwin_NH.png"
+    "image": "villagers/Derwin_NH.png"
   },
   {
     "id": "mus12",
@@ -1024,7 +1024,7 @@
     "personality": "Lazy",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/69/Broccolo_NH.png"
+    "image": "villagers/Broccolo_NH.png"
   },
   {
     "id": "rbt11",
@@ -1037,7 +1037,7 @@
     "personality": "Lazy",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1f/Claude_NH.png"
+    "image": "villagers/Claude_NH.png"
   },
   {
     "id": "pgn02",
@@ -1050,7 +1050,7 @@
     "personality": "Lazy",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/10/Cube_NH.png"
+    "image": "villagers/Cube_NH.png"
   },
   {
     "id": "cat06",
@@ -1063,7 +1063,7 @@
     "personality": "Lazy",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/6d/Punchy_NH.png"
+    "image": "villagers/Punchy_NH.png"
   },
   {
     "id": "rhn04",
@@ -1076,7 +1076,7 @@
     "personality": "Lazy",
     "species": "Rhino",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/95/Hornsby_NH.png"
+    "image": "villagers/Hornsby_NH.png"
   },
   {
     "id": "hrs03",
@@ -1089,7 +1089,7 @@
     "personality": "Lazy",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/60/Elmer_NH.png"
+    "image": "villagers/Elmer_NH.png"
   },
   {
     "id": "mnk02",
@@ -1102,7 +1102,7 @@
     "personality": "Lazy",
     "species": "Monkey",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/68/Simon_NH.png"
+    "image": "villagers/Simon_NH.png"
   },
   {
     "id": "rbt18",
@@ -1115,7 +1115,7 @@
     "personality": "Lazy",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/f6/Cole_NH.png"
+    "image": "villagers/Cole_NH.png"
   },
   {
     "id": "duk11",
@@ -1128,7 +1128,7 @@
     "personality": "Lazy",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/66/Weber_NH.png"
+    "image": "villagers/Weber_NH.png"
   },
   {
     "id": "brd02",
@@ -1141,7 +1141,7 @@
     "personality": "Lazy",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ea/Anchovy_NH.png"
+    "image": "villagers/Anchovy_NH.png"
   },
   {
     "id": "crd00",
@@ -1154,7 +1154,7 @@
     "personality": "Lazy",
     "species": "Alligator",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e4/Alfonso_NH.png"
+    "image": "villagers/Alfonso_NH.png"
   },
   {
     "id": "brd11",
@@ -1167,7 +1167,7 @@
     "personality": "Lazy",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3e/Jacob_NH.png"
+    "image": "villagers/Jacob_NH.png"
   },
   {
     "id": "dog15",
@@ -1180,7 +1180,7 @@
     "personality": "Lazy",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3e/Marcel_NH.png"
+    "image": "villagers/Marcel_NH.png"
   },
   {
     "id": "crd08",
@@ -1193,7 +1193,7 @@
     "personality": "Lazy",
     "species": "Alligator",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/f9/Drago_NH.png"
+    "image": "villagers/Drago_NH.png"
   },
   {
     "id": "cbr03",
@@ -1206,7 +1206,7 @@
     "personality": "Lazy",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/87/Pudge_NH.png"
+    "image": "villagers/Pudge_NH.png"
   },
   {
     "id": "gor08",
@@ -1219,7 +1219,7 @@
     "personality": "Lazy",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c4/Al_NH.png"
+    "image": "villagers/Al_NH.png"
   },
   {
     "id": "der09",
@@ -1232,7 +1232,7 @@
     "personality": "Lazy",
     "species": "Deer",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/88/Erik_NH.png"
+    "image": "villagers/Erik_NH.png"
   },
   {
     "id": "cat08",
@@ -1245,7 +1245,7 @@
     "personality": "Lazy",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a4/Moe_NH.png"
+    "image": "villagers/Moe_NH.png"
   },
   {
     "id": "flg12",
@@ -1258,7 +1258,7 @@
     "personality": "Lazy",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a6/Prince_NH.png"
+    "image": "villagers/Prince_NH.png"
   },
   {
     "id": "ost06",
@@ -1271,7 +1271,7 @@
     "personality": "Lazy",
     "species": "Ostrich",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/b7/Cranston_NH.png"
+    "image": "villagers/Cranston_NH.png"
   },
   {
     "id": "ocp02",
@@ -1284,7 +1284,7 @@
     "personality": "Lazy",
     "species": "Octopus",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7f/Zucker_NH.png"
+    "image": "villagers/Zucker_NH.png"
   },
   {
     "id": "rbt10",
@@ -1297,7 +1297,7 @@
     "personality": "Lazy",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/cd/Doc_NH.png"
+    "image": "villagers/Doc_NH.png"
   },
   {
     "id": "dog04",
@@ -1310,7 +1310,7 @@
     "personality": "Lazy",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/2b/Bones_NH.png"
+    "image": "villagers/Bones_NH.png"
   },
   {
     "id": "elp05",
@@ -1323,7 +1323,7 @@
     "personality": "Lazy",
     "species": "Elephant",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/59/Paolo_NH.png"
+    "image": "villagers/Paolo_NH.png"
   },
   {
     "id": "cbr05",
@@ -1336,7 +1336,7 @@
     "personality": "Lazy",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/56/Stitches_NH.png"
+    "image": "villagers/Stitches_NH.png"
   },
   {
     "id": "cbr15",
@@ -1349,7 +1349,7 @@
     "personality": "Lazy",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/af/Chester_NH.png"
+    "image": "villagers/Chester_NH.png"
   },
   {
     "id": "pgn10",
@@ -1362,7 +1362,7 @@
     "personality": "Lazy",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7d/Boomer_NH.png"
+    "image": "villagers/Boomer_NH.png"
   },
   {
     "id": "chn01",
@@ -1375,7 +1375,7 @@
     "personality": "Lazy",
     "species": "Chicken",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3a/Benedict_NH.png"
+    "image": "villagers/Benedict_NH.png"
   },
   {
     "id": "pig05",
@@ -1388,7 +1388,7 @@
     "personality": "Lazy",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c2/Spork_NH.png"
+    "image": "villagers/Spork_NH.png"
   },
   {
     "id": "duk09",
@@ -1401,7 +1401,7 @@
     "personality": "Lazy",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e0/Drake_NH.png"
+    "image": "villagers/Drake_NH.png"
   },
   {
     "id": "der07",
@@ -1414,7 +1414,7 @@
     "personality": "Lazy",
     "species": "Deer",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d4/Beau_NH.png"
+    "image": "villagers/Beau_NH.png"
   },
   {
     "id": "pgn06",
@@ -1427,7 +1427,7 @@
     "personality": "Lazy",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/53/Puck_NH.png"
+    "image": "villagers/Puck_NH.png"
   },
   {
     "id": "ham05",
@@ -1440,7 +1440,7 @@
     "personality": "Lazy",
     "species": "Hamster",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/6c/Clay_NH.png"
+    "image": "villagers/Clay_NH.png"
   },
   {
     "id": "pgn09",
@@ -1453,7 +1453,7 @@
     "personality": "Lazy",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/52/Wade_NH.png"
+    "image": "villagers/Wade_NH.png"
   },
   {
     "id": "rbt14",
@@ -1466,7 +1466,7 @@
     "personality": "Lazy",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c1/Hopkins_NH.png"
+    "image": "villagers/Hopkins_NH.png"
   },
   {
     "id": "elp01",
@@ -1479,7 +1479,7 @@
     "personality": "Lazy",
     "species": "Elephant",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/63/Dizzy_NH.png"
+    "image": "villagers/Dizzy_NH.png"
   },
   {
     "id": "cat00",
@@ -1492,7 +1492,7 @@
     "personality": "Lazy",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ea/Bob_NH.png"
+    "image": "villagers/Bob_NH.png"
   },
   {
     "id": "cat09",
@@ -1505,7 +1505,7 @@
     "personality": "Cranky",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/2a/Kabuki_NH.png"
+    "image": "villagers/Kabuki_NH.png"
   },
   {
     "id": "squ10",
@@ -1518,7 +1518,7 @@
     "personality": "Cranky",
     "species": "Squirrel",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/8d/Ricky_NH.png"
+    "image": "villagers/Ricky_NH.png"
   },
   {
     "id": "bea06",
@@ -1531,7 +1531,7 @@
     "personality": "Cranky",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1d/Groucho_NH.png"
+    "image": "villagers/Groucho_NH.png"
   },
   {
     "id": "hip00",
@@ -1544,7 +1544,7 @@
     "personality": "Cranky",
     "species": "Hippo",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/02/Rocco_NH.png"
+    "image": "villagers/Rocco_NH.png"
   },
   {
     "id": "cbr06",
@@ -1557,7 +1557,7 @@
     "personality": "Cranky",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/75/Vladimir_NH.png"
+    "image": "villagers/Vladimir_NH.png"
   },
   {
     "id": "kgr08",
@@ -1570,7 +1570,7 @@
     "personality": "Cranky",
     "species": "Kangaroo",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/bf/Walt_NH.png"
+    "image": "villagers/Walt_NH.png"
   },
   {
     "id": "kal04",
@@ -1583,7 +1583,7 @@
     "personality": "Cranky",
     "species": "Koala",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/09/Gonzo_NH.png"
+    "image": "villagers/Gonzo_NH.png"
   },
   {
     "id": "pbr03",
@@ -1596,7 +1596,7 @@
     "personality": "Cranky",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/05/Buzz_NH.png"
+    "image": "villagers/Buzz_NH.png"
   },
   {
     "id": "pig02",
@@ -1609,7 +1609,7 @@
     "personality": "Cranky",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e1/Rasher_NH.png"
+    "image": "villagers/Rasher_NH.png"
   },
   {
     "id": "chn11",
@@ -1622,7 +1622,7 @@
     "personality": "Cranky",
     "species": "Chicken",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/03/Knox_NH.png"
+    "image": "villagers/Knox_NH.png"
   },
   {
     "id": "bul08",
@@ -1635,7 +1635,7 @@
     "personality": "Cranky",
     "species": "Bull",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1d/Vic_NH.png"
+    "image": "villagers/Vic_NH.png"
   },
   {
     "id": "wol01",
@@ -1648,7 +1648,7 @@
     "personality": "Cranky",
     "species": "Wolf",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d1/Lobo_NH.png"
+    "image": "villagers/Lobo_NH.png"
   },
   {
     "id": "mus01",
@@ -1661,7 +1661,7 @@
     "personality": "Cranky",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/b0/Limberg_NH.png"
+    "image": "villagers/Limberg_NH.png"
   },
   {
     "id": "pgn03",
@@ -1674,7 +1674,7 @@
     "personality": "Cranky",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/cb/Hopper_NH.png"
+    "image": "villagers/Hopper_NH.png"
   },
   {
     "id": "bea11",
@@ -1687,7 +1687,7 @@
     "personality": "Cranky",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/34/Ike_NH.png"
+    "image": "villagers/Ike_NH.png"
   },
   {
     "id": "rbt04",
@@ -1700,7 +1700,7 @@
     "personality": "Cranky",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/59/Gaston_NH.png"
+    "image": "villagers/Gaston_NH.png"
   },
   {
     "id": "wol00",
@@ -1713,7 +1713,7 @@
     "personality": "Cranky",
     "species": "Wolf",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/13/Chief_NH.png"
+    "image": "villagers/Chief_NH.png"
   },
   {
     "id": "gor01",
@@ -1726,7 +1726,7 @@
     "personality": "Cranky",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/2a/Peewee_NH.png"
+    "image": "villagers/Peewee_NH.png"
   },
   {
     "id": "bea02",
@@ -1739,7 +1739,7 @@
     "personality": "Cranky",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/27/Curt_NH.png"
+    "image": "villagers/Curt_NH.png"
   },
   {
     "id": "wol02",
@@ -1752,7 +1752,7 @@
     "personality": "Cranky",
     "species": "Wolf",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/aa/Wolfgang_NH.png"
+    "image": "villagers/Wolfgang_NH.png"
   },
   {
     "id": "kgr09",
@@ -1765,7 +1765,7 @@
     "personality": "Cranky",
     "species": "Kangaroo",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/79/Rooney_NH.png"
+    "image": "villagers/Rooney_NH.png"
   },
   {
     "id": "cbr07",
@@ -1778,7 +1778,7 @@
     "personality": "Cranky",
     "species": "Cub",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7c/Murphy_NH.png"
+    "image": "villagers/Murphy_NH.png"
   },
   {
     "id": "mnk04",
@@ -1791,7 +1791,7 @@
     "personality": "Cranky",
     "species": "Monkey",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d7/Monty_NH.png"
+    "image": "villagers/Monty_NH.png"
   },
   {
     "id": "bea09",
@@ -1804,7 +1804,7 @@
     "personality": "Cranky",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/4b/Grizzly_NH.png"
+    "image": "villagers/Grizzly_NH.png"
   },
   {
     "id": "ocp00",
@@ -1817,7 +1817,7 @@
     "personality": "Cranky",
     "species": "Octopus",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1b/Octavian_NH.png"
+    "image": "villagers/Octavian_NH.png"
   },
   {
     "id": "bul00",
@@ -1830,7 +1830,7 @@
     "personality": "Cranky",
     "species": "Bull",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/5f/Angus_NH.png"
+    "image": "villagers/Angus_NH.png"
   },
   {
     "id": "cat15",
@@ -1843,7 +1843,7 @@
     "personality": "Cranky",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d1/Tom_NH.png"
+    "image": "villagers/Tom_NH.png"
   },
   {
     "id": "pig09",
@@ -1856,7 +1856,7 @@
     "personality": "Cranky",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ef/Boris_NH.png"
+    "image": "villagers/Boris_NH.png"
   },
   {
     "id": "gor05",
@@ -1869,7 +1869,7 @@
     "personality": "Cranky",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/21/Boyd_NH.png"
+    "image": "villagers/Boyd_NH.png"
   },
   {
     "id": "der03",
@@ -1882,7 +1882,7 @@
     "personality": "Cranky",
     "species": "Deer",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/08/Bruce_NH.png"
+    "image": "villagers/Bruce_NH.png"
   },
   {
     "id": "goa04",
@@ -1895,7 +1895,7 @@
     "personality": "Cranky",
     "species": "Goat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/25/Gruff_NH.png"
+    "image": "villagers/Gruff_NH.png"
   },
   {
     "id": "ant00",
@@ -1908,7 +1908,7 @@
     "personality": "Cranky",
     "species": "Anteater",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/48/Cyrano_NH.png"
+    "image": "villagers/Cyrano_NH.png"
   },
   {
     "id": "flg05",
@@ -1921,7 +1921,7 @@
     "personality": "Cranky",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/21/Wart_Jr._NH.png"
+    "image": "villagers/Wart_Jr._NH.png"
   },
   {
     "id": "hrs04",
@@ -1934,7 +1934,7 @@
     "personality": "Cranky",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/8e/Roscoe_NH.png"
+    "image": "villagers/Roscoe_NH.png"
   },
   {
     "id": "rhn02",
@@ -1947,7 +1947,7 @@
     "personality": "Cranky",
     "species": "Rhino",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/f1/Spike_NH.png"
+    "image": "villagers/Spike_NH.png"
   },
   {
     "id": "squ08",
@@ -1960,7 +1960,7 @@
     "personality": "Cranky",
     "species": "Squirrel",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/68/Static_NH.png"
+    "image": "villagers/Static_NH.png"
   },
   {
     "id": "wol06",
@@ -1973,7 +1973,7 @@
     "personality": "Cranky",
     "species": "Wolf",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/9d/Fang_NH.png"
+    "image": "villagers/Fang_NH.png"
   },
   {
     "id": "pbr00",
@@ -1986,7 +1986,7 @@
     "personality": "Cranky",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/28/Apollo_NH.png"
+    "image": "villagers/Apollo_NH.png"
   },
   {
     "id": "gor00",
@@ -1999,7 +1999,7 @@
     "personality": "Cranky",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/23/Cesar_NH.png"
+    "image": "villagers/Cesar_NH.png"
   },
   {
     "id": "hip08",
@@ -2012,7 +2012,7 @@
     "personality": "Cranky",
     "species": "Hippo",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/1a/Harry_NH.png"
+    "image": "villagers/Harry_NH.png"
   },
   {
     "id": "brd06",
@@ -2025,7 +2025,7 @@
     "personality": "Cranky",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/ed/Admiral_NH.png"
+    "image": "villagers/Admiral_NH.png"
   },
   {
     "id": "mus09",
@@ -2038,7 +2038,7 @@
     "personality": "Cranky",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/6/69/Rizzo_NH.png"
+    "image": "villagers/Rizzo_NH.png"
   },
   {
     "id": "dog01",
@@ -2051,7 +2051,7 @@
     "personality": "Cranky",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/2b/Butch_NH.png"
+    "image": "villagers/Butch_NH.png"
   },
   {
     "id": "flg03",
@@ -2064,7 +2064,7 @@
     "personality": "Cranky",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e1/Camofrog_NH.png"
+    "image": "villagers/Camofrog_NH.png"
   },
   {
     "id": "bea03",
@@ -2077,7 +2077,7 @@
     "personality": "Cranky",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/d1/Chow_NH.png"
+    "image": "villagers/Chow_NH.png"
   },
   {
     "id": "wol04",
@@ -2090,7 +2090,7 @@
     "personality": "Cranky",
     "species": "Wolf",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/76/Dobie_NH.png"
+    "image": "villagers/Dobie_NH.png"
   },
   {
     "id": "pbr05",
@@ -2103,7 +2103,7 @@
     "personality": "Cranky",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/dd/Avery_NH.png"
+    "image": "villagers/Avery_NH.png"
   },
   {
     "id": "lon01",
@@ -2116,7 +2116,7 @@
     "personality": "Cranky",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/cc/Elvis_NH.png"
+    "image": "villagers/Elvis_NH.png"
   },
   {
     "id": "flg17",
@@ -2129,7 +2129,7 @@
     "personality": "Cranky",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/70/Croque_NH.png"
+    "image": "villagers/Croque_NH.png"
   },
   {
     "id": "bul05",
@@ -2142,7 +2142,7 @@
     "personality": "Cranky",
     "species": "Bull",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e0/T-Bone_NH.png"
+    "image": "villagers/T-Bone_NH.png"
   },
   {
     "id": "crd04",
@@ -2155,7 +2155,7 @@
     "personality": "Cranky",
     "species": "Alligator",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/46/Del_NH.png"
+    "image": "villagers/Del_NH.png"
   },
   {
     "id": "elp12",
@@ -2168,7 +2168,7 @@
     "personality": "Cranky",
     "species": "Elephant",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/5d/Cyd_NH.png"
+    "image": "villagers/Cyd_NH.png"
   },
   {
     "id": "ham07",
@@ -2181,7 +2181,7 @@
     "personality": "Cranky",
     "species": "Hamster",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a9/Hamphrey_NH.png"
+    "image": "villagers/Hamphrey_NH.png"
   },
   {
     "id": "pbr06",
@@ -2194,7 +2194,7 @@
     "personality": "Cranky",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/75/Frank_NH.png"
+    "image": "villagers/Frank_NH.png"
   },
   {
     "id": "tig00",
@@ -2207,7 +2207,7 @@
     "personality": "Cranky",
     "species": "Tiger",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/9/93/Rolf_NH.png"
+    "image": "villagers/Rolf_NH.png"
   },
   {
     "id": "bea14",
@@ -2220,7 +2220,7 @@
     "personality": "Smug",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/5c/Klaus_NH.png"
+    "image": "villagers/Klaus_NH.png"
   },
   {
     "id": "ham02",
@@ -2233,7 +2233,7 @@
     "personality": "Smug",
     "species": "Hamster",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/a1/Graham_NH.png"
+    "image": "villagers/Graham_NH.png"
   },
   {
     "id": "hrs06",
@@ -2246,7 +2246,7 @@
     "personality": "Smug",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c9/Ed_NH.png"
+    "image": "villagers/Ed_NH.png"
   },
   {
     "id": "der02",
@@ -2259,7 +2259,7 @@
     "personality": "Smug",
     "species": "Deer",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c0/Zell_NH.png"
+    "image": "villagers/Zell_NH.png"
   },
   {
     "id": "duk17",
@@ -2272,7 +2272,7 @@
     "personality": "Smug",
     "species": "Duck",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e4/Quillson_NH.png"
+    "image": "villagers/Quillson_NH.png"
   },
   {
     "id": "hip09",
@@ -2285,7 +2285,7 @@
     "personality": "Smug",
     "species": "Hippo",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/26/Hippeux_NH.png"
+    "image": "villagers/Hippeux_NH.png"
   },
   {
     "id": "pig14",
@@ -2298,7 +2298,7 @@
     "personality": "Smug",
     "species": "Pig",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/32/Chops_NH.png"
+    "image": "villagers/Chops_NH.png"
   },
   {
     "id": "lon08",
@@ -2311,7 +2311,7 @@
     "personality": "Smug",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/b/bb/Lionel_NH.png"
+    "image": "villagers/Lionel_NH.png"
   },
   {
     "id": "wol10",
@@ -2324,7 +2324,7 @@
     "personality": "Smug",
     "species": "Wolf",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/46/Kyle_NH.png"
+    "image": "villagers/Kyle_NH.png"
   },
   {
     "id": "brd15",
@@ -2337,7 +2337,7 @@
     "personality": "Smug",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/4a/Lucha_NH.png"
+    "image": "villagers/Lucha_NH.png"
   },
   {
     "id": "dog18",
@@ -2350,7 +2350,7 @@
     "personality": "Smug",
     "species": "Dog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c1/Shep_NH.png"
+    "image": "villagers/Shep_NH.png"
   },
   {
     "id": "bea13",
@@ -2363,7 +2363,7 @@
     "personality": "Smug",
     "species": "Bear",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/c0/Beardo_NH.png"
+    "image": "villagers/Beardo_NH.png"
   },
   {
     "id": "pgn12",
@@ -2376,7 +2376,7 @@
     "personality": "Smug",
     "species": "Penguin",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/4/44/Tex_NH.png"
+    "image": "villagers/Tex_NH.png"
   },
   {
     "id": "rbt15",
@@ -2389,7 +2389,7 @@
     "personality": "Smug",
     "species": "Rabbit",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/c/cf/O'Hare_NH.png"
+    "image": "villagers/O'Hare_NH.png"
   },
   {
     "id": "gor10",
@@ -2402,7 +2402,7 @@
     "personality": "Smug",
     "species": "Gorilla",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/15/Hans_NH.png"
+    "image": "villagers/Hans_NH.png"
   },
   {
     "id": "flg11",
@@ -2415,7 +2415,7 @@
     "personality": "Smug",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/17/Huck_NH.png"
+    "image": "villagers/Huck_NH.png"
   },
   {
     "id": "hrs11",
@@ -2428,7 +2428,7 @@
     "personality": "Smug",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/8/8c/Colton_NH.png"
+    "image": "villagers/Colton_NH.png"
   },
   {
     "id": "ant09",
@@ -2441,7 +2441,7 @@
     "personality": "Smug",
     "species": "Anteater",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/1/11/Olaf_NH.png"
+    "image": "villagers/Olaf_NH.png"
   },
   {
     "id": "goa07",
@@ -2454,7 +2454,7 @@
     "personality": "Smug",
     "species": "Goat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/7/7a/Kidd_NH.png"
+    "image": "villagers/Kidd_NH.png"
   },
   {
     "id": "chn13",
@@ -2467,7 +2467,7 @@
     "personality": "Smug",
     "species": "Chicken",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/e/e0/Ken_NH.png"
+    "image": "villagers/Ken_NH.png"
   },
   {
     "id": "hrs13",
@@ -2480,7 +2480,7 @@
     "personality": "Smug",
     "species": "Horse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/f2/Julian_NH.png"
+    "image": "villagers/Julian_NH.png"
   },
   {
     "id": "cat23",
@@ -2493,7 +2493,7 @@
     "personality": "Smug",
     "species": "Cat",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/2a/Raymond_NH.png"
+    "image": "villagers/Raymond_NH.png"
   },
   {
     "id": "ham03",
@@ -2506,7 +2506,7 @@
     "personality": "Smug",
     "species": "Hamster",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/35/Rodney_NH.png"
+    "image": "villagers/Rodney_NH.png"
   },
   {
     "id": "brd16",
@@ -2519,7 +2519,7 @@
     "personality": "Smug",
     "species": "Bird",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/0/03/Jacques_NH.png"
+    "image": "villagers/Jacques_NH.png"
   },
   {
     "id": "squ17",
@@ -2532,7 +2532,7 @@
     "personality": "Smug",
     "species": "Squirrel",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/d/da/Marshal_NH.png"
+    "image": "villagers/Marshal_NH.png"
   },
   {
     "id": "mus18",
@@ -2545,7 +2545,7 @@
     "personality": "Smug",
     "species": "Mouse",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/32/Chadder_NH.png"
+    "image": "villagers/Chadder_NH.png"
   },
   {
     "id": "shp08",
@@ -2558,7 +2558,7 @@
     "personality": "Smug",
     "species": "Sheep",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/37/Curlos_NH.png"
+    "image": "villagers/Curlos_NH.png"
   },
   {
     "id": "ost07",
@@ -2571,7 +2571,7 @@
     "personality": "Smug",
     "species": "Ostrich",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/f2/Phil_NH.png"
+    "image": "villagers/Phil_NH.png"
   },
   {
     "id": "kal10",
@@ -2584,7 +2584,7 @@
     "personality": "Smug",
     "species": "Koala",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/a/ab/Eugene_NH.png"
+    "image": "villagers/Eugene_NH.png"
   },
   {
     "id": "der05",
@@ -2597,7 +2597,7 @@
     "personality": "Smug",
     "species": "Deer",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/5/53/Lopez_NH.png"
+    "image": "villagers/Lopez_NH.png"
   },
   {
     "id": "lon04",
@@ -2610,7 +2610,7 @@
     "personality": "Smug",
     "species": "Lion",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3a/Leopold_NH.png"
+    "image": "villagers/Leopold_NH.png"
   },
   {
     "id": "pbr08",
@@ -2623,7 +2623,7 @@
     "personality": "Smug",
     "species": "Eagle",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/3/3b/Keaton_NH.png"
+    "image": "villagers/Keaton_NH.png"
   },
   {
     "id": "shp13",
@@ -2636,7 +2636,7 @@
     "personality": "Smug",
     "species": "Sheep",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/f/fb/Pietro_NH.png"
+    "image": "villagers/Pietro_NH.png"
   },
   {
     "id": "flg19",
@@ -2649,7 +2649,7 @@
     "personality": "Smug",
     "species": "Frog",
     "gender": "Male",
-    "image": "https://dodo.ac/np/images/2/26/Henry_NH.png"
+    "image": "villagers/Henry_NH.png"
   },
   {
     "id": "squ05",
@@ -2662,7 +2662,7 @@
     "personality": "Peppy",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a7/Agent_S_NH.png"
+    "image": "villagers/Agent_S_NH.png"
   },
   {
     "id": "flg06",
@@ -2675,7 +2675,7 @@
     "personality": "Peppy",
     "species": "Frog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/f9/Puddles_NH.png"
+    "image": "villagers/Puddles_NH.png"
   },
   {
     "id": "squ04",
@@ -2688,7 +2688,7 @@
     "personality": "Peppy",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/97/Nibbles_NH.png"
+    "image": "villagers/Nibbles_NH.png"
   },
   {
     "id": "cbr00",
@@ -2701,7 +2701,7 @@
     "personality": "Peppy",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/49/Bluebear_NH.png"
+    "image": "villagers/Bluebear_NH.png"
   },
   {
     "id": "duk02",
@@ -2714,7 +2714,7 @@
     "personality": "Peppy",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6b/Pate_NH.png"
+    "image": "villagers/Pate_NH.png"
   },
   {
     "id": "shp09",
@@ -2727,7 +2727,7 @@
     "personality": "Peppy",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/23/Wendy_NH.png"
+    "image": "villagers/Wendy_NH.png"
   },
   {
     "id": "duk07",
@@ -2740,7 +2740,7 @@
     "personality": "Peppy",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/7d/Freckles_NH.png"
+    "image": "villagers/Freckles_NH.png"
   },
   {
     "id": "mus10",
@@ -2753,7 +2753,7 @@
     "personality": "Peppy",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/80/Anicotti_NH.png"
+    "image": "villagers/Anicotti_NH.png"
   },
   {
     "id": "rbt06",
@@ -2766,7 +2766,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a1/Pippy_NH.png"
+    "image": "villagers/Pippy_NH.png"
   },
   {
     "id": "rbt09",
@@ -2779,7 +2779,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/41/Ruby_NH.png"
+    "image": "villagers/Ruby_NH.png"
   },
   {
     "id": "tig03",
@@ -2792,7 +2792,7 @@
     "personality": "Peppy",
     "species": "Tiger",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/68/Bangle_NH.png"
+    "image": "villagers/Bangle_NH.png"
   },
   {
     "id": "rbt00",
@@ -2805,7 +2805,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b2/Bunnie_NH.png"
+    "image": "villagers/Bunnie_NH.png"
   },
   {
     "id": "bea01",
@@ -2818,7 +2818,7 @@
     "personality": "Peppy",
     "species": "Bear",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/bf/Pinky_NH.png"
+    "image": "villagers/Pinky_NH.png"
   },
   {
     "id": "dog09",
@@ -2831,7 +2831,7 @@
     "personality": "Peppy",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/06/Maddie_NH.png"
+    "image": "villagers/Maddie_NH.png"
   },
   {
     "id": "wol12",
@@ -2844,7 +2844,7 @@
     "personality": "Peppy",
     "species": "Wolf",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/1b/Audie_NH.png"
+    "image": "villagers/Audie_NH.png"
   },
   {
     "id": "rbt17",
@@ -2857,7 +2857,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/cc/Bonbon_NH.png"
+    "image": "villagers/Bonbon_NH.png"
   },
   {
     "id": "cow00",
@@ -2870,7 +2870,7 @@
     "personality": "Peppy",
     "species": "Cow",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/f1/Patty_NH.png"
+    "image": "villagers/Patty_NH.png"
   },
   {
     "id": "cat05",
@@ -2883,7 +2883,7 @@
     "personality": "Peppy",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6f/Tangy_NH.png"
+    "image": "villagers/Tangy_NH.png"
   },
   {
     "id": "tig06",
@@ -2896,7 +2896,7 @@
     "personality": "Peppy",
     "species": "Tiger",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6f/Bianca_NH.png"
+    "image": "villagers/Bianca_NH.png"
   },
   {
     "id": "dog08",
@@ -2909,7 +2909,7 @@
     "personality": "Peppy",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d9/Cookie_NH.png"
+    "image": "villagers/Cookie_NH.png"
   },
   {
     "id": "cat02",
@@ -2922,7 +2922,7 @@
     "personality": "Peppy",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/67/Rosie_NH.png"
+    "image": "villagers/Rosie_NH.png"
   },
   {
     "id": "mus08",
@@ -2935,7 +2935,7 @@
     "personality": "Peppy",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/57/Candi_NH.png"
+    "image": "villagers/Candi_NH.png"
   },
   {
     "id": "rbt01",
@@ -2948,7 +2948,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/cc/Dotty_NH.png"
+    "image": "villagers/Dotty_NH.png"
   },
   {
     "id": "hrs01",
@@ -2961,7 +2961,7 @@
     "personality": "Peppy",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/da/Victoria_NH.png"
+    "image": "villagers/Victoria_NH.png"
   },
   {
     "id": "ant03",
@@ -2974,7 +2974,7 @@
     "personality": "Peppy",
     "species": "Anteater",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d8/Anabelle_NH.png"
+    "image": "villagers/Anabelle_NH.png"
   },
   {
     "id": "cbr10",
@@ -2987,7 +2987,7 @@
     "personality": "Peppy",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d5/Cheri_NH.png"
+    "image": "villagers/Cheri_NH.png"
   },
   {
     "id": "ham01",
@@ -3000,7 +3000,7 @@
     "personality": "Peppy",
     "species": "Hamster",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/57/Apple_NH.png"
+    "image": "villagers/Apple_NH.png"
   },
   {
     "id": "mnk03",
@@ -3013,7 +3013,7 @@
     "personality": "Peppy",
     "species": "Monkey",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a8/Tammi_NH.png"
+    "image": "villagers/Tammi_NH.png"
   },
   {
     "id": "bea07",
@@ -3026,7 +3026,7 @@
     "personality": "Peppy",
     "species": "Bear",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/93/Tutu_NH.png"
+    "image": "villagers/Tutu_NH.png"
   },
   {
     "id": "cat17",
@@ -3039,7 +3039,7 @@
     "personality": "Peppy",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c7/Felicity_NH.png"
+    "image": "villagers/Felicity_NH.png"
   },
   {
     "id": "cat16",
@@ -3052,7 +3052,7 @@
     "personality": "Peppy",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/4f/Merry_NH.png"
+    "image": "villagers/Merry_NH.png"
   },
   {
     "id": "mus02",
@@ -3065,7 +3065,7 @@
     "personality": "Peppy",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c0/Bella_NH.png"
+    "image": "villagers/Bella_NH.png"
   },
   {
     "id": "duk05",
@@ -3078,7 +3078,7 @@
     "personality": "Peppy",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/32/Pompom_NH.png"
+    "image": "villagers/Pompom_NH.png"
   },
   {
     "id": "mus17",
@@ -3091,7 +3091,7 @@
     "personality": "Peppy",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/15/Penelope_NH.png"
+    "image": "villagers/Penelope_NH.png"
   },
   {
     "id": "hip02",
@@ -3104,7 +3104,7 @@
     "personality": "Peppy",
     "species": "Hippo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/0e/Bubbles_NH.png"
+    "image": "villagers/Bubbles_NH.png"
   },
   {
     "id": "pig11",
@@ -3117,7 +3117,7 @@
     "personality": "Peppy",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/28/Peggy_NH.png"
+    "image": "villagers/Peggy_NH.png"
   },
   {
     "id": "rbt16",
@@ -3130,7 +3130,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/eb/Carmen_NH.png"
+    "image": "villagers/Carmen_NH.png"
   },
   {
     "id": "hrs05",
@@ -3143,7 +3143,7 @@
     "personality": "Peppy",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b8/Winnie_NH.png"
+    "image": "villagers/Winnie_NH.png"
   },
   {
     "id": "duk13",
@@ -3156,7 +3156,7 @@
     "personality": "Peppy",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/42/Ketchup_NH.png"
+    "image": "villagers/Ketchup_NH.png"
   },
   {
     "id": "pgn14",
@@ -3169,7 +3169,7 @@
     "personality": "Peppy",
     "species": "Penguin",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/44/Sprinkle_NH.png"
+    "image": "villagers/Sprinkle_NH.png"
   },
   {
     "id": "rbt13",
@@ -3182,7 +3182,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6a/Chrissy_NH.png"
+    "image": "villagers/Chrissy_NH.png"
   },
   {
     "id": "pig01",
@@ -3195,7 +3195,7 @@
     "personality": "Peppy",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/eb/Truffles_NH.png"
+    "image": "villagers/Truffles_NH.png"
   },
   {
     "id": "brd05",
@@ -3208,7 +3208,7 @@
     "personality": "Peppy",
     "species": "Bird",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/09/Piper_NH.png"
+    "image": "villagers/Piper_NH.png"
   },
   {
     "id": "ant02",
@@ -3221,7 +3221,7 @@
     "personality": "Peppy",
     "species": "Anteater",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d5/Pango_NH.png"
+    "image": "villagers/Pango_NH.png"
   },
   {
     "id": "rbt05",
@@ -3234,7 +3234,7 @@
     "personality": "Peppy",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/86/Gabi_NH.png"
+    "image": "villagers/Gabi_NH.png"
   },
   {
     "id": "ost09",
@@ -3247,7 +3247,7 @@
     "personality": "Peppy",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/8e/Flora_NH.png"
+    "image": "villagers/Flora_NH.png"
   },
   {
     "id": "brd03",
@@ -3260,7 +3260,7 @@
     "personality": "Peppy",
     "species": "Bird",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/67/Twiggy_NH.png"
+    "image": "villagers/Twiggy_NH.png"
   },
   {
     "id": "squ00",
@@ -3273,7 +3273,7 @@
     "personality": "Peppy",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d5/Peanut_NH.png"
+    "image": "villagers/Peanut_NH.png"
   },
   {
     "id": "cat12",
@@ -3286,7 +3286,7 @@
     "personality": "Peppy",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/2f/Tabby_NH.png"
+    "image": "villagers/Tabby_NH.png"
   },
   {
     "id": "shp02",
@@ -3299,7 +3299,7 @@
     "personality": "Normal",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/97/Eunice_NH.png"
+    "image": "villagers/Eunice_NH.png"
   },
   {
     "id": "duk16",
@@ -3312,7 +3312,7 @@
     "personality": "Normal",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/29/Molly_NH.png"
+    "image": "villagers/Molly_NH.png"
   },
   {
     "id": "pig13",
@@ -3325,7 +3325,7 @@
     "personality": "Normal",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/e6/Gala_NH.png"
+    "image": "villagers/Gala_NH.png"
   },
   {
     "id": "squ15",
@@ -3338,7 +3338,7 @@
     "personality": "Normal",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c4/Poppy_NH.png"
+    "image": "villagers/Poppy_NH.png"
   },
   {
     "id": "squ07",
@@ -3351,7 +3351,7 @@
     "personality": "Normal",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a3/Sally_NH.png"
+    "image": "villagers/Sally_NH.png"
   },
   {
     "id": "flg00",
@@ -3364,7 +3364,7 @@
     "personality": "Normal",
     "species": "Frog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/42/Lily_NH.png"
+    "image": "villagers/Lily_NH.png"
   },
   {
     "id": "rhn01",
@@ -3377,7 +3377,7 @@
     "personality": "Normal",
     "species": "Rhino",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/df/Rhonda_NH.png"
+    "image": "villagers/Rhonda_NH.png"
   },
   {
     "id": "pig04",
@@ -3390,7 +3390,7 @@
     "personality": "Normal",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/e5/Lucy_NH.png"
+    "image": "villagers/Lucy_NH.png"
   },
   {
     "id": "wol09",
@@ -3403,7 +3403,7 @@
     "personality": "Normal",
     "species": "Wolf",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d1/Skye_NH.png"
+    "image": "villagers/Skye_NH.png"
   },
   {
     "id": "pig10",
@@ -3416,7 +3416,7 @@
     "personality": "Normal",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b8/Maggie_NH.png"
+    "image": "villagers/Maggie_NH.png"
   },
   {
     "id": "cat01",
@@ -3429,7 +3429,7 @@
     "personality": "Normal",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/63/Mitzi_NH.png"
+    "image": "villagers/Mitzi_NH.png"
   },
   {
     "id": "mus15",
@@ -3442,7 +3442,7 @@
     "personality": "Normal",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/bd/Bettina_NH.png"
+    "image": "villagers/Bettina_NH.png"
   },
   {
     "id": "duk04",
@@ -3455,7 +3455,7 @@
     "personality": "Normal",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b8/Deena_NH.png"
+    "image": "villagers/Deena_NH.png"
   },
   {
     "id": "kgr10",
@@ -3468,7 +3468,7 @@
     "personality": "Normal",
     "species": "Kangaroo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/2b/Marcie_NH.png"
+    "image": "villagers/Marcie_NH.png"
   },
   {
     "id": "kgr02",
@@ -3481,7 +3481,7 @@
     "personality": "Normal",
     "species": "Kangaroo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6a/Carrie_NH.png"
+    "image": "villagers/Carrie_NH.png"
   },
   {
     "id": "hrs08",
@@ -3494,7 +3494,7 @@
     "personality": "Normal",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/0d/Peaches_NH.png"
+    "image": "villagers/Peaches_NH.png"
   },
   {
     "id": "shp00",
@@ -3507,7 +3507,7 @@
     "personality": "Normal",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/7c/Vesta_NH.png"
+    "image": "villagers/Vesta_NH.png"
   },
   {
     "id": "cbr13",
@@ -3520,7 +3520,7 @@
     "personality": "Normal",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/85/June_NH.png"
+    "image": "villagers/June_NH.png"
   },
   {
     "id": "cbr01",
@@ -3533,7 +3533,7 @@
     "personality": "Normal",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a2/Maple_NH.png"
+    "image": "villagers/Maple_NH.png"
   },
   {
     "id": "kal01",
@@ -3546,7 +3546,7 @@
     "personality": "Normal",
     "species": "Koala",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/e1/Alice_NH.png"
+    "image": "villagers/Alice_NH.png"
   },
   {
     "id": "ocp01",
@@ -3559,7 +3559,7 @@
     "personality": "Normal",
     "species": "Octopus",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/25/Marina_NH.png"
+    "image": "villagers/Marina_NH.png"
   },
   {
     "id": "cow06",
@@ -3572,7 +3572,7 @@
     "personality": "Normal",
     "species": "Cow",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/e7/Norma_NH.png"
+    "image": "villagers/Norma_NH.png"
   },
   {
     "id": "dog07",
@@ -3585,7 +3585,7 @@
     "personality": "Normal",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/96/Daisy_NH.png"
+    "image": "villagers/Daisy_NH.png"
   },
   {
     "id": "dog10",
@@ -3598,7 +3598,7 @@
     "personality": "Normal",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c2/Bea_NH.png"
+    "image": "villagers/Bea_NH.png"
   },
   {
     "id": "hip03",
@@ -3611,7 +3611,7 @@
     "personality": "Normal",
     "species": "Hippo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a7/Bertha_NH.png"
+    "image": "villagers/Bertha_NH.png"
   },
   {
     "id": "ost01",
@@ -3624,7 +3624,7 @@
     "personality": "Normal",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/35/Gladys_NH.png"
+    "image": "villagers/Gladys_NH.png"
   },
   {
     "id": "ham06",
@@ -3637,7 +3637,7 @@
     "personality": "Normal",
     "species": "Hamster",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/03/Flurry_NH.png"
+    "image": "villagers/Flurry_NH.png"
   },
   {
     "id": "hrs02",
@@ -3650,7 +3650,7 @@
     "personality": "Normal",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/46/Savannah_NH.png"
+    "image": "villagers/Savannah_NH.png"
   },
   {
     "id": "cat18",
@@ -3663,7 +3663,7 @@
     "personality": "Normal",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/16/Lolly_NH.png"
+    "image": "villagers/Lolly_NH.png"
   },
   {
     "id": "ost02",
@@ -3676,7 +3676,7 @@
     "personality": "Normal",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a9/Sandy_NH.png"
+    "image": "villagers/Sandy_NH.png"
   },
   {
     "id": "elp04",
@@ -3689,7 +3689,7 @@
     "personality": "Normal",
     "species": "Elephant",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/54/Margie_NH.png"
+    "image": "villagers/Margie_NH.png"
   },
   {
     "id": "ant08",
@@ -3702,7 +3702,7 @@
     "personality": "Normal",
     "species": "Anteater",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/f0/Annalisa_NH.png"
+    "image": "villagers/Annalisa_NH.png"
   },
   {
     "id": "der00",
@@ -3715,7 +3715,7 @@
     "personality": "Normal",
     "species": "Deer",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/91/Fauna_NH.png"
+    "image": "villagers/Fauna_NH.png"
   },
   {
     "id": "goa01",
@@ -3728,7 +3728,7 @@
     "personality": "Normal",
     "species": "Goat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b8/Nan_NH.png"
+    "image": "villagers/Nan_NH.png"
   },
   {
     "id": "rhn07",
@@ -3741,7 +3741,7 @@
     "personality": "Normal",
     "species": "Rhino",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/0c/Merengue_NH.png"
+    "image": "villagers/Merengue_NH.png"
   },
   {
     "id": "kal03",
@@ -3754,7 +3754,7 @@
     "personality": "Normal",
     "species": "Koala",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/3f/Sydney_NH.png"
+    "image": "villagers/Sydney_NH.png"
   },
   {
     "id": "squ14",
@@ -3767,7 +3767,7 @@
     "personality": "Normal",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/fc/Sylvana_NH.png"
+    "image": "villagers/Sylvana_NH.png"
   },
   {
     "id": "kal02",
@@ -3780,7 +3780,7 @@
     "personality": "Normal",
     "species": "Koala",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/43/Melba_NH.png"
+    "image": "villagers/Melba_NH.png"
   },
   {
     "id": "shp03",
@@ -3793,7 +3793,7 @@
     "personality": "Normal",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/95/Stella_NH.png"
+    "image": "villagers/Stella_NH.png"
   },
   {
     "id": "kgr00",
@@ -3806,7 +3806,7 @@
     "personality": "Normal",
     "species": "Kangaroo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/75/Kitt_NH.png"
+    "image": "villagers/Kitt_NH.png"
   },
   {
     "id": "crd07",
@@ -3819,7 +3819,7 @@
     "personality": "Normal",
     "species": "Alligator",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/5e/Gayle_NH.png"
+    "image": "villagers/Gayle_NH.png"
   },
   {
     "id": "elp07",
@@ -3832,7 +3832,7 @@
     "personality": "Normal",
     "species": "Elephant",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/38/Ellie_NH.png"
+    "image": "villagers/Ellie_NH.png"
   },
   {
     "id": "chn05",
@@ -3845,7 +3845,7 @@
     "personality": "Normal",
     "species": "Chicken",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/cc/Ava_NH.png"
+    "image": "villagers/Ava_NH.png"
   },
   {
     "id": "flg13",
@@ -3858,7 +3858,7 @@
     "personality": "Normal",
     "species": "Frog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/35/Jambette_NH.png"
+    "image": "villagers/Jambette_NH.png"
   },
   {
     "id": "pgn00",
@@ -3871,7 +3871,7 @@
     "personality": "Normal",
     "species": "Penguin",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/59/Aurora_NH.png"
+    "image": "villagers/Aurora_NH.png"
   },
   {
     "id": "cbr09",
@@ -3884,7 +3884,7 @@
     "personality": "Normal",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/5c/Olive_NH.png"
+    "image": "villagers/Olive_NH.png"
   },
   {
     "id": "goa00",
@@ -3897,7 +3897,7 @@
     "personality": "Normal",
     "species": "Goat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c9/Chevre_NH.png"
+    "image": "villagers/Chevre_NH.png"
   },
   {
     "id": "rbt02",
@@ -3910,7 +3910,7 @@
     "personality": "Normal",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/83/Coco_NH.png"
+    "image": "villagers/Coco_NH.png"
   },
   {
     "id": "cbr14",
@@ -3923,7 +3923,7 @@
     "personality": "Normal",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/df/Pekoe_NH.png"
+    "image": "villagers/Pekoe_NH.png"
   },
   {
     "id": "dog00",
@@ -3936,7 +3936,7 @@
     "personality": "Normal",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/83/Goldie_NH.png"
+    "image": "villagers/Goldie_NH.png"
   },
   {
     "id": "squ06",
@@ -3949,7 +3949,7 @@
     "personality": "Normal",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/26/Caroline_NH.png"
+    "image": "villagers/Caroline_NH.png"
   },
   {
     "id": "cat04",
@@ -3962,7 +3962,7 @@
     "personality": "Normal",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c5/Kiki_NH.png"
+    "image": "villagers/Kiki_NH.png"
   },
   {
     "id": "bea15",
@@ -3975,7 +3975,7 @@
     "personality": "Normal",
     "species": "Bear",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/55/Megan_NH.png"
+    "image": "villagers/Megan_NH.png"
   },
   {
     "id": "mnk01",
@@ -3988,7 +3988,7 @@
     "personality": "Normal",
     "species": "Monkey",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b1/Nana_NH.png"
+    "image": "villagers/Nana_NH.png"
   },
   {
     "id": "elp10",
@@ -4001,7 +4001,7 @@
     "personality": "Normal",
     "species": "Elephant",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/0d/Tia_NH.png"
+    "image": "villagers/Tia_NH.png"
   },
   {
     "id": "mus00",
@@ -4014,7 +4014,7 @@
     "personality": "Normal",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/de/Dora_NH.png"
+    "image": "villagers/Dora_NH.png"
   },
   {
     "id": "pbr09",
@@ -4027,7 +4027,7 @@
     "personality": "Normal",
     "species": "Eagle",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/00/Celia_NH.png"
+    "image": "villagers/Celia_NH.png"
   },
   {
     "id": "squ11",
@@ -4040,7 +4040,7 @@
     "personality": "Normal",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a6/Cally_NH.png"
+    "image": "villagers/Cally_NH.png"
   },
   {
     "id": "brd08",
@@ -4053,7 +4053,7 @@
     "personality": "Normal",
     "species": "Bird",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/af/Midge_NH.png"
+    "image": "villagers/Midge_NH.png"
   },
   {
     "id": "squ13",
@@ -4066,7 +4066,7 @@
     "personality": "Snooty",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/35/Tasha_NH.png"
+    "image": "villagers/Tasha_NH.png"
   },
   {
     "id": "der08",
@@ -4079,7 +4079,7 @@
     "personality": "Snooty",
     "species": "Deer",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/1f/Diana_NH.png"
+    "image": "villagers/Diana_NH.png"
   },
   {
     "id": "squ03",
@@ -4092,7 +4092,7 @@
     "personality": "Snooty",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/60/Pecan_NH.png"
+    "image": "villagers/Pecan_NH.png"
   },
   {
     "id": "flg16",
@@ -4105,7 +4105,7 @@
     "personality": "Snooty",
     "species": "Frog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/86/Gigi_NH.png"
+    "image": "villagers/Gigi_NH.png"
   },
   {
     "id": "shp07",
@@ -4118,7 +4118,7 @@
     "personality": "Snooty",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/62/Willow_NH.png"
+    "image": "villagers/Willow_NH.png"
   },
   {
     "id": "duk15",
@@ -4131,7 +4131,7 @@
     "personality": "Snooty",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/14/Gloria_NH.png"
+    "image": "villagers/Gloria_NH.png"
   },
   {
     "id": "cow01",
@@ -4144,7 +4144,7 @@
     "personality": "Snooty",
     "species": "Cow",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/75/Tipper_NH.png"
+    "image": "villagers/Tipper_NH.png"
   },
   {
     "id": "mnk05",
@@ -4157,7 +4157,7 @@
     "personality": "Snooty",
     "species": "Monkey",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/0c/Elise_NH.png"
+    "image": "villagers/Elise_NH.png"
   },
   {
     "id": "duk12",
@@ -4170,7 +4170,7 @@
     "personality": "Snooty",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/8c/Miranda_NH.png"
+    "image": "villagers/Miranda_NH.png"
   },
   {
     "id": "cbr19",
@@ -4183,7 +4183,7 @@
     "personality": "Snooty",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d4/Judy_NH.png"
+    "image": "villagers/Judy_NH.png"
   },
   {
     "id": "squ09",
@@ -4196,7 +4196,7 @@
     "personality": "Snooty",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/5b/Mint_NH.png"
+    "image": "villagers/Mint_NH.png"
   },
   {
     "id": "wol08",
@@ -4209,7 +4209,7 @@
     "personality": "Snooty",
     "species": "Wolf",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/24/Vivian_NH.png"
+    "image": "villagers/Vivian_NH.png"
   },
   {
     "id": "rbt07",
@@ -4222,7 +4222,7 @@
     "personality": "Snooty",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/f0/Tiffany_NH.png"
+    "image": "villagers/Tiffany_NH.png"
   },
   {
     "id": "goa06",
@@ -4235,7 +4235,7 @@
     "personality": "Snooty",
     "species": "Goat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/59/Velma_NH.png"
+    "image": "villagers/Velma_NH.png"
   },
   {
     "id": "mus16",
@@ -4248,7 +4248,7 @@
     "personality": "Snooty",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/bd/Greta_NH.png"
+    "image": "villagers/Greta_NH.png"
   },
   {
     "id": "pig16",
@@ -4261,7 +4261,7 @@
     "personality": "Snooty",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/ec/Pancetti_NH.png"
+    "image": "villagers/Pancetti_NH.png"
   },
   {
     "id": "dog05",
@@ -4274,7 +4274,7 @@
     "personality": "Snooty",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/ce/Portia_NH.png"
+    "image": "villagers/Portia_NH.png"
   },
   {
     "id": "wol03",
@@ -4287,7 +4287,7 @@
     "personality": "Snooty",
     "species": "Wolf",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/36/Whitney_NH.png"
+    "image": "villagers/Whitney_NH.png"
   },
   {
     "id": "hip05",
@@ -4300,7 +4300,7 @@
     "personality": "Snooty",
     "species": "Hippo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/74/Bitty_NH.png"
+    "image": "villagers/Bitty_NH.png"
   },
   {
     "id": "mus03",
@@ -4313,7 +4313,7 @@
     "personality": "Snooty",
     "species": "Mouse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/12/Bree_NH.png"
+    "image": "villagers/Bree_NH.png"
   },
   {
     "id": "pgn04",
@@ -4326,7 +4326,7 @@
     "personality": "Snooty",
     "species": "Penguin",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/8c/Friga_NH.png"
+    "image": "villagers/Friga_NH.png"
   },
   {
     "id": "wol05",
@@ -4339,7 +4339,7 @@
     "personality": "Snooty",
     "species": "Wolf",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/ee/Freya_NH.png"
+    "image": "villagers/Freya_NH.png"
   },
   {
     "id": "ham04",
@@ -4352,7 +4352,7 @@
     "personality": "Snooty",
     "species": "Hamster",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/de/Soleil_NH.png"
+    "image": "villagers/Soleil_NH.png"
   },
   {
     "id": "cat14",
@@ -4365,7 +4365,7 @@
     "personality": "Snooty",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/21/Kitty_NH.png"
+    "image": "villagers/Kitty_NH.png"
   },
   {
     "id": "ant06",
@@ -4378,7 +4378,7 @@
     "personality": "Snooty",
     "species": "Anteater",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/63/Snooty_NH.png"
+    "image": "villagers/Snooty_NH.png"
   },
   {
     "id": "duk06",
@@ -4391,7 +4391,7 @@
     "personality": "Snooty",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/2/28/Mallary_NH.png"
+    "image": "villagers/Mallary_NH.png"
   },
   {
     "id": "tig05",
@@ -4404,7 +4404,7 @@
     "personality": "Snooty",
     "species": "Tiger",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d6/Claudia_NH.png"
+    "image": "villagers/Claudia_NH.png"
   },
   {
     "id": "ost08",
@@ -4417,7 +4417,7 @@
     "personality": "Snooty",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/df/Blanche_NH.png"
+    "image": "villagers/Blanche_NH.png"
   },
   {
     "id": "squ01",
@@ -4430,7 +4430,7 @@
     "personality": "Snooty",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/73/Blaire_NH.png"
+    "image": "villagers/Blaire_NH.png"
   },
   {
     "id": "hrs09",
@@ -4443,7 +4443,7 @@
     "personality": "Snooty",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c4/Annalise_NH.png"
+    "image": "villagers/Annalise_NH.png"
   },
   {
     "id": "chn09",
@@ -4456,7 +4456,7 @@
     "personality": "Snooty",
     "species": "Chicken",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/74/Becky_NH.png"
+    "image": "villagers/Becky_NH.png"
   },
   {
     "id": "hrs07",
@@ -4469,7 +4469,7 @@
     "personality": "Snooty",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/e9/Cleo_NH.png"
+    "image": "villagers/Cleo_NH.png"
   },
   {
     "id": "pbr01",
@@ -4482,7 +4482,7 @@
     "personality": "Snooty",
     "species": "Eagle",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/ab/Amelia_NH.png"
+    "image": "villagers/Amelia_NH.png"
   },
   {
     "id": "kgr01",
@@ -4495,7 +4495,7 @@
     "personality": "Snooty",
     "species": "Kangaroo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/58/Mathilda_NH.png"
+    "image": "villagers/Mathilda_NH.png"
   },
   {
     "id": "duk03",
@@ -4508,7 +4508,7 @@
     "personality": "Snooty",
     "species": "Duck",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/93/Maelle_NH.png"
+    "image": "villagers/Maelle_NH.png"
   },
   {
     "id": "elp03",
@@ -4521,7 +4521,7 @@
     "personality": "Snooty",
     "species": "Elephant",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/b1/Eloise_NH.png"
+    "image": "villagers/Eloise_NH.png"
   },
   {
     "id": "elp00",
@@ -4534,7 +4534,7 @@
     "personality": "Snooty",
     "species": "Elephant",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/ce/Opal_NH.png"
+    "image": "villagers/Opal_NH.png"
   },
   {
     "id": "cat03",
@@ -4547,7 +4547,7 @@
     "personality": "Snooty",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/36/Olivia_NH.png"
+    "image": "villagers/Olivia_NH.png"
   },
   {
     "id": "kal00",
@@ -4560,7 +4560,7 @@
     "personality": "Snooty",
     "species": "Koala",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/ca/Yuka_NH.png"
+    "image": "villagers/Yuka_NH.png"
   },
   {
     "id": "shp10",
@@ -4573,7 +4573,7 @@
     "personality": "Snooty",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6f/Timbra_NH.png"
+    "image": "villagers/Timbra_NH.png"
   },
   {
     "id": "cat11",
@@ -4586,7 +4586,7 @@
     "personality": "Snooty",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/cc/Monique_NH.png"
+    "image": "villagers/Monique_NH.png"
   },
   {
     "id": "ost05",
@@ -4599,7 +4599,7 @@
     "personality": "Snooty",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/42/Julia_NH.png"
+    "image": "villagers/Julia_NH.png"
   },
   {
     "id": "gor07",
@@ -4612,7 +4612,7 @@
     "personality": "Snooty",
     "species": "Gorilla",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/6b/Violet_NH.png"
+    "image": "villagers/Violet_NH.png"
   },
   {
     "id": "shp04",
@@ -4625,7 +4625,7 @@
     "personality": "Snooty",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/eb/Cashmere_NH.png"
+    "image": "villagers/Cashmere_NH.png"
   },
   {
     "id": "crd01",
@@ -4638,7 +4638,7 @@
     "personality": "Snooty",
     "species": "Alligator",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/8e/Alli_NH.png"
+    "image": "villagers/Alli_NH.png"
   },
   {
     "id": "cat19",
@@ -4651,7 +4651,7 @@
     "personality": "Snooty",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/56/Ankha_NH.png"
+    "image": "villagers/Ankha_NH.png"
   },
   {
     "id": "cat07",
@@ -4664,7 +4664,7 @@
     "personality": "Snooty",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/a2/Purrl_NH.png"
+    "image": "villagers/Purrl_NH.png"
   },
   {
     "id": "ost00",
@@ -4677,7 +4677,7 @@
     "personality": "Snooty",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/f1/Queenie_NH.png"
+    "image": "villagers/Queenie_NH.png"
   },
   {
     "id": "shp01",
@@ -4690,7 +4690,7 @@
     "personality": "Snooty",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/df/Baabara_NH.png"
+    "image": "villagers/Baabara_NH.png"
   },
   {
     "id": "brd01",
@@ -4703,7 +4703,7 @@
     "personality": "Snooty",
     "species": "Bird",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/8/85/Robin_NH.png"
+    "image": "villagers/Robin_NH.png"
   },
   {
     "id": "kgr05",
@@ -4716,7 +4716,7 @@
     "personality": "Snooty",
     "species": "Kangaroo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d5/Astrid_NH.png"
+    "image": "villagers/Astrid_NH.png"
   },
   {
     "id": "pgn05",
@@ -4729,7 +4729,7 @@
     "personality": "Snooty",
     "species": "Penguin",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/be/Gwen_NH.png"
+    "image": "villagers/Gwen_NH.png"
   },
   {
     "id": "rbt12",
@@ -4742,7 +4742,7 @@
     "personality": "Snooty",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/34/Francine_NH.png"
+    "image": "villagers/Francine_NH.png"
   },
   {
     "id": "cow07",
@@ -4755,7 +4755,7 @@
     "personality": "Snooty",
     "species": "Cow",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/f/f6/Naomi_NH.png"
+    "image": "villagers/Naomi_NH.png"
   },
   {
     "id": "chn12",
@@ -4768,7 +4768,7 @@
     "personality": "Snooty",
     "species": "Chicken",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/7a/Broffina_NH.png"
+    "image": "villagers/Broffina_NH.png"
   },
   {
     "id": "gor09",
@@ -4781,7 +4781,7 @@
     "personality": "Uchi",
     "species": "Gorilla",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/58/Rocket_NH.png"
+    "image": "villagers/Rocket_NH.png"
   },
   {
     "id": "der04",
@@ -4794,7 +4794,7 @@
     "personality": "Uchi",
     "species": "Deer",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/3c/Deirdre_NH.png"
+    "image": "villagers/Deirdre_NH.png"
   },
   {
     "id": "bea08",
@@ -4807,7 +4807,7 @@
     "personality": "Uchi",
     "species": "Bear",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/65/Ursala_NH.png"
+    "image": "villagers/Ursala_NH.png"
   },
   {
     "id": "pgn13",
@@ -4820,7 +4820,7 @@
     "personality": "Uchi",
     "species": "Penguin",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/b/bb/Flo_NH.png"
+    "image": "villagers/Flo_NH.png"
   },
   {
     "id": "bea10",
@@ -4833,7 +4833,7 @@
     "personality": "Uchi",
     "species": "Bear",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/0/0f/Paula_NH.png"
+    "image": "villagers/Paula_NH.png"
   },
   {
     "id": "hrs16",
@@ -4846,7 +4846,7 @@
     "personality": "Uchi",
     "species": "Horse",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/92/Reneigh_NH.png"
+    "image": "villagers/Reneigh_NH.png"
   },
   {
     "id": "rbt19",
@@ -4859,7 +4859,7 @@
     "personality": "Uchi",
     "species": "Rabbit",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d1/Mira_NH.png"
+    "image": "villagers/Mira_NH.png"
   },
   {
     "id": "goa08",
@@ -4872,7 +4872,7 @@
     "personality": "Uchi",
     "species": "Goat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/3e/Pashmina_NH.png"
+    "image": "villagers/Pashmina_NH.png"
   },
   {
     "id": "rhn08",
@@ -4885,7 +4885,7 @@
     "personality": "Uchi",
     "species": "Rhino",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/ef/Ren%C3%A9e_NH.png"
+    "image": "villagers/Renée_NH.png"
   },
   {
     "id": "kgr06",
@@ -4898,7 +4898,7 @@
     "personality": "Uchi",
     "species": "Kangaroo",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/9/93/Sylvia_NH.png"
+    "image": "villagers/Sylvia_NH.png"
   },
   {
     "id": "pig17",
@@ -4911,7 +4911,7 @@
     "personality": "Uchi",
     "species": "Pig",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/42/Agnes_NH.png"
+    "image": "villagers/Agnes_NH.png"
   },
   {
     "id": "cbr17",
@@ -4924,7 +4924,7 @@
     "personality": "Uchi",
     "species": "Cub",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/aa/Tammy_NH.png"
+    "image": "villagers/Tammy_NH.png"
   },
   {
     "id": "flg18",
@@ -4937,7 +4937,7 @@
     "personality": "Uchi",
     "species": "Frog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/4/44/Diva_NH.png"
+    "image": "villagers/Diva_NH.png"
   },
   {
     "id": "squ18",
@@ -4950,7 +4950,7 @@
     "personality": "Uchi",
     "species": "Squirrel",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/17/Hazel_NH.png"
+    "image": "villagers/Hazel_NH.png"
   },
   {
     "id": "shp11",
@@ -4963,7 +4963,7 @@
     "personality": "Uchi",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/d/d5/Frita_NH.png"
+    "image": "villagers/Frita_NH.png"
   },
   {
     "id": "der06",
@@ -4976,7 +4976,7 @@
     "personality": "Uchi",
     "species": "Deer",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/67/Fuchsia_NH.png"
+    "image": "villagers/Fuchsia_NH.png"
   },
   {
     "id": "mnk07",
@@ -4989,7 +4989,7 @@
     "personality": "Uchi",
     "species": "Monkey",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/7/72/Shari_NH.png"
+    "image": "villagers/Shari_NH.png"
   },
   {
     "id": "bea12",
@@ -5002,7 +5002,7 @@
     "personality": "Uchi",
     "species": "Bear",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/a/ac/Charlise_NH.png"
+    "image": "villagers/Charlise_NH.png"
   },
   {
     "id": "cat21",
@@ -5015,7 +5015,7 @@
     "personality": "Uchi",
     "species": "Cat",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/c/c9/Katt_NH.png"
+    "image": "villagers/Katt_NH.png"
   },
   {
     "id": "kal08",
@@ -5028,7 +5028,7 @@
     "personality": "Uchi",
     "species": "Koala",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/e/e6/Canberra_NH.png"
+    "image": "villagers/Canberra_NH.png"
   },
   {
     "id": "chn10",
@@ -5041,7 +5041,7 @@
     "personality": "Uchi",
     "species": "Chicken",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/6/63/Plucky_NH.png"
+    "image": "villagers/Plucky_NH.png"
   },
   {
     "id": "shp12",
@@ -5054,7 +5054,7 @@
     "personality": "Uchi",
     "species": "Sheep",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/1/16/Muffy_NH.png"
+    "image": "villagers/Muffy_NH.png"
   },
   {
     "id": "dog17",
@@ -5067,7 +5067,7 @@
     "personality": "Uchi",
     "species": "Dog",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/3/3e/Cherry_NH.png"
+    "image": "villagers/Cherry_NH.png"
   },
   {
     "id": "ost10",
@@ -5080,6 +5080,6 @@
     "personality": "Uchi",
     "species": "Ostrich",
     "gender": "Female",
-    "image": "https://dodo.ac/np/images/5/50/Phoebe_NH.png"
+    "image": "villagers/Phoebe_NH.png"
   }
 ]
