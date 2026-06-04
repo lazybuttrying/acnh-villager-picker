@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Home, Minus, Plus } from 'lucide-react'
 import type { Villager, PersonalityKey, PresetId, Locale, Tier } from '@/data/types'
 import { PERSONALITY_KEYS } from '@/data/types'
@@ -63,19 +64,21 @@ export function RecommendPanel({
   const { t } = useLocale()
   const { has: isResident } = useResidents()
   const { ratings, scores } = useRatings()
+  const [selected, setSelected] = useState<PresetId>('fav')
   const clamp = (n: number) => Math.min(MAX_TEAM, Math.max(MIN_TEAM, n))
   const hasRatings = Object.keys(ratings).length > 0
-  const fav = results[0] // 내보내기 기본값(찜 프리셋)
+  // 점수표에서 고른 프리셋의 추천 팀만 1회 노출. 기본은 찜. 표시·내보내기 공통 대상.
+  const shown = results.find((r) => r.preset === selected) ?? results[0]
 
   return (
     <Card>
       <CardHeader>
         <div className="flex items-center justify-between gap-2">
           <CardTitle>{t('recommend.title')}</CardTitle>
-          {fav && (
+          {shown && (
             <ExportReportButton
-              result={{ team: fav.team, score: fav.score, missing: fav.missing }}
-              preset={fav.preset}
+              result={{ team: shown.team, score: shown.score, missing: shown.missing }}
+              preset={shown.preset}
               teamSize={teamSize}
             />
           )}
@@ -144,8 +147,26 @@ export function RecommendPanel({
             </thead>
             <tbody>
               {results.map((r) => (
-                <tr key={`score-${r.preset}`} className="border-b last:border-0">
-                  <td className="px-3 py-1.5 font-medium">{presetLabel(r.preset, locale)}</td>
+                <tr
+                  key={`score-${r.preset}`}
+                  onClick={() => setSelected(r.preset)}
+                  aria-selected={r.preset === selected}
+                  className={cn(
+                    'cursor-pointer border-b transition-colors last:border-0 hover:bg-accent/50',
+                    r.preset === selected && 'bg-accent',
+                  )}
+                >
+                  <td className="px-3 py-1.5 font-medium">
+                    <span className="inline-flex items-center gap-1.5">
+                      <span
+                        className={cn(
+                          'h-2 w-2 rounded-full',
+                          r.preset === selected ? 'bg-primary' : 'bg-muted-foreground/30',
+                        )}
+                      />
+                      {presetLabel(r.preset, locale)}
+                    </span>
+                  </td>
                   <td className="px-3 py-1.5 text-right font-bold tabular-nums">{r.score.toFixed(1)}</td>
                   <td className="px-3 py-1.5 text-right tabular-nums text-muted-foreground">
                     {coverage(r.team)}/{TOTAL_P}
@@ -180,22 +201,22 @@ export function RecommendPanel({
           </div>
         )}
 
-        {/* 세 프리셋 추천을 세로 섹션으로 모두 노출 (찜 → 종족 → 성격) */}
-        {results.map((r) => (
-          <section key={r.preset} className="space-y-3">
+        {/* 점수표에서 선택한 프리셋의 추천 팀 + 레이더 — 1회만 노출 */}
+        {shown && (
+          <section className="space-y-3">
             <Separator />
             <div className="flex items-center justify-between gap-2">
-              <h3 className="text-sm font-bold">{presetLabel(r.preset, locale)}</h3>
+              <h3 className="text-sm font-bold">{presetLabel(shown.preset, locale)}</h3>
               <Badge variant="secondary" className="tabular-nums">
-                {t('recommend.score')}: {r.score.toFixed(1)}
+                {t('recommend.score')}: {shown.score.toFixed(1)}
               </Badge>
             </div>
 
-            {/* 이 프리셋 팀이 커버하지 못한 성격 */}
-            {r.missing.length > 0 && (
+            {/* 선택한 프리셋 팀이 커버하지 못한 성격 */}
+            {shown.missing.length > 0 && (
               <div className="flex flex-wrap gap-1.5">
-                {r.missing.map((key) => (
-                  <Badge key={`missing-${r.preset}-${key}`} variant="destructive">
+                {shown.missing.map((key) => (
+                  <Badge key={`missing-${key}`} variant="destructive">
                     {personalityLabel(key, locale)}
                   </Badge>
                 ))}
@@ -203,7 +224,7 @@ export function RecommendPanel({
             )}
 
             <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-              {r.team.map((v) => (
+              {shown.team.map((v) => (
                 <li
                   key={v.id}
                   className="flex items-center gap-3 rounded-lg border bg-card p-2 text-card-foreground"
@@ -251,9 +272,9 @@ export function RecommendPanel({
               ))}
             </ul>
 
-            <PersonalityRadar team={r.team} locale={locale} />
+            <PersonalityRadar team={shown.team} locale={locale} />
           </section>
-        ))}
+        )}
       </CardContent>
     </Card>
   )
