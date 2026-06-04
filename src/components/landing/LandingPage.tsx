@@ -60,9 +60,9 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
           <span className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
             <Sparkles className="h-7 w-7" />
           </span>
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{t('app.title')}</h1>
-          <p className="mt-3 text-lg font-medium text-primary">{t('landing.tagline')}</p>
-          <p className="mt-4 max-w-2xl text-pretty text-muted-foreground">{t('landing.intro')}</p>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('app.title')}</h1>
+          <p className="mt-3 text-xl font-medium text-primary">{t('landing.tagline')}</p>
+          <p className="mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">{t('landing.intro')}</p>
           <Button size="lg" className="mt-8 gap-2" onClick={onEnter}>
             {t('landing.start')}
             <ArrowRight className="h-4 w-4" />
@@ -71,7 +71,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
 
         {/* 주요 기능 */}
         <section className="mt-16">
-          <h2 className="mb-5 text-center text-xl font-bold">{t('landing.featuresTitle')}</h2>
+          <h2 className="mb-5 text-center text-2xl font-bold">{t('landing.featuresTitle')}</h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {FEATURES.map(({ icon: Icon, titleKey, descKey }) => (
               <div
@@ -82,8 +82,8 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
                   <Icon className="h-5 w-5" />
                 </span>
                 <div className="min-w-0">
-                  <h3 className="font-semibold">{t(titleKey)}</h3>
-                  <p className="mt-1 text-sm text-muted-foreground">{t(descKey)}</p>
+                  <h3 className="text-lg font-semibold">{t(titleKey)}</h3>
+                  <p className="mt-1 text-base text-muted-foreground">{t(descKey)}</p>
                 </div>
               </div>
             ))}
@@ -92,14 +92,14 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
 
         {/* 사용 방법 */}
         <section className="mt-16">
-          <h2 className="mb-5 text-center text-xl font-bold">{t('landing.howTitle')}</h2>
+          <h2 className="mb-5 text-center text-2xl font-bold">{t('landing.howTitle')}</h2>
           <ol className="mx-auto flex max-w-xl flex-col gap-3">
             {STEP_KEYS.map((key, i) => (
               <li key={key} className="flex items-center gap-3 rounded-lg border bg-card p-3">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
                   {i + 1}
                 </span>
-                <span className="text-sm">{t(key)}</span>
+                <span className="text-base">{t(key)}</span>
               </li>
             ))}
           </ol>
@@ -107,18 +107,18 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
 
         {/* 점수 산출 방법 */}
         <section className="mt-16">
-          <h2 className="mb-2 text-center text-xl font-bold">{t('landing.score.title')}</h2>
-          <p className="mb-5 text-center text-sm text-muted-foreground">{t('landing.score.intro')}</p>
+          <h2 className="mb-2 text-center text-2xl font-bold">{t('landing.score.title')}</h2>
+          <p className="mb-5 text-center text-base text-muted-foreground">{t('landing.score.intro')}</p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
             {/* 티어 = 점수 */}
             <div className="rounded-xl border bg-card p-4 text-card-foreground">
-              <h3 className="font-semibold">{t('landing.score.tier.title')}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{t('landing.score.tier.desc')}</p>
+              <h3 className="text-lg font-semibold">{t('landing.score.tier.title')}</h3>
+              <p className="mt-1 text-base text-muted-foreground">{t('landing.score.tier.desc')}</p>
               <div className="mt-3 flex flex-wrap gap-1.5">
                 {TIER_BADGES.map(({ tier, score, cls }) => (
                   <span
                     key={tier}
-                    className={`inline-flex items-center gap-0.5 rounded-md px-2 py-1 text-xs font-bold tabular-nums ${cls}`}
+                    className={`inline-flex items-center gap-0.5 rounded-md px-2.5 py-1 text-sm font-bold tabular-nums ${cls}`}
                   >
                     {tier}
                     <span className="opacity-80">={score}</span>
@@ -128,16 +128,16 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
             </div>
             {/* 다양성 */}
             <div className="rounded-xl border bg-card p-4 text-card-foreground">
-              <h3 className="font-semibold">{t('landing.score.diversity.title')}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{t('landing.score.diversity.desc')}</p>
+              <h3 className="text-lg font-semibold">{t('landing.score.diversity.title')}</h3>
+              <p className="mt-1 text-base text-muted-foreground">{t('landing.score.diversity.desc')}</p>
             </div>
             {/* 프리셋 */}
             <div className="rounded-xl border bg-card p-4 text-card-foreground">
-              <h3 className="font-semibold">{t('landing.score.preset.title')}</h3>
-              <p className="mt-1 text-sm text-muted-foreground">{t('landing.score.preset.desc')}</p>
+              <h3 className="text-lg font-semibold">{t('landing.score.preset.title')}</h3>
+              <p className="mt-1 text-base text-muted-foreground">{t('landing.score.preset.desc')}</p>
             </div>
           </div>
-          <p className="mx-auto mt-4 w-fit rounded-lg bg-muted px-3 py-1.5 text-center text-sm tabular-nums text-muted-foreground">
+          <p className="mx-auto mt-4 w-fit rounded-lg bg-muted px-3.5 py-2 text-center text-base tabular-nums text-muted-foreground">
             {t('landing.score.formula')}
           </p>
         </section>
@@ -151,7 +151,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
         </section>
       </main>
 
-      <footer className="container py-8 text-center text-xs text-muted-foreground">
+      <footer className="container py-8 text-center text-sm text-muted-foreground">
         {t('landing.disclaimer')}
       </footer>
     </div>
