@@ -18,6 +18,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Sheet, SheetTrigger, SheetContent, SheetTitle } from '@/components/ui/sheet'
 
 const VILLAGERS = villagersData as Villager[]
+const PRESET_ORDER: PresetId[] = ['fav', 'species', 'personality']
 
 function App() {
   const { locale, t } = useLocale()
@@ -25,7 +26,6 @@ function App() {
   const { ratings, scores } = useRatings()
   const { blacklist } = useBlacklist()
   const { residents } = useResidents()
-  const [preset, setPreset] = useState<PresetId>('fav')
   const [teamSize, setTeamSize] = useState<number>(TEAM_SIZE)
   const [includeResidents, setIncludeResidents] = useState(false)
   const [sheetOpen, setSheetOpen] = useState(false)
@@ -47,17 +47,22 @@ function App() {
     [residents],
   )
 
-  const result = useMemo(
+  // 세 프리셋(찜/종족/성격) 추천을 모두 계산해 한 번에 노출한다.
+  const presetResults = useMemo(
     () =>
-      recommend(
-        pool,
-        scores,
-        PRESETS[preset],
-        teamSize,
-        includeResidents ? residentVillagers : [],
-      ),
-    [pool, scores, preset, teamSize, includeResidents, residentVillagers],
+      PRESET_ORDER.map((preset) => {
+        const r = recommend(
+          pool,
+          scores,
+          PRESETS[preset],
+          teamSize,
+          includeResidents ? residentVillagers : [],
+        )
+        return { preset, team: r.team, score: r.score, missing: r.missing }
+      }),
+    [pool, scores, teamSize, includeResidents, residentVillagers],
   )
+  const favResult = presetResults[0] // 모바일 버튼/내보내기 기본값(찜)
 
   // 엣지케이스(스펙 §7-1): 사용자가 단 한 명도 평가하지 않은 성격 → 커버리지 위해 미평가 강제편입
   const emptyPersonalities = useMemo<PersonalityKey[]>(() => {
@@ -70,11 +75,7 @@ function App() {
 
   const panel = (
     <RecommendPanel
-      team={result.team}
-      score={result.score}
-      missing={result.missing}
-      preset={preset}
-      onPreset={setPreset}
+      results={presetResults}
       teamSize={teamSize}
       onTeamSize={setTeamSize}
       includeResidents={includeResidents}
@@ -116,8 +117,10 @@ function App() {
         <section className="min-w-0 pb-20 lg:pb-0">
           <VillagerGrid />
         </section>
-        {/* 데스크톱: 사이드 패널. 모바일에서는 숨기고 하단 드로어로 제공. */}
-        <aside className="hidden lg:sticky lg:top-20 lg:block lg:h-fit">{panel}</aside>
+        {/* 데스크톱: 사이드 패널. 내용이 길어 뷰포트를 넘으면 패널 안에서 스크롤. */}
+        <aside className="hidden lg:sticky lg:top-20 lg:block lg:max-h-[calc(100vh-5.5rem)] lg:overflow-y-auto lg:pb-4 lg:pr-1">
+          {panel}
+        </aside>
       </main>
 
       {/* 성격별 배치표 — S풀/거주 중을 8성격 컬럼으로. 전체 폭 영역. */}
@@ -142,9 +145,9 @@ function App() {
               <Sparkles className="h-4 w-4" />
               <span>{t('recommend.title')}</span>
               <span className="rounded-full bg-primary-foreground/20 px-2 py-0.5 text-xs tabular-nums">
-                {result.team.length}
+                {favResult.team.length}
               </span>
-              <span className="tabular-nums opacity-90">{result.score.toFixed(1)}</span>
+              <span className="tabular-nums opacity-90">{favResult.score.toFixed(1)}</span>
             </button>
           </SheetTrigger>
           <SheetContent side="bottom" className="max-h-[88vh] overflow-y-auto p-4">

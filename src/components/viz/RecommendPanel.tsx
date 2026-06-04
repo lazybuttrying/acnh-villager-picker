@@ -1,5 +1,6 @@
 import { Home, Minus, Plus } from 'lucide-react'
 import type { Villager, PersonalityKey, PresetId, Locale, Tier } from '@/data/types'
+import { PERSONALITY_KEYS } from '@/data/types'
 import { useResidents } from '@/hooks/useResidents'
 import { useRatings } from '@/hooks/useRatings'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
@@ -7,9 +8,8 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Toggle } from '@/components/ui/toggle'
 import { Separator } from '@/components/ui/separator'
-import { useLocale, villagerName, personalityLabel, speciesLabel } from '@/i18n'
+import { useLocale, villagerName, personalityLabel, speciesLabel, presetLabel } from '@/i18n'
 import { cn } from '@/lib/utils'
-import { PresetToggle } from './PresetToggle'
 import { PersonalityRadar } from './PersonalityRadar'
 import { SelectionPool } from './SelectionPool'
 import { BlacklistTracker } from './BlacklistTracker'
@@ -26,12 +26,22 @@ const TIER_CHIP: Record<Tier, string> = {
   C: 'bg-gray-400 text-white',
 }
 
+const TOTAL_P = PERSONALITY_KEYS.length
+
+/** 팀이 커버하는 고유 성격 수 (0..8). */
+function coverage(team: Villager[]): number {
+  return new Set(team.map((v) => v.personality)).size
+}
+
+export interface PresetResult {
+  preset: PresetId
+  team: Villager[]
+  score: number
+  missing: PersonalityKey[]
+}
+
 export function RecommendPanel({
-  team,
-  score,
-  missing,
-  preset,
-  onPreset,
+  results,
   teamSize,
   onTeamSize,
   includeResidents,
@@ -40,11 +50,8 @@ export function RecommendPanel({
   emptyPersonalities,
   locale,
 }: {
-  team: Villager[]
-  score: number
-  missing: PersonalityKey[]
-  preset: PresetId
-  onPreset: (p: PresetId) => void
+  /** 세 프리셋(찜/종족/성격) 추천을 모두 담은 배열. 순서대로 세로 섹션으로 노출. */
+  results: PresetResult[]
   teamSize: number
   onTeamSize: (n: number) => void
   includeResidents: boolean
@@ -57,27 +64,23 @@ export function RecommendPanel({
   const { has: isResident } = useResidents()
   const { ratings, scores } = useRatings()
   const clamp = (n: number) => Math.min(MAX_TEAM, Math.max(MIN_TEAM, n))
+  const hasRatings = Object.keys(ratings).length > 0
+  const fav = results[0] // 내보내기 기본값(찜 프리셋)
 
   return (
     <Card>
       <CardHeader>
         <div className="flex items-center justify-between gap-2">
           <CardTitle>{t('recommend.title')}</CardTitle>
-          <div className="flex items-center gap-2">
-            <Badge variant="secondary" className="tabular-nums">
-              {t('recommend.score')}: {score.toFixed(1)}
-            </Badge>
+          {fav && (
             <ExportReportButton
-              result={{ team, score, missing }}
-              preset={preset}
+              result={{ team: fav.team, score: fav.score, missing: fav.missing }}
+              preset={fav.preset}
               teamSize={teamSize}
             />
-          </div>
+          )}
         </div>
-        <div className="pt-2">
-          <PresetToggle value={preset} onChange={onPreset} />
-        </div>
-        {/* 팀 인원 조절 (3~10). 8 미만이면 8성격 커버 제약은 자동 완화. */}
+        {/* 팀 인원 조절 (3~10). 8 미만이면 8성격 커버 제약은 자동 완화. 세 프리셋 공통. */}
         <div className="flex items-center justify-between gap-2 pt-3">
           <span className="text-xs font-medium text-muted-foreground">{t('recommend.teamSize')}</span>
           <div className="flex items-center gap-2">
@@ -126,78 +129,131 @@ export function RecommendPanel({
       </CardHeader>
 
       <CardContent className="space-y-4">
+        {/* 프리셋별 점수·커버리지 비교표 */}
+        <div className="overflow-hidden rounded-lg border">
+          <div className="border-b bg-muted/40 px-3 py-1.5 text-xs font-semibold text-muted-foreground">
+            {t('recommend.scoreTableTitle')}
+          </div>
+          <table className="w-full text-sm">
+            <thead className="text-xs text-muted-foreground">
+              <tr className="border-b">
+                <th className="px-3 py-1.5 text-left font-medium">{t('report.preset')}</th>
+                <th className="px-3 py-1.5 text-right font-medium">{t('recommend.score')}</th>
+                <th className="px-3 py-1.5 text-right font-medium">{t('recommend.coverageShort')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {results.map((r) => (
+                <tr key={`score-${r.preset}`} className="border-b last:border-0">
+                  <td className="px-3 py-1.5 font-medium">{presetLabel(r.preset, locale)}</td>
+                  <td className="px-3 py-1.5 text-right font-bold tabular-nums">{r.score.toFixed(1)}</td>
+                  <td className="px-3 py-1.5 text-right tabular-nums text-muted-foreground">
+                    {coverage(r.team)}/{TOTAL_P}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
         <SelectionPool />
         <ResidentTracker />
         <BlacklistTracker />
-        <Separator />
 
-        {(missing.length > 0 || (emptyPersonalities && emptyPersonalities.length > 0)) && (
-          <div className="flex flex-wrap gap-1.5">
-            {missing.map((key) => (
-              <Badge key={`missing-${key}`} variant="destructive">
-                {personalityLabel(key, locale)}
-              </Badge>
-            ))}
-            {emptyPersonalities?.map((key) => (
-              <Badge key={`empty-${key}`} variant="outline" className="text-muted-foreground">
-                {personalityLabel(key, locale)} {t('recommend.noFav')}
-              </Badge>
-            ))}
+        {/* 찜한 주민이 없는 성격 — 추천 시 미평가로 채워진다는 힌트.
+            평가가 하나도 없을 땐 8개 전부 떠서 노이즈가 되므로 숨긴다. */}
+        {hasRatings && emptyPersonalities && emptyPersonalities.length > 0 && (
+          <div className="rounded-lg border border-dashed p-3">
+            <div className="text-xs font-semibold text-muted-foreground">
+              {t('recommend.noFavTitle')}
+            </div>
+            <div className="mt-1.5 flex flex-wrap gap-1.5">
+              {emptyPersonalities.map((key) => (
+                <Badge key={`empty-${key}`} variant="outline" className="text-muted-foreground">
+                  {personalityLabel(key, locale)}
+                </Badge>
+              ))}
+            </div>
+            <p className="mt-1.5 text-[11px] leading-snug text-muted-foreground">
+              {t('recommend.noFavHint')}
+            </p>
           </div>
         )}
 
-        <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-          {team.map((v) => (
-            <li
-              key={v.id}
-              className="flex items-center gap-3 rounded-lg border bg-card p-2 text-card-foreground"
-            >
-              <img
-                src={v.image}
-                alt={villagerName(v, locale)}
-                loading="lazy"
-                width={48}
-                height={48}
-                className="h-12 w-12 shrink-0 rounded-md object-cover"
-              />
-              <div className="min-w-0 flex-1">
-                <div className="flex items-center gap-1 truncate text-sm font-medium">
-                  {isResident(v.id) && <Home className="h-3 w-3 shrink-0 text-sky-500" />}
-                  <span className="truncate">{villagerName(v, locale)}</span>
-                </div>
-                <div className="mt-0.5 flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
-                  <span>{personalityLabel(v.personality, locale)}</span>
-                  <span aria-hidden>·</span>
-                  <span>{speciesLabel(v.species, locale)}</span>
-                </div>
+        {/* 세 프리셋 추천을 세로 섹션으로 모두 노출 (찜 → 종족 → 성격) */}
+        {results.map((r) => (
+          <section key={r.preset} className="space-y-3">
+            <Separator />
+            <div className="flex items-center justify-between gap-2">
+              <h3 className="text-sm font-bold">{presetLabel(r.preset, locale)}</h3>
+              <Badge variant="secondary" className="tabular-nums">
+                {t('recommend.score')}: {r.score.toFixed(1)}
+              </Badge>
+            </div>
+
+            {/* 이 프리셋 팀이 커버하지 못한 성격 */}
+            {r.missing.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {r.missing.map((key) => (
+                  <Badge key={`missing-${r.preset}-${key}`} variant="destructive">
+                    {personalityLabel(key, locale)}
+                  </Badge>
+                ))}
               </div>
-              {/* 항목별 추천 점수(찜 호감도). 버튼 없이 그대로 노출. */}
-              <div className="flex shrink-0 flex-col items-end gap-0.5">
-                <span className="text-sm font-bold tabular-nums leading-none">
-                  {(scores[v.id] ?? 0).toFixed(1)}
-                </span>
-                {ratings[v.id] ? (
-                  <span
-                    className={cn(
-                      'flex h-4 min-w-4 items-center justify-center rounded px-1 text-[10px] font-bold leading-none',
-                      TIER_CHIP[ratings[v.id]],
+            )}
+
+            <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+              {r.team.map((v) => (
+                <li
+                  key={v.id}
+                  className="flex items-center gap-3 rounded-lg border bg-card p-2 text-card-foreground"
+                >
+                  <img
+                    src={v.image}
+                    alt={villagerName(v, locale)}
+                    loading="lazy"
+                    width={48}
+                    height={48}
+                    className="h-12 w-12 shrink-0 rounded-md object-cover"
+                  />
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center gap-1 truncate text-sm font-medium">
+                      {isResident(v.id) && <Home className="h-3 w-3 shrink-0 text-sky-500" />}
+                      <span className="truncate">{villagerName(v, locale)}</span>
+                    </div>
+                    <div className="mt-0.5 flex flex-wrap items-center gap-1 text-xs text-muted-foreground">
+                      <span>{personalityLabel(v.personality, locale)}</span>
+                      <span aria-hidden>·</span>
+                      <span>{speciesLabel(v.species, locale)}</span>
+                    </div>
+                  </div>
+                  {/* 항목별 추천 점수(찜 호감도). 버튼 없이 그대로 노출. */}
+                  <div className="flex shrink-0 flex-col items-end gap-0.5">
+                    <span className="text-sm font-bold tabular-nums leading-none">
+                      {(scores[v.id] ?? 0).toFixed(1)}
+                    </span>
+                    {ratings[v.id] ? (
+                      <span
+                        className={cn(
+                          'flex h-4 min-w-4 items-center justify-center rounded px-1 text-[10px] font-bold leading-none',
+                          TIER_CHIP[ratings[v.id]],
+                        )}
+                      >
+                        {ratings[v.id]}
+                      </span>
+                    ) : (
+                      <span className="text-[10px] leading-none text-muted-foreground">
+                        {t('tier.unrated')}
+                      </span>
                     )}
-                  >
-                    {ratings[v.id]}
-                  </span>
-                ) : (
-                  <span className="text-[10px] leading-none text-muted-foreground">
-                    {t('tier.unrated')}
-                  </span>
-                )}
-              </div>
-            </li>
-          ))}
-        </ul>
+                  </div>
+                </li>
+              ))}
+            </ul>
 
-        <Separator />
-
-        <PersonalityRadar team={team} locale={locale} />
+            <PersonalityRadar team={r.team} locale={locale} />
+          </section>
+        ))}
       </CardContent>
     </Card>
   )
