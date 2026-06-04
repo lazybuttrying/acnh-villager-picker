@@ -83,6 +83,16 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.step.1': '마음에 드는 주민을 S·A·B·C로 평가하세요.',
     'landing.step.2': '이미 사는 주민과 싫은 주민을 표시해 추천을 다듬으세요.',
     'landing.step.3': '추천된 드림 주민 팀을 확인하고 보고서로 내보내세요.',
+    'landing.score.title': '점수는 어떻게 정해지나요?',
+    'landing.score.intro': '복잡한 계산은 앱이 알아서 해요. 핵심만 보면:',
+    'landing.score.tier.title': '티어가 곧 점수',
+    'landing.score.tier.desc': 'S=4 · A=3 · B=2 · C=1점, 평가하지 않은 주민은 0점이에요.',
+    'landing.score.diversity.title': '겹치면 감점, 다양하면 가점',
+    'landing.score.diversity.desc':
+      '같은 종족·같은 성격이 팀에 겹칠수록 점수가 깎여요. 그래서 다양하게 구성될수록 총점이 높아집니다.',
+    'landing.score.preset.title': '프리셋으로 우선순위 조절',
+    'landing.score.preset.desc': '‘찜·종족·성격’ 중 무엇을 더 중시할지 고르면 점수 가중치가 바뀝니다.',
+    'landing.score.formula': '팀 점수 = 내 호감도 합 − 종족 겹침 − 성격 겹침',
     'landing.disclaimer':
       '비공식 팬 제작 사이트입니다. Animal Crossing 및 관련 명칭·이미지는 Nintendo의 자산이며, 본 사이트는 Nintendo와 제휴하지 않았습니다.',
   },
@@ -167,6 +177,17 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.step.1': 'Rate the villagers you like from S to C.',
     'landing.step.2': 'Mark current residents and exclusions to refine the picks.',
     'landing.step.3': 'Review your recommended dream team and export a report.',
+    'landing.score.title': 'How is the score calculated?',
+    'landing.score.intro': 'The app does the math — here is the gist:',
+    'landing.score.tier.title': 'Tiers become points',
+    'landing.score.tier.desc': 'S=4, A=3, B=2, C=1 — anyone you have not rated counts as 0.',
+    'landing.score.diversity.title': 'Variety scores higher',
+    'landing.score.diversity.desc':
+      'The more your team repeats a species or personality, the more points are deducted — so a diverse team scores higher.',
+    'landing.score.preset.title': 'Presets shift the priority',
+    'landing.score.preset.desc':
+      'Choose whether favorites, species, or personality matters most, and the weighting changes.',
+    'landing.score.formula': 'Team score = sum of your ratings − species overlap − personality overlap',
     'landing.disclaimer':
       'This is an unofficial fan-made site. Animal Crossing and related names and images are property of Nintendo. This site is not affiliated with Nintendo.',
   },
@@ -251,6 +272,17 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.step.1': '気に入った住民をS・A・B・Cで評価します。',
     'landing.step.2': '同居中の住民と除外したい住民を指定しておすすめを調整します。',
     'landing.step.3': 'おすすめのドリーム住民チームを確認してレポートを出力します。',
+    'landing.score.title': 'スコアはどう決まる？',
+    'landing.score.intro': '複雑な計算はアプリにおまかせ。要点だけ：',
+    'landing.score.tier.title': 'ティアがそのままスコアに',
+    'landing.score.tier.desc': 'S=4・A=3・B=2・C=1点。未評価の住民は0点です。',
+    'landing.score.diversity.title': '重なると減点、多様だと加点',
+    'landing.score.diversity.desc':
+      '同じ種族・同じ性格がチームで重なるほど減点されます。だから多様に組むほど合計スコアが高くなります。',
+    'landing.score.preset.title': 'プリセットで優先度を調整',
+    'landing.score.preset.desc':
+      '「お気に入り・種族・性格」のどれを重視するかを選ぶと、重み付けが変わります。',
+    'landing.score.formula': 'チームスコア = 評価の合計 − 種族の重なり − 性格の重なり',
     'landing.disclaimer':
       '非公式のファンサイトです。どうぶつの森および関連する名称・画像はNintendoの資産であり、本サイトはNintendoと提携していません。',
   },

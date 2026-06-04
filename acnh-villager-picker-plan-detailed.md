@@ -87,8 +87,8 @@
 
 이 단계가 부실하면 병렬이 깨진다. S0에서 **반드시 다음을 파일로 확정**한다.
 
-**4.0 계획 파일 보존(실행 첫 단계)**
-- 이 상세 계획을 프로젝트 디렉터리에 복사 저장: `/Users/dyk/Desktop/project/animal-crossing/acnh-villager-picker-plan-detailed.md` (원본 `acnh-villager-picker-plan.md`와 나란히 두어 프로젝트와 함께 버전관리).
+**4.0 계획 파일 보존(실행 첫 단계)** ✅ 완료
+- 이 상세 계획을 프로젝트 디렉터리에 복사 저장: `/Users/dyk/Desktop/project/animal-crossing/acnh-villager-picker-plan-detailed.md` (원본 `acnh-villager-picker-plan.md`와 나란히 두어 프로젝트와 함께 버전관리). → 저장 완료(22KB).
 
 **4.1 프로젝트 부트스트랩**
 - `npm create vite@latest . -- --template react-ts` (현재 디렉터리)
@@ -278,6 +278,26 @@ V1(빌드 통과) 이후 단독 단계로 추가.
 - env로 `VITE_ADSENSE_CLIENT` 주입(미설정 시 슬롯 비표시 → 로컬/미승인 환경 안전).
 
 > **권고 순서**: P1~P3 MVP → P4 배포(+커스텀 도메인) → **이미지 셀프호스팅** → 개인정보처리방침/디스클레이머 → AdSense 신청 → 승인 후 `AdSlot` 활성. 즉 수익화는 가장 마지막, 그리고 **셀프호스팅이 사실상 필수 선행**이다.
+
+---
+
+## 8.7 세션2~3 — MVP 이후 UX 추가 ✅ 전부 완료·검증
+
+> **다음 작업(TODO)은 프로젝트 루트 `NEXT-TODO.md`에 우선순위로 정리됨** (T1 보고서 내보내기 → T2 폴리시 → T3 셀프호스팅 → T4 배포 → T5 수익화).
+
+MVP(P1~P3) 완성 후 사용자 요청으로 붙인 UX. 평가/거주/제외 3개 차원 모두 **공유 스토어(useSyncExternalStore + localStorage)** 기반 → 변경 시 그리드·헤더·추천이 즉시 동기 갱신. 검증: `type-check` 통과 · `vitest` **9/9** · `build` 성공.
+
+1. **스티키 평가현황 헤더 + 팝오버** ✅ — `eval/SelectionSummary.tsx`, `ui/popover.tsx`(radix).
+2. **종족 다중선택** ✅ — `FilterBar` 팝오버 체크리스트, `VillagerFilter.species: string[]`, 키 `filter.species`/`filter.clear`.
+3. **추천 구역 '내 선택 풀'** ✅ — `viz/SelectionPool.tsx`, `useRatings.remove`.
+4. **블랙리스트(제외)** ✅ — `hooks/useBlacklist.ts` + `viz/BlacklistTracker.tsx` + 카드 🚫. 추천 풀 제외.
+5. **모바일 추천 드로어** ✅ — `ui/sheet.tsx`(radix dialog) + 하단 고정 버튼(데스크톱은 사이드 패널 유지).
+6. **선택 초기화** ✅ — `SelectionSummary` 리셋(평가+거주+제외 일괄, confirm), 각 스토어 `clear()`.
+7. **항목별 티어 버튼(사이클 폐지)** ✅ — 카드마다 S/A/B/C 동시 노출, `useRatings.setTier`. (orphan `TierBadge.tsx` 삭제)
+8. **팀 인원 조절(3~10)** ✅ — `recommend(...,teamSize)`. ⚠️ 8성격 커버는 인원 ≥8일 때만 강제, <8이면 소프트 패널티로만. `RecommendPanel` 스테퍼. 테스트 ⑤⑥.
+9. **현재 거주 중(이미 보유)** ✅ — `hooks/useResidents.ts` + `viz/ResidentTracker.tsx` + 카드 🏠. 추천 풀 제외. 평가/제외/거주 3-way 상호배타.
+
+> 상태 키: `acnh-ratings-v1` · `acnh-blacklist-v1` · `acnh-residents-v1` · `acnh-locale-v1`.
 
 ---
 

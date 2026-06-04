@@ -30,6 +30,14 @@ const FEATURES: Feature[] = [
 
 const STEP_KEYS = ['landing.step.1', 'landing.step.2', 'landing.step.3'] as const
 
+// 티어→점수 표기. 색은 앱 카드(TIER_ACTIVE)와 동일하게 맞춘다.
+const TIER_BADGES = [
+  { tier: 'S', score: 4, cls: 'bg-amber-400 text-amber-950' },
+  { tier: 'A', score: 3, cls: 'bg-emerald-500 text-white' },
+  { tier: 'B', score: 2, cls: 'bg-blue-500 text-white' },
+  { tier: 'C', score: 1, cls: 'bg-gray-400 text-white' },
+] as const
+
 export function LandingPage({ onEnter }: { onEnter: () => void }) {
   const { t } = useLocale()
 
@@ -95,6 +103,43 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
               </li>
             ))}
           </ol>
+        </section>
+
+        {/* 점수 산출 방법 */}
+        <section className="mt-16">
+          <h2 className="mb-2 text-center text-xl font-bold">{t('landing.score.title')}</h2>
+          <p className="mb-5 text-center text-sm text-muted-foreground">{t('landing.score.intro')}</p>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+            {/* 티어 = 점수 */}
+            <div className="rounded-xl border bg-card p-4 text-card-foreground">
+              <h3 className="font-semibold">{t('landing.score.tier.title')}</h3>
+              <p className="mt-1 text-sm text-muted-foreground">{t('landing.score.tier.desc')}</p>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                {TIER_BADGES.map(({ tier, score, cls }) => (
+                  <span
+                    key={tier}
+                    className={`inline-flex items-center gap-0.5 rounded-md px-2 py-1 text-xs font-bold tabular-nums ${cls}`}
+                  >
+                    {tier}
+                    <span className="opacity-80">={score}</span>
+                  </span>
+                ))}
+              </div>
+            </div>
+            {/* 다양성 */}
+            <div className="rounded-xl border bg-card p-4 text-card-foreground">
+              <h3 className="font-semibold">{t('landing.score.diversity.title')}</h3>
+              <p className="mt-1 text-sm text-muted-foreground">{t('landing.score.diversity.desc')}</p>
+            </div>
+            {/* 프리셋 */}
+            <div className="rounded-xl border bg-card p-4 text-card-foreground">
+              <h3 className="font-semibold">{t('landing.score.preset.title')}</h3>
+              <p className="mt-1 text-sm text-muted-foreground">{t('landing.score.preset.desc')}</p>
+            </div>
+          </div>
+          <p className="mx-auto mt-4 w-fit rounded-lg bg-muted px-3 py-1.5 text-center text-sm tabular-nums text-muted-foreground">
+            {t('landing.score.formula')}
+          </p>
         </section>
 
         {/* 하단 CTA */}

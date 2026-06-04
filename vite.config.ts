@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig, configDefaults } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 import path from 'node:path'
 
@@ -10,5 +10,9 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
+  },
+  test: {
+    // 격리 워크트리(.claude/worktrees/*) 사본이 테스트 수를 부풀리지 않도록 제외
+    exclude: [...configDefaults.exclude, '**/.claude/**'],
   },
 })
