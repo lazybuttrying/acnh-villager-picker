@@ -11,6 +11,9 @@
 [build.environment]
   # Vite 8 / TypeScript 6 호환 LTS 고정 (로컬 v25에 의존하지 않도록)
   NODE_VERSION = "22"
+  # AdSense 퍼블리셔 ID — 공개값(ads.txt·광고요청에 노출)이라 비밀 아님. 로더 활성화용(심사에 필요).
+  # 슬롯 ID(VITE_ADSENSE_SLOT_MAIN/LANDING)는 승인 후 광고 단위 생성 시 추가 → 그 전까지 AdSlot은 null.
+  VITE_ADSENSE_CLIENT = "ca-pub-8432597408587239"
 
 # 정규 도메인 통합: *.netlify.app 으로 들어온 요청을 커스텀 도메인으로 301.
 # (순서 중요 — 아래 SPA 폴백보다 먼저 평가되어야 함. force=true로 파일 존재 여부 무관 적용)
