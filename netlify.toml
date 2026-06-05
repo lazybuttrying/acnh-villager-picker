@@ -1,4 +1,9 @@
 # Netlify 배포 설정 — 모동숲 드림 주민 조합기 (정적 React/Vite SPA)
+#
+# ⚠️ netlify-plugin-a11y 는 추가하지 말 것.
+#   v0.0.12는 pa11y 30s 타임아웃이 하드코딩(timeout 입력 미지원)이라,
+#   단일 SPA 페이지가 헤드리스 Chrome에서 30s 내 로드 완료에 못 닿아 매 배포가 실패함.
+#   접근성 검사가 필요하면 배포 파이프라인이 아니라 별도 CI(GitHub Actions)에서 돌릴 것.
 [build]
   command = "npm run build"
   publish = "dist"
