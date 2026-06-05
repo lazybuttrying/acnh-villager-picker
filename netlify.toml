@@ -7,6 +7,14 @@
   # Vite 8 / TypeScript 6 호환 LTS 고정 (로컬 v25에 의존하지 않도록)
   NODE_VERSION = "22"
 
+# 정규 도메인 통합: *.netlify.app 으로 들어온 요청을 커스텀 도메인으로 301.
+# (순서 중요 — 아래 SPA 폴백보다 먼저 평가되어야 함. force=true로 파일 존재 여부 무관 적용)
+[[redirects]]
+  from = "https://acnh-villager-picker.netlify.app/*"
+  to = "https://animalcrossingpool.com/:splat"
+  status = 301
+  force = true
+
 # 해시 라우팅이라 실경로는 "/" 하나뿐이지만,
 # 직접 진입/새로고침 시 SPA 폴백 안전망으로 둠.
 [[redirects]]
