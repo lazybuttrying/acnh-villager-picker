@@ -11,6 +11,7 @@ import { useLocale, LanguageSwitcher } from '@/i18n'
 import { useView } from '@/hooks/useView'
 import { LandingPage } from '@/components/landing/LandingPage'
 import { PrivacyPolicy } from '@/components/legal/PrivacyPolicy'
+import { Contact } from '@/components/legal/Contact'
 import { AdSlot } from '@/components/ads/AdSlot'
 import { VillagerGrid } from '@/components/eval/VillagerGrid'
 import { SelectionSummary } from '@/components/eval/SelectionSummary'
@@ -24,7 +25,7 @@ const PRESET_ORDER: PresetId[] = ['fav', 'species', 'personality']
 
 function App() {
   const { locale, t } = useLocale()
-  const { view, goAbout, goApp, goPrivacy } = useView()
+  const { view, goAbout, goApp, goPrivacy, goContact } = useView()
   const { ratings, scores } = useRatings()
   const { blacklist } = useBlacklist()
   const { residents } = useResidents()
@@ -94,6 +95,9 @@ function App() {
   }
   if (view === 'privacy') {
     return <PrivacyPolicy onBack={goApp} />
+  }
+  if (view === 'contact') {
+    return <Contact onBack={goApp} />
   }
 
   return (
@@ -167,9 +171,17 @@ function App() {
 
       <footer className="container flex flex-col items-center gap-2 py-6 text-center text-xs text-muted-foreground">
         <p>{t('footer.disclaimer')}</p>
-        <button type="button" onClick={goPrivacy} className="underline hover:text-primary">
-          {t('footer.privacy')}
-        </button>
+        <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+          <button type="button" onClick={goAbout} className="underline hover:text-primary">
+            {t('footer.about')}
+          </button>
+          <button type="button" onClick={goPrivacy} className="underline hover:text-primary">
+            {t('footer.privacy')}
+          </button>
+          <button type="button" onClick={goContact} className="underline hover:text-primary">
+            {t('footer.contact')}
+          </button>
+        </nav>
       </footer>
     </div>
   )

@@ -122,6 +122,16 @@ export const messages: Record<Locale, Record<string, string>> = {
     'privacy.contact.title': '문의',
     'privacy.contact.body':
       '개인정보 관련 문의는 GitHub 저장소(github.com/lazybuttrying/acnh-villager-picker)의 이슈를 통해 연락해 주세요.',
+    'footer.about': '소개',
+    'footer.contact': '문의하기',
+    'contact.title': '문의하기',
+    'contact.intro':
+      '이 사이트는 동물의 숲 팬이 개인적으로 만든 비공식 도구입니다. 버그 제보, 기능 제안, 데이터 오류, 개인정보·콘텐츠 관련 문의는 아래 채널로 연락해 주세요.',
+    'contact.github.title': 'GitHub',
+    'contact.github.body': '버그·제안·문의는 공개 저장소의 이슈로 남겨 주시면 가장 빠르게 확인합니다:',
+    'contact.response.title': '응답 안내',
+    'contact.response.body':
+      '개인이 운영하는 무료 프로젝트라 답변이 늦거나 어려울 수 있는 점 양해 부탁드립니다. 가능한 한 확인하고 반영하겠습니다.',
   },
   en: {
     'app.title': 'Animal Crossing Villager Picker',
@@ -244,6 +254,16 @@ export const messages: Record<Locale, Record<string, string>> = {
     'privacy.contact.title': 'Contact',
     'privacy.contact.body':
       'For privacy inquiries, please reach out via issues on the GitHub repository (github.com/lazybuttrying/acnh-villager-picker).',
+    'footer.about': 'About',
+    'footer.contact': 'Contact',
+    'contact.title': 'Contact',
+    'contact.intro':
+      'This site is an unofficial, personally-made fan tool for Animal Crossing. For bug reports, feature suggestions, data corrections, or privacy/content inquiries, please reach out through the channel below.',
+    'contact.github.title': 'GitHub',
+    'contact.github.body': 'The fastest way to reach us is by opening an issue on the public repository:',
+    'contact.response.title': 'Response note',
+    'contact.response.body':
+      "This is a free project run by one person, so replies may be delayed or limited — thanks for your understanding. We'll review and address what we can.",
   },
   ja: {
     'app.title': 'どうぶつの森 住民ピッカー',
@@ -366,5 +386,15 @@ export const messages: Record<Locale, Record<string, string>> = {
     'privacy.contact.title': 'お問い合わせ',
     'privacy.contact.body':
       'プライバシーに関するお問い合わせは、GitHubリポジトリ（github.com/lazybuttrying/acnh-villager-picker）のIssueからご連絡ください。',
+    'footer.about': 'サイトについて',
+    'footer.contact': 'お問い合わせ',
+    'contact.title': 'お問い合わせ',
+    'contact.intro':
+      '本サイトはどうぶつの森ファンが個人的に作成した非公式ツールです。バグ報告・機能提案・データの誤り・プライバシーやコンテンツに関するお問い合わせは、以下のチャンネルからご連絡ください。',
+    'contact.github.title': 'GitHub',
+    'contact.github.body': 'バグ・提案・お問い合わせは、公開リポジトリのIssueにお寄せいただくと最も早く確認できます：',
+    'contact.response.title': '返信について',
+    'contact.response.body':
+      '個人運営の無料プロジェクトのため、返信が遅れる・難しい場合がある点はご了承ください。可能な範囲で確認し対応します。',
   },
 }
