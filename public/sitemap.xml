@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 해시 라우팅 SPA라 크롤 가능한 정식 URL은 홈 하나(#/about·#/privacy·#/contact는 프래그먼트라 색인 단위 아님). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://villagertier.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
