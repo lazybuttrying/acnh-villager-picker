@@ -144,7 +144,7 @@ function App() {
               className="flex items-center gap-2 rounded transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               <img src="favicon.svg" alt="" aria-hidden="true" className="h-7 w-7 shrink-0" />
-              <span className="truncate">{t('app.title')}</span>
+              <span className="hidden truncate sm:inline">{t('app.title')}</span>
             </button>
           </h1>
           <div className="flex items-center gap-2">
