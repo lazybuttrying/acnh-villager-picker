@@ -23,6 +23,14 @@
   status = 301
   force = true
 
+# Canonical host: redirect www to apex (avoid duplicate content on two hosts;
+# keeps AdSense and Search Console on a single canonical domain).
+[[redirects]]
+  from = "https://www.villagertier.com/*"
+  to = "https://villagertier.com/:splat"
+  status = 301
+  force = true
+
 # 해시 라우팅이라 실경로는 "/" 하나뿐이지만,
 # 직접 진입/새로고침 시 SPA 폴백 안전망으로 둠.
 [[redirects]]
