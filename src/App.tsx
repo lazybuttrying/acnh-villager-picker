@@ -141,9 +141,10 @@ function App() {
               onClick={goAbout}
               title={t('about.hint')}
               aria-label={t('about.hint')}
-              className="truncate rounded transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+              className="flex items-center gap-2 rounded transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
-              {t('app.title')}
+              <img src="favicon.svg" alt="" aria-hidden="true" className="h-7 w-7 shrink-0" />
+              <span className="truncate">{t('app.title')}</span>
             </button>
           </h1>
           <div className="flex items-center gap-2">

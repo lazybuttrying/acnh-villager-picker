@@ -58,9 +58,7 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
       <main className="container max-w-3xl py-10">
         {/* 히어로 */}
         <section className="flex flex-col items-center text-center">
-          <span className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-primary/10 text-primary">
-            <Sparkles className="h-7 w-7" />
-          </span>
+          <img src="favicon.svg" alt="" className="mb-4 h-16 w-16" />
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('app.title')}</h1>
           <p className="mt-3 text-xl font-medium text-primary">{t('landing.tagline')}</p>
           <p className="mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">{t('landing.intro')}</p>
