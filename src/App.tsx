@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Sparkles } from 'lucide-react'
 import type { PersonalityKey, PresetId, Villager } from '@/data/types'
 import { PERSONALITY_KEYS, TEAM_SIZE } from '@/data/types'
@@ -15,6 +15,7 @@ import { Contact } from '@/components/legal/Contact'
 import { GuidePage } from '@/components/content/GuidePage'
 import { FaqPage } from '@/components/content/FaqPage'
 import { MethodologyPage } from '@/components/content/MethodologyPage'
+import { ChangelogPage } from '@/components/content/ChangelogPage'
 import { AdSlot } from '@/components/ads/AdSlot'
 import { VillagerGrid } from '@/components/eval/VillagerGrid'
 import { SelectionSummary } from '@/components/eval/SelectionSummary'
@@ -28,7 +29,7 @@ const PRESET_ORDER: PresetId[] = ['fav', 'species', 'personality']
 
 function App() {
   const { locale, t } = useLocale()
-  const { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology } = useView()
+  const { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology, goChangelog } = useView()
   const { ratings, scores } = useRatings()
   const { blacklist } = useBlacklist()
   const { residents } = useResidents()
@@ -92,6 +93,21 @@ function App() {
     />
   )
 
+  // Per-view document title (tab label + SEO). Falls back to the app title.
+  useEffect(() => {
+    const titleKey: Record<string, string | null> = {
+      about: 'landing.about.title',
+      privacy: 'privacy.title',
+      contact: 'contact.title',
+      guide: 'guide.title',
+      faq: 'faq.title',
+      methodology: 'methodology.title',
+      changelog: 'changelog.title',
+    }
+    const key = titleKey[view] ?? null
+    document.title = key ? `${t(key)} | ${t('app.title')}` : t('app.title')
+  }, [view, t])
+
   // 소개 랜딩 뷰 — 해시('#about')일 때 메인 UI 대신 전체 화면 차지. (훅은 위에서 모두 호출 후 분기)
   if (view === 'about') {
     return <LandingPage onEnter={goApp} />
@@ -110,6 +126,9 @@ function App() {
   }
   if (view === 'methodology') {
     return <MethodologyPage onBack={goApp} />
+  }
+  if (view === 'changelog') {
+    return <ChangelogPage onBack={goApp} />
   }
 
   return (
@@ -201,6 +220,9 @@ function App() {
           </button>
           <button type="button" onClick={goMethodology} className="underline hover:text-primary">
             {t('footer.methodology')}
+          </button>
+          <button type="button" onClick={goChangelog} className="underline hover:text-primary">
+            {t('footer.changelog')}
           </button>
         </nav>
       </footer>
