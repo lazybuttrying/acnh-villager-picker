@@ -142,6 +142,25 @@ export const messages: Record<Locale, Record<string, string>> = {
     'footer.guide': '이용 가이드',
     'footer.faq': '자주 묻는 질문',
     'footer.methodology': '점수 산정 방식',
+    'footer.changelog': '업데이트 기록',
+    'changelog.title': '업데이트 기록',
+    'changelog.intro': '사이트의 주요 변경 사항을 최신순으로 정리했습니다.',
+    'changelog.e1.date': '2026-10-17',
+    'changelog.e1.title': '콘텐츠 페이지 추가 및 도메인 통합',
+    'changelog.e1.body':
+      '주민 성격 가이드·자주 묻는 질문·점수 산정 방식 페이지와 사이트 소개 섹션을 추가했습니다. www 서브도메인을 대표 도메인으로 통합했습니다.',
+    'changelog.e2.date': '2026-06-10',
+    'changelog.e2.title': '신뢰 페이지와 검색 설정',
+    'changelog.e2.body':
+      '문의하기 페이지, 푸터 내비게이션, robots.txt와 사이트맵을 추가하고 AdSense 사이트 인증을 마쳤습니다.',
+    'changelog.e3.date': '2026-06-04',
+    'changelog.e3.title': '개인정보처리방침 공개',
+    'changelog.e3.body':
+      '데이터 저장 방식과 광고·쿠키 정책을 안내하는 개인정보처리방침 페이지를 공개했습니다.',
+    'changelog.e4.date': '2026-06',
+    'changelog.e4.title': '사이트 공개',
+    'changelog.e4.body':
+      '391명 주민 티어 평가와 드림 팀 추천 기능을 담은 첫 버전을 공개했습니다. 한국어·영어·일본어를 지원합니다.',
     'guide.title': '주민 성격 가이드',
     'guide.intro':
       '동물의 숲 주민 391명에게는 저마다 8가지 성격 중 하나가 정해져 있습니다. 성격은 주민의 말투와 대화 주제, 취미 생활, 섬에서의 하루를 어떻게 보내는지를 결정해요. 같은 성격의 주민만 모으면 대화가 금방 겹쳐서 지루해지고, 8가지 성격이 고루 섞이면 매일 새로운 대화를 들을 수 있습니다. 이 페이지에서는 성격별 특징과 대표 주민, 35가지 종족, 티어 평가 활용법, 균형 잡힌 팀을 짜는 요령을 정리했습니다.',
@@ -372,6 +391,25 @@ export const messages: Record<Locale, Record<string, string>> = {
     'footer.guide': 'Guide',
     'footer.faq': 'FAQ',
     'footer.methodology': 'Methodology',
+    'footer.changelog': 'Changelog',
+    'changelog.title': 'Changelog',
+    'changelog.intro': 'Major changes to the site, newest first.',
+    'changelog.e1.date': '2026-10-17',
+    'changelog.e1.title': 'Content pages and domain unification',
+    'changelog.e1.body':
+      'Added the villager personality guide, FAQ, and scoring methodology pages plus a site intro section. Unified the www subdomain into the canonical domain.',
+    'changelog.e2.date': '2026-06-10',
+    'changelog.e2.title': 'Trust pages and search setup',
+    'changelog.e2.body':
+      'Added the contact page, footer navigation, robots.txt and sitemap, and completed AdSense site verification.',
+    'changelog.e3.date': '2026-06-04',
+    'changelog.e3.title': 'Privacy policy published',
+    'changelog.e3.body':
+      'Published the privacy policy page describing data storage, ads, and cookies.',
+    'changelog.e4.date': '2026-06',
+    'changelog.e4.title': 'Site launch',
+    'changelog.e4.body':
+      'Launched with 391-villager tier ratings and dream team recommendations, in Korean, English, and Japanese.',
     'guide.title': 'Villager Personality Guide',
     'guide.intro':
       'Each of the 391 Animal Crossing villagers has one of 8 personalities. Personality decides how a villager talks, what they chat about, their hobbies, and how they spend the day on your island. Fill your island with a single personality and conversations get repetitive fast; mix all 8 and you will hear something new every day. This page covers each personality with representative villagers, the 35 species, how to use tier ratings, and tips for building a balanced team.',
@@ -602,6 +640,25 @@ export const messages: Record<Locale, Record<string, string>> = {
     'footer.guide': 'ガイド',
     'footer.faq': 'よくある質問',
     'footer.methodology': 'スコアの仕組み',
+    'footer.changelog': '更新履歴',
+    'changelog.title': '更新履歴',
+    'changelog.intro': 'サイトの主な変更を新しい順にまとめています。',
+    'changelog.e1.date': '2026-10-17',
+    'changelog.e1.title': 'コンテンツページの追加とドメイン統一',
+    'changelog.e1.body':
+      '住民の性格ガイド・よくある質問・スコア算出方式のページとサイト紹介セクションを追加しました。wwwサブドメインを正規ドメインに統一しました。',
+    'changelog.e2.date': '2026-06-10',
+    'changelog.e2.title': '信頼性ページと検索設定',
+    'changelog.e2.body':
+      'お問い合わせページ、フッターナビゲーション、robots.txtとサイトマップを追加し、AdSenseのサイト認証を完了しました。',
+    'changelog.e3.date': '2026-06-04',
+    'changelog.e3.title': 'プライバシーポリシー公開',
+    'changelog.e3.body':
+      'データの保存方法や広告・Cookieについて説明するプライバシーポリシーページを公開しました。',
+    'changelog.e4.date': '2026-06',
+    'changelog.e4.title': 'サイト公開',
+    'changelog.e4.body':
+      '391人の住民ティア評価とドリームチーム提案機能を備えた最初のバージョンを公開しました。韓国語・英語・日本語に対応しています。',
     'guide.title': '住民の性格ガイド',
     'guide.intro':
       'どうぶつの森の住民391人には、それぞれ8種類の性格のうち1つが設定されています。性格は住民の口調や会話の話題、趣味、島での一日の過ごし方を決めます。同じ性格ばかり集めると会話がすぐ重複して飽きてしまいますが、8種類をバランスよく混ぜると毎日新しい会話が聞けます。このページでは性格ごとの特徴と代表的な住民、35種類の種族、ティア評価の活用法、バランスのよいチームの作り方をまとめました。',
