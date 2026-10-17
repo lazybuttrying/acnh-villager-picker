@@ -12,6 +12,9 @@ import { useView } from '@/hooks/useView'
 import { LandingPage } from '@/components/landing/LandingPage'
 import { PrivacyPolicy } from '@/components/legal/PrivacyPolicy'
 import { Contact } from '@/components/legal/Contact'
+import { GuidePage } from '@/components/content/GuidePage'
+import { FaqPage } from '@/components/content/FaqPage'
+import { MethodologyPage } from '@/components/content/MethodologyPage'
 import { AdSlot } from '@/components/ads/AdSlot'
 import { VillagerGrid } from '@/components/eval/VillagerGrid'
 import { SelectionSummary } from '@/components/eval/SelectionSummary'
@@ -25,7 +28,7 @@ const PRESET_ORDER: PresetId[] = ['fav', 'species', 'personality']
 
 function App() {
   const { locale, t } = useLocale()
-  const { view, goAbout, goApp, goPrivacy, goContact } = useView()
+  const { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology } = useView()
   const { ratings, scores } = useRatings()
   const { blacklist } = useBlacklist()
   const { residents } = useResidents()
@@ -98,6 +101,15 @@ function App() {
   }
   if (view === 'contact') {
     return <Contact onBack={goApp} />
+  }
+  if (view === 'guide') {
+    return <GuidePage onBack={goApp} />
+  }
+  if (view === 'faq') {
+    return <FaqPage onBack={goApp} />
+  }
+  if (view === 'methodology') {
+    return <MethodologyPage onBack={goApp} />
   }
 
   return (
@@ -180,6 +192,15 @@ function App() {
           </button>
           <button type="button" onClick={goContact} className="underline hover:text-primary">
             {t('footer.contact')}
+          </button>
+          <button type="button" onClick={goGuide} className="underline hover:text-primary">
+            {t('footer.guide')}
+          </button>
+          <button type="button" onClick={goFaq} className="underline hover:text-primary">
+            {t('footer.faq')}
+          </button>
+          <button type="button" onClick={goMethodology} className="underline hover:text-primary">
+            {t('footer.methodology')}
           </button>
         </nav>
       </footer>
