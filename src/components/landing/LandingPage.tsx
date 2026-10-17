@@ -70,6 +70,16 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
           </Button>
         </section>
 
+        {/* About this site */}
+        <section className="mt-16">
+          <h2 className="mb-5 text-center text-2xl font-bold">{t('landing.about.title')}</h2>
+          <div className="flex flex-col gap-4 text-pretty text-base leading-relaxed text-muted-foreground">
+            <p>{t('landing.about.body1')}</p>
+            <p>{t('landing.about.body2')}</p>
+            <p>{t('landing.about.body3')}</p>
+          </div>
+        </section>
+
         {/* 주요 기능 */}
         <section className="mt-16">
           <h2 className="mb-5 text-center text-2xl font-bold">{t('landing.featuresTitle')}</h2>

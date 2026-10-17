@@ -63,6 +63,13 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.intro':
       '391명의 동물의 숲 주민을 S·A·B·C 티어로 평가하면, 성격 다양성까지 고려해 가장 잘 어울리는 드림 주민 팀을 추천해 드려요. 설치도 로그인도 필요 없이 브라우저에서 바로.',
     'landing.start': '바로 시작하기',
+    'landing.about.title': '이 사이트에 대하여',
+    'landing.about.body1':
+      '동물의 숲 주민 추천기는 「모여봐요 동물의 숲」의 391명 주민 중에서 나만의 드림 팀을 고르는 것을 돕는 팬 메이드 웹 도구입니다. 391명 중에서 10명을 고르는 일은 생각보다 어렵습니다. 좋아하는 주민만 모으면 성격이 한쪽으로 쏠려 섬의 대화가 단조로워지기 쉽고, 일일이 조합을 따져보자니 경우의 수가 너무 많습니다. 이 사이트는 그런 고민을 덜어주기 위해 만들었습니다.',
+    'landing.about.body2':
+      '사용법은 간단합니다. 주민을 S부터 C까지 티어로 평가하면, 평가 점수와 성격·종족의 다양성을 함께 고려해 가장 잘 어울리는 팀을 추천해 드립니다. 로그인이나 설치가 필요 없으며, 평가 기록은 브라우저에만 저장됩니다.',
+    'landing.about.body3':
+      '이 사이트는 Nintendo와 무관한 비공식 팬 프로젝트이며, 동물의 숲 시리즈의 모든 권리는 Nintendo에 있습니다.',
     'landing.featuresTitle': '주요 기능',
     'landing.feat.rate.title': '주민 평가',
     'landing.feat.rate.desc':
@@ -285,6 +292,13 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.intro':
       'Rate any of the 391 Animal Crossing villagers from S to C tier, and we recommend the best dream team for you — balancing your favorites with personality diversity. No install, no login, right in your browser.',
     'landing.start': 'Get started',
+    'landing.about.title': 'About this site',
+    'landing.about.body1':
+      'The Animal Crossing Villager Picker is a fan-made web tool that helps you choose your dream team from all 391 Animal Crossing: New Horizons villagers. Picking 10 out of 391 is harder than it sounds: stacking only your favorites skews personalities and makes island dialogue repetitive, while weighing every combination by hand is hopeless. This site exists to take that burden off your shoulders.',
+    'landing.about.body2':
+      'It is simple to use. Rate villagers from S to C tier, and the tool recommends the best-fitting team by balancing your ratings with species and personality diversity. No login or install is needed, and your ratings are stored only in your browser.',
+    'landing.about.body3':
+      'This is an unofficial fan project, not affiliated with Nintendo. All Animal Crossing rights belong to Nintendo.',
     'landing.featuresTitle': 'Features',
     'landing.feat.rate.title': 'Rate villagers',
     'landing.feat.rate.desc':
@@ -508,6 +522,13 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.intro':
       '391人のどうぶつの森の住民をS・A・B・Cで評価すると、性格の多様性まで考慮して最適なドリーム住民チームをおすすめします。インストールもログインも不要、ブラウザですぐに。',
     'landing.start': 'はじめる',
+    'landing.about.title': 'このサイトについて',
+    'landing.about.body1':
+      '「どうぶつの森 住民ピッカー」は、「あつまれ どうぶつの森」の全391人の住民から、自分だけのドリームチームを選ぶためのファンメイドWebツールです。391人から10人を選ぶのは想像以上に大変です。お気に入りだけを集めると性格が偏って島の会話が単調になりがちですし、組み合わせを一つひとつ検討するのは現実的ではありません。このサイトはそんな悩みを解消するために作られました。',
+    'landing.about.body2':
+      '使い方はシンプルです。住民をSからCのティアで評価すると、評価点と種族・性格の多様性を考慮して、最も相性の良いチームを提案します。ログインやインストールは不要で、評価データはブラウザにのみ保存されます。',
+    'landing.about.body3':
+      'このサイトは任天堂とは関係のない非公式ファンプロジェクトです。どうぶつの森シリーズの権利はすべて任天堂に帰属します。',
     'landing.featuresTitle': '主な機能',
     'landing.feat.rate.title': '住民を評価',
     'landing.feat.rate.desc':
