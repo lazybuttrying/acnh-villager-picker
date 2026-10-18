@@ -17,6 +17,7 @@ import { FaqPage } from '@/components/content/FaqPage'
 import { MethodologyPage } from '@/components/content/MethodologyPage'
 import { ChangelogPage } from '@/components/content/ChangelogPage'
 import { SharedTeamView } from '@/components/share/SharedTeamView'
+import { EventPage } from '@/components/share/EventPage'
 import { AdSlot } from '@/components/ads/AdSlot'
 import { VillagerGrid } from '@/components/eval/VillagerGrid'
 import { SelectionSummary } from '@/components/eval/SelectionSummary'
@@ -30,7 +31,7 @@ const PRESET_ORDER: PresetId[] = ['fav', 'species', 'personality']
 
 function App() {
   const { locale, t } = useLocale()
-  const { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology, goChangelog } = useView()
+  const { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology, goChangelog, goEvent } = useView()
   const { ratings, scores } = useRatings()
   const { blacklist } = useBlacklist()
   const { residents } = useResidents()
@@ -105,6 +106,7 @@ function App() {
       methodology: 'methodology.title',
       changelog: 'changelog.title',
       team: 'share.teamTitle',
+      event: 'event.title',
     }
     const key = titleKey[view] ?? null
     document.title = key ? `${t(key)} | ${t('app.title')}` : t('app.title')
@@ -112,7 +114,7 @@ function App() {
 
   // 소개 랜딩 뷰 — 해시('#about')일 때 메인 UI 대신 전체 화면 차지. (훅은 위에서 모두 호출 후 분기)
   if (view === 'about') {
-    return <LandingPage onEnter={goApp} />
+    return <LandingPage onEnter={goApp} onEvent={goEvent} />
   }
   if (view === 'privacy') {
     return <PrivacyPolicy onBack={goApp} />
@@ -134,6 +136,9 @@ function App() {
   }
   if (view === 'team') {
     return <SharedTeamView onBack={goApp} />
+  }
+  if (view === 'event') {
+    return <EventPage onBack={goApp} />
   }
 
   return (
@@ -229,6 +234,9 @@ function App() {
           </button>
           <button type="button" onClick={goChangelog} className="underline hover:text-primary">
             {t('footer.changelog')}
+          </button>
+          <button type="button" onClick={goEvent} className="underline hover:text-primary">
+            {t('footer.event')}
           </button>
         </nav>
       </footer>

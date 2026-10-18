@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 
 // 라우터 없이 해시 한 칸으로 뷰를 가른다. '#about' = 소개 랜딩, '#privacy' = 개인정보처리방침,
 // '#contact' = 문의하기, 그 외 = 메인 앱. 해시 기반이라 정적 호스팅(base:'./') 및 브라우저 뒤로가기와 그대로 호환된다.
-export type View = 'app' | 'about' | 'privacy' | 'contact' | 'guide' | 'faq' | 'methodology' | 'changelog' | 'team'
+export type View = 'app' | 'about' | 'privacy' | 'contact' | 'guide' | 'faq' | 'methodology' | 'changelog' | 'team' | 'event'
 
 function parseHash(): View {
   const h = window.location.hash.replace(/^#\/?/, '')
@@ -13,6 +13,7 @@ function parseHash(): View {
   if (h === 'faq') return 'faq'
   if (h === 'methodology') return 'methodology'
   if (h === 'changelog') return 'changelog'
+  if (h === 'event') return 'event'
   if (h === 'team' || h.startsWith('team/')) return 'team'
   return 'app'
 }
@@ -39,6 +40,7 @@ export function useView(): {
   goFaq: () => void
   goMethodology: () => void
   goChangelog: () => void
+  goEvent: () => void
 } {
   const [view, setView] = useState<View>(parseHash)
 
@@ -80,6 +82,10 @@ export function useView(): {
     window.location.hash = 'changelog'
   }, [])
 
+  const goEvent = useCallback(() => {
+    window.location.hash = 'event'
+  }, [])
+
   const goApp = useCallback(() => {
     // 해시 제거로 깔끔한 URL 유지. replaceState는 hashchange를 발생시키지 않으므로 직접 갱신.
     if (window.location.hash) {
@@ -89,5 +95,5 @@ export function useView(): {
     scrollTop()
   }, [])
 
-  return { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology, goChangelog }
+  return { view, goAbout, goApp, goPrivacy, goContact, goGuide, goFaq, goMethodology, goChangelog, goEvent }
 }

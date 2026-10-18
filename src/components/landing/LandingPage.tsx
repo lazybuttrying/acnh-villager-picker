@@ -6,6 +6,7 @@ import {
   Download,
   Home,
   Languages,
+  Megaphone,
   Sparkles,
 } from 'lucide-react'
 import { useLocale, LanguageSwitcher } from '@/i18n'
@@ -39,7 +40,7 @@ const TIER_BADGES = [
   { tier: 'C', score: 1, cls: 'bg-gray-400 text-white' },
 ] as const
 
-export function LandingPage({ onEnter }: { onEnter: () => void }) {
+export function LandingPage({ onEnter, onEvent }: { onEnter: () => void; onEvent: () => void }) {
   const { t } = useLocale()
 
   return (
@@ -152,6 +153,21 @@ export function LandingPage({ onEnter }: { onEnter: () => void }) {
           <p className="mx-auto mt-4 w-fit rounded-lg bg-muted px-3.5 py-2 text-center text-base tabular-nums text-muted-foreground">
             {t('landing.score.formula')}
           </p>
+        </section>
+
+        {/* 공유 이벤트 배너 */}
+        <section className="mx-auto mt-16 max-w-xl">
+          <div className="flex flex-col items-center rounded-2xl border bg-gradient-to-br from-emerald-50 to-lime-50 p-6 text-center dark:from-emerald-950/40 dark:to-lime-950/20">
+            <div className="flex h-11 w-11 items-center justify-center rounded-full bg-emerald-500 text-white">
+              <Megaphone className="h-5 w-5" />
+            </div>
+            <h2 className="mt-3 text-lg font-extrabold">{t('event.title')}</h2>
+            <p className="mt-1 text-sm text-muted-foreground">{t('event.lede')}</p>
+            <Button className="mt-4 gap-2" onClick={onEvent}>
+              {t('landing.eventCta')}
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+          </div>
         </section>
 
         {/* 하단 CTA */}
