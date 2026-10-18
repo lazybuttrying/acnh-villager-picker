@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 
 // 라우터 없이 해시 한 칸으로 뷰를 가른다. '#about' = 소개 랜딩, '#privacy' = 개인정보처리방침,
 // '#contact' = 문의하기, 그 외 = 메인 앱. 해시 기반이라 정적 호스팅(base:'./') 및 브라우저 뒤로가기와 그대로 호환된다.
-export type View = 'app' | 'about' | 'privacy' | 'contact' | 'guide' | 'faq' | 'methodology' | 'changelog'
+export type View = 'app' | 'about' | 'privacy' | 'contact' | 'guide' | 'faq' | 'methodology' | 'changelog' | 'team'
 
 function parseHash(): View {
   const h = window.location.hash.replace(/^#\/?/, '')
@@ -13,7 +13,16 @@ function parseHash(): View {
   if (h === 'faq') return 'faq'
   if (h === 'methodology') return 'methodology'
   if (h === 'changelog') return 'changelog'
+  if (h === 'team' || h.startsWith('team/')) return 'team'
   return 'app'
+}
+
+/** Extract the share code from '#/team/<code>'. Null when the hash is not a team link. */
+export function getTeamCode(): string | null {
+  const h = window.location.hash.replace(/^#\/?/, '')
+  if (!h.startsWith('team/')) return null
+  const code = h.slice('team/'.length).split(/[?#]/)[0]
+  return code || null
 }
 
 function scrollTop(): void {

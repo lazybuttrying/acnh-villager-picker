@@ -16,6 +16,7 @@ import { GuidePage } from '@/components/content/GuidePage'
 import { FaqPage } from '@/components/content/FaqPage'
 import { MethodologyPage } from '@/components/content/MethodologyPage'
 import { ChangelogPage } from '@/components/content/ChangelogPage'
+import { SharedTeamView } from '@/components/share/SharedTeamView'
 import { AdSlot } from '@/components/ads/AdSlot'
 import { VillagerGrid } from '@/components/eval/VillagerGrid'
 import { SelectionSummary } from '@/components/eval/SelectionSummary'
@@ -103,6 +104,7 @@ function App() {
       faq: 'faq.title',
       methodology: 'methodology.title',
       changelog: 'changelog.title',
+      team: 'share.teamTitle',
     }
     const key = titleKey[view] ?? null
     document.title = key ? `${t(key)} | ${t('app.title')}` : t('app.title')
@@ -129,6 +131,9 @@ function App() {
   }
   if (view === 'changelog') {
     return <ChangelogPage onBack={goApp} />
+  }
+  if (view === 'team') {
+    return <SharedTeamView onBack={goApp} />
   }
 
   return (

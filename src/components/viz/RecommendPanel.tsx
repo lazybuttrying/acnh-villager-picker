@@ -16,6 +16,7 @@ import { SelectionPool } from './SelectionPool'
 import { BlacklistTracker } from './BlacklistTracker'
 import { ResidentTracker } from './ResidentTracker'
 import { ExportReportButton } from './ExportReportButton'
+import { ShareTeamButton } from '@/components/share/ShareTeamButton'
 
 export const MIN_TEAM = 3
 export const MAX_TEAM = 10
@@ -76,11 +77,14 @@ export function RecommendPanel({
         <div className="flex items-center justify-between gap-2">
           <CardTitle>{t('recommend.title')}</CardTitle>
           {shown && (
-            <ExportReportButton
-              result={{ team: shown.team, score: shown.score, missing: shown.missing }}
-              preset={shown.preset}
-              teamSize={teamSize}
-            />
+            <div className="flex items-center gap-1.5">
+              <ShareTeamButton team={shown.team} ratings={ratings} />
+              <ExportReportButton
+                result={{ team: shown.team, score: shown.score, missing: shown.missing }}
+                preset={shown.preset}
+                teamSize={teamSize}
+              />
+            </div>
           )}
         </div>
         {/* 팀 인원 조절 (3~10). 8 미만이면 8성격 커버 제약은 자동 완화. 세 프리셋 공통. */}
