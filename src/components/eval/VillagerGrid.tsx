@@ -6,6 +6,7 @@ import { useLocale } from '@/i18n'
 import { useRatings } from '@/hooks/useRatings'
 import { useBlacklist } from '@/hooks/useBlacklist'
 import { useResidents } from '@/hooks/useResidents'
+import { useOwned } from '@/hooks/useOwned'
 import { VillagerCard } from './VillagerCard'
 import {
   FilterBar,
@@ -21,6 +22,7 @@ export function VillagerGrid() {
   const { ratings, setTier, remove: removeRating } = useRatings()
   const { has: isBlacklisted, toggle: toggleBlacklist, remove: removeBlacklist } = useBlacklist()
   const { residents, has: isResident, toggle: toggleResident, remove: removeResident } = useResidents()
+  const { has: isOwned, toggle: toggleOwned } = useOwned()
   const [filter, setFilter] = useState<VillagerFilter>(EMPTY_FILTER)
 
   // 평가/블랙리스트/거주중 3개는 상호배타. 하나를 켜면 나머지는 해제.
@@ -93,10 +95,12 @@ export function VillagerGrid() {
             tier={ratings[v.id]}
             blacklisted={isBlacklisted(v.id)}
             resident={isResident(v.id)}
+            owned={isOwned(v.id)}
             onSetTier={onSetTier}
             onClearTier={removeRating}
             onToggleBlacklist={onToggleBlacklist}
             onToggleResident={onToggleResident}
+            onToggleOwned={toggleOwned}
             locale={locale}
           />
         ))}

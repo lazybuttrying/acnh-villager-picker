@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import type { MouseEvent } from 'react'
-import { Ban, Home } from 'lucide-react'
+import { Ban, Home, Nfc } from 'lucide-react'
 import type { Locale, Tier, Villager } from '@/data/types'
 import { TIER_SCORE } from '@/data/types'
 import { villagerName, personalityLabel, speciesLabel, useLocale } from '@/i18n'
@@ -21,20 +21,24 @@ export function VillagerCard({
   tier,
   blacklisted = false,
   resident = false,
+  owned = false,
   onSetTier,
   onClearTier,
   onToggleBlacklist,
   onToggleResident,
+  onToggleOwned,
   locale,
 }: {
   villager: Villager
   tier?: Tier
   blacklisted?: boolean
   resident?: boolean
+  owned?: boolean
   onSetTier: (id: string, tier: Tier) => void
   onClearTier: (id: string) => void
   onToggleBlacklist: (id: string) => void
   onToggleResident: (id: string) => void
+  onToggleOwned: (id: string) => void
   locale: Locale
 }) {
   const [imgError, setImgError] = useState(false)
@@ -50,6 +54,11 @@ export function VillagerCard({
   function handleResident(e: MouseEvent<HTMLButtonElement>) {
     e.stopPropagation()
     onToggleResident(villager.id)
+  }
+
+  function handleOwned(e: MouseEvent<HTMLButtonElement>) {
+    e.stopPropagation()
+    onToggleOwned(villager.id)
   }
 
   function handleTier(e: MouseEvent<HTMLButtonElement>, tr: Tier) {
@@ -101,6 +110,23 @@ export function VillagerCard({
         <Home className="h-3.5 w-3.5" />
       </button>
 
+      {/* amiibo 보유 토글 — 우상단, 거주 버튼 아래. 보유는 독립 상태(상호배타 아님) */}
+      <button
+        type="button"
+        onClick={handleOwned}
+        aria-label={t('card.owned')}
+        aria-pressed={owned}
+        title={t('card.owned')}
+        className={cn(
+          'absolute right-1.5 top-9 z-10 flex h-6 w-6 items-center justify-center rounded-full border transition-opacity',
+          owned
+            ? 'border-transparent bg-violet-500 text-white opacity-100'
+            : 'border-border bg-background/80 text-muted-foreground opacity-0 hover:bg-violet-500 hover:text-white group-hover:opacity-100 focus-visible:opacity-100',
+        )}
+      >
+        <Nfc className="h-3.5 w-3.5" />
+      </button>
+
       <CardContent className="flex flex-col items-center gap-1.5 p-2">
         <div className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-md bg-muted">
           {imgError ? (
@@ -124,6 +150,12 @@ export function VillagerCard({
           <p className="truncate text-xs text-muted-foreground">
             {speciesLabel(villager.species, locale)} · {personalityLabel(villager.personality, locale)}
           </p>
+          {owned && (
+            <span className="mt-0.5 inline-flex items-center gap-0.5 rounded-full bg-violet-100 px-1.5 py-px text-[10px] font-semibold text-violet-700 dark:bg-violet-500/20 dark:text-violet-300">
+              <Nfc className="h-2.5 w-2.5" aria-hidden="true" />
+              amiibo
+            </span>
+          )}
         </div>
 
         {/* 티어 버튼: S/A/B/C 한번에 표시 — 직접 선택(재클릭 해제) */}
