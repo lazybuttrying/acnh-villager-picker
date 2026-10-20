@@ -5081,5 +5081,213 @@
     "species": "Ostrich",
     "gender": "Female",
     "image": "villagers/Phoebe_NH.png"
+  },
+  {
+    "id": "rbt20",
+    "names": {
+      "ko": "미첼",
+      "en": "Sasha",
+      "ja": "ミッチェル"
+    },
+    "nameEn": "Sasha",
+    "personality": "Lazy",
+    "species": "Rabbit",
+    "gender": "Male",
+    "image": "villagers/Sasha_NH.png"
+  },
+  {
+    "id": "squ19",
+    "names": {
+      "ko": "스피카",
+      "en": "Ione",
+      "ja": "スピカ"
+    },
+    "nameEn": "Ione",
+    "personality": "Normal",
+    "species": "Squirrel",
+    "gender": "Female",
+    "image": "villagers/Ione_NH.png"
+  },
+  {
+    "id": "der10",
+    "names": {
+      "ko": "요비",
+      "en": "Shino",
+      "ja": "よしの"
+    },
+    "nameEn": "Shino",
+    "personality": "Peppy",
+    "species": "Deer",
+    "gender": "Female",
+    "image": "villagers/Shino_NH.png"
+  },
+  {
+    "id": "ham08",
+    "names": {
+      "ko": "보스터",
+      "en": "Marlo",
+      "ja": "ドンチャン"
+    },
+    "nameEn": "Marlo",
+    "personality": "Cranky",
+    "species": "Hamster",
+    "gender": "Male",
+    "image": "villagers/Marlo_NH.png"
+  },
+  {
+    "id": "mus19",
+    "names": {
+      "ko": "리카",
+      "en": "Petri",
+      "ja": "リカ"
+    },
+    "nameEn": "Petri",
+    "personality": "Snooty",
+    "species": "Mouse",
+    "gender": "Female",
+    "image": "villagers/Petri_NH.png"
+  },
+  {
+    "id": "mnk09",
+    "names": {
+      "ko": "제천",
+      "en": "Tiansheng",
+      "ja": "テンシン"
+    },
+    "nameEn": "Tiansheng",
+    "personality": "Jock",
+    "species": "Monkey",
+    "gender": "Male",
+    "image": "villagers/Tiansheng_NH.png"
+  },
+  {
+    "id": "ocp03",
+    "names": {
+      "ko": "기가",
+      "en": "Cephalobot",
+      "ja": "ギーガー"
+    },
+    "nameEn": "Cephalobot",
+    "personality": "Smug",
+    "species": "Octopus",
+    "gender": "Male",
+    "image": "villagers/Cephalobot_NH.png"
+  },
+  {
+    "id": "pbr10",
+    "names": {
+      "ko": "시온",
+      "en": "Quinn",
+      "ja": "シオン"
+    },
+    "nameEn": "Quinn",
+    "personality": "Sisterly",
+    "species": "Eagle",
+    "gender": "Female",
+    "image": "villagers/Quinn_NH.png"
+  },
+  {
+    "id": "pgn15",
+    "names": {
+      "ko": "펭구",
+      "en": "Chabwick",
+      "ja": "のぶお"
+    },
+    "nameEn": "Chabwick",
+    "personality": "Lazy",
+    "species": "Penguin",
+    "gender": "Male",
+    "image": "villagers/Chabwick_NH.png"
+  },
+  {
+    "id": "ant10",
+    "names": {
+      "ko": "소면",
+      "en": "Zoe",
+      "ja": "ビーフン"
+    },
+    "nameEn": "Zoe",
+    "personality": "Normal",
+    "species": "Anteater",
+    "gender": "Female",
+    "image": "villagers/Zoe_NH.png"
+  },
+  {
+    "id": "brd19",
+    "names": {
+      "ko": "페더",
+      "en": "Ace",
+      "ja": "フェザー"
+    },
+    "nameEn": "Ace",
+    "personality": "Jock",
+    "species": "Bird",
+    "gender": "Male",
+    "image": "villagers/Ace_NH.png"
+  },
+  {
+    "id": "ost11",
+    "names": {
+      "ko": "데자네",
+      "en": "Rio",
+      "ja": "デジャネイロ"
+    },
+    "nameEn": "Rio",
+    "personality": "Peppy",
+    "species": "Ostrich",
+    "gender": "Female",
+    "image": "villagers/Rio_NH.png"
+  },
+  {
+    "id": "dog19",
+    "names": {
+      "ko": "샹펜",
+      "en": "Frett",
+      "ja": "シャンペン"
+    },
+    "nameEn": "Frett",
+    "personality": "Cranky",
+    "species": "Dog",
+    "gender": "Male",
+    "image": "villagers/Frett_NH.png"
+  },
+  {
+    "id": "rhn09",
+    "names": {
+      "ko": "페튜니아",
+      "en": "Azalea",
+      "ja": "ペチュニア"
+    },
+    "nameEn": "Azalea",
+    "personality": "Snooty",
+    "species": "Rhino",
+    "gender": "Female",
+    "image": "villagers/Azalea_NH.png"
+  },
+  {
+    "id": "crd09",
+    "names": {
+      "ko": "삐로코",
+      "en": "Roswell",
+      "ja": "ピロンコン"
+    },
+    "nameEn": "Roswell",
+    "personality": "Smug",
+    "species": "Alligator",
+    "gender": "Male",
+    "image": "villagers/Roswell_NH.png"
+  },
+  {
+    "id": "kal11",
+    "names": {
+      "ko": "마치",
+      "en": "Faith",
+      "ja": "マーチ"
+    },
+    "nameEn": "Faith",
+    "personality": "Sisterly",
+    "species": "Koala",
+    "gender": "Female",
+    "image": "villagers/Faith_NH.png"
   }
 ]
