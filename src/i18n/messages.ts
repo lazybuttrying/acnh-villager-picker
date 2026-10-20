@@ -66,11 +66,11 @@ export const messages: Record<Locale, Record<string, string>> = {
     'share.viewHint': '친구가 공유한 드림 주민 팀이에요',
     'share.invalid': '공유 링크가 올바르지 않아요',
     'share.ctaTitle': '너의 드림팀도 만들어봐',
-    'share.ctaHint': '391명 중 10명 — S~C 티어 평가로 추천해줘요',
+    'share.ctaHint': '407명 중 10명 — S~C 티어 평가로 추천해줘요',
     'share.cta': '나도 만들어보기',
     'share.xText': '내 모동숲 드림팀! 🏝️',
     'share.imageTitle': '내 드림팀',
-    'share.imageTagline': '391명 중 고른 내 드림 주민 10명',
+    'share.imageTagline': '407명 중 고른 내 드림 주민 10명',
     'event.title': '드림팀 공유 이벤트',
     'event.lede': '이미지를 저장하고 X에 트윗하면 참여 완료!',
     'event.step1title': '이미지 저장하기',
@@ -82,18 +82,18 @@ export const messages: Record<Locale, Record<string, string>> = {
     'event.copied': '복사됐어요',
     'event.saveImage': '이미지 저장',
     'event.tweet': 'X에 트윗하기',
-    'event.tweetText': '내 모동숲 드림팀 만들어봤어! 🏝️ 391명 중에 10명 고르기 #모동숲 #동물의숲',
+    'event.tweetText': '내 모동숲 드림팀 만들어봤어! 🏝️ 407명 중에 10명 고르기 #모동숲 #동물의숲',
     'footer.event': '공유 이벤트',
     'landing.eventCta': '이벤트 참여하기',
     'about.hint': '사이트 소개 보기',
     'landing.back': '주민 고르러 가기',
     'landing.tagline': '내 취향으로 꾸미는 꿈의 섬 주민 10명',
     'landing.intro':
-      '391명의 동물의 숲 주민을 S·A·B·C 티어로 평가하면, 성격 다양성까지 고려해 가장 잘 어울리는 드림 주민 팀을 추천해 드려요. 설치도 로그인도 필요 없이 브라우저에서 바로.',
+      '407명의 동물의 숲 주민을 S·A·B·C 티어로 평가하면, 성격 다양성까지 고려해 가장 잘 어울리는 드림 주민 팀을 추천해 드려요. 설치도 로그인도 필요 없이 브라우저에서 바로.',
     'landing.start': '바로 시작하기',
     'landing.about.title': '이 사이트에 대하여',
     'landing.about.body1':
-      '동물의 숲 주민 추천기는 「모여봐요 동물의 숲」의 391명 주민 중에서 나만의 드림 팀을 고르는 것을 돕는 팬 메이드 웹 도구입니다. 391명 중에서 10명을 고르는 일은 생각보다 어렵습니다. 좋아하는 주민만 모으면 성격이 한쪽으로 쏠려 섬의 대화가 단조로워지기 쉽고, 일일이 조합을 따져보자니 경우의 수가 너무 많습니다. 이 사이트는 그런 고민을 덜어주기 위해 만들었습니다.',
+      '동물의 숲 주민 추천기는 「모여봐요 동물의 숲」의 407명 주민 중에서 나만의 드림 팀을 고르는 것을 돕는 팬 메이드 웹 도구입니다. 407명 중에서 10명을 고르는 일은 생각보다 어렵습니다. 좋아하는 주민만 모으면 성격이 한쪽으로 쏠려 섬의 대화가 단조로워지기 쉽고, 일일이 조합을 따져보자니 경우의 수가 너무 많습니다. 이 사이트는 그런 고민을 덜어주기 위해 만들었습니다.',
     'landing.about.body2':
       '사용법은 간단합니다. 주민을 S부터 C까지 티어로 평가하면, 평가 점수와 성격·종족의 다양성을 함께 고려해 가장 잘 어울리는 팀을 추천해 드립니다. 로그인이나 설치가 필요 없으며, 평가 기록은 브라우저에만 저장됩니다.',
     'landing.about.body3':
@@ -101,7 +101,7 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.featuresTitle': '주요 기능',
     'landing.feat.rate.title': '주민 평가',
     'landing.feat.rate.desc':
-      '391명 전체를 검색·필터하며 S/A/B/C 티어로 빠르게 평가. 평가는 브라우저에 자동 저장돼요.',
+      '407명 전체를 검색·필터하며 S/A/B/C 티어로 빠르게 평가. 평가는 브라우저에 자동 저장돼요.',
     'landing.feat.recommend.title': '스마트 추천',
     'landing.feat.recommend.desc':
       '찜한 호감도와 8가지 성격 다양성을 함께 따져 최적의 팀을 골라줍니다. 팀 인원도 3~10명으로 조절.',
@@ -173,6 +173,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'footer.changelog': '업데이트 기록',
     'changelog.title': '업데이트 기록',
     'changelog.intro': '사이트의 주요 변경 사항을 최신순으로 정리했습니다.',
+    'changelog.e0.date': '2026-10-20',
+    'changelog.e0.title': '2.0 업데이트 주민 16명 추가',
+    'changelog.e0.body':
+      '미첼, 스피카, 요비 등 「모여봐요 동물의 숲」 2.0 업데이트 주민 16명이 추가되어, 이제 총 407명의 주민을 평가하고 추천받을 수 있습니다.',
     'changelog.e1.date': '2026-10-17',
     'changelog.e1.title': '콘텐츠 페이지 추가 및 도메인 통합',
     'changelog.e1.body':
@@ -191,10 +195,10 @@ export const messages: Record<Locale, Record<string, string>> = {
       '391명 주민 티어 평가와 드림 팀 추천 기능을 담은 첫 버전을 공개했습니다. 한국어·영어·일본어를 지원합니다.',
     'guide.title': '주민 성격 가이드',
     'guide.intro':
-      '동물의 숲 주민 391명에게는 저마다 8가지 성격 중 하나가 정해져 있습니다. 성격은 주민의 말투와 대화 주제, 취미 생활, 섬에서의 하루를 어떻게 보내는지를 결정해요. 같은 성격의 주민만 모으면 대화가 금방 겹쳐서 지루해지고, 8가지 성격이 고루 섞이면 매일 새로운 대화를 들을 수 있습니다. 이 페이지에서는 성격별 특징과 대표 주민, 35가지 종족, 티어 평가 활용법, 균형 잡힌 팀을 짜는 요령을 정리했습니다.',
+      '동물의 숲 주민 407명에게는 저마다 8가지 성격 중 하나가 정해져 있습니다. 성격은 주민의 말투와 대화 주제, 취미 생활, 섬에서의 하루를 어떻게 보내는지를 결정해요. 같은 성격의 주민만 모으면 대화가 금방 겹쳐서 지루해지고, 8가지 성격이 고루 섞이면 매일 새로운 대화를 들을 수 있습니다. 이 페이지에서는 성격별 특징과 대표 주민, 35가지 종족, 티어 평가 활용법, 균형 잡힌 팀을 짜는 요령을 정리했습니다.',
     'guide.personalities.title': '8가지 성격',
     'guide.personalities.intro':
-      '391명의 주민은 아래 8가지 성격 중 하나를 가집니다. 성격 이름 옆에는 실제로 많은 사랑을 받는 대표 주민을 함께 표시했어요.',
+      '407명의 주민은 아래 8가지 성격 중 하나를 가집니다. 성격 이름 옆에는 실제로 많은 사랑을 받는 대표 주민을 함께 표시했어요.',
     'guide.p.jock.body':
       '운동과 단련 이야기가 입에 붙은 열혈 스포츠맨 타입입니다. 아침 일찍 일어나 조깅을 하고, 만나는 주민마다 운동을 권하곤 해요. 대화가 밝고 활기차서 섬의 분위기 메이커가 되지만, 화제가 운동 쪽으로만 쏠리기 쉬우니 1~2명 정도가 적당합니다. 팀에 넣으면 섬 전체가 생기발랄해지는 느낌을 받을 수 있어요.',
     'guide.p.lazy.body':
@@ -225,7 +229,7 @@ export const messages: Record<Locale, Record<string, string>> = {
       '모동숲 드림 주민 조합기에 대해 자주 받는 질문을 모았습니다. 원하는 답을 찾지 못했다면 문의하기 페이지의 GitHub 이슈로 연락해 주세요.',
     'faq.q1.q': '이 사이트는 뭔가요?',
     'faq.q1.a':
-      '동물의 숲: 새로운 지평(모동숲)의 주민 391명을 S·A·B·C 티어로 평가하면, 내 호감도와 성격·종족 다양성을 함께 고려해 드림 주민 팀을 추천해 주는 비공식 팬 도구입니다. 설치나 회원가입 없이 브라우저에서 바로 사용할 수 있어요.',
+      '동물의 숲: 새로운 지평(모동숲)의 주민 407명을 S·A·B·C 티어로 평가하면, 내 호감도와 성격·종족 다양성을 함께 고려해 드림 주민 팀을 추천해 주는 비공식 팬 도구입니다. 설치나 회원가입 없이 브라우저에서 바로 사용할 수 있어요.',
     'faq.q2.q': '닌텐도 공식 사이트인가요?',
     'faq.q2.a':
       '아닙니다. 팬이 개인적으로 만든 비공식 사이트이며, Nintendo 및 Animal Crossing과 아무런 제휴 관계가 없습니다. 주민 이름과 이미지에 대한 권리는 Nintendo에 있습니다.',
@@ -342,11 +346,11 @@ export const messages: Record<Locale, Record<string, string>> = {
     'share.viewHint': "A friend shared their dream villager team",
     'share.invalid': 'This share link is invalid',
     'share.ctaTitle': 'Build your own dream team',
-    'share.ctaHint': '10 out of 391 — recommended from your S–C tier ratings',
+    'share.ctaHint': '10 out of 407 — recommended from your S–C tier ratings',
     'share.cta': 'Make mine too',
     'share.xText': 'My Animal Crossing dream team! 🏝️',
     'share.imageTitle': 'My Dream Team',
-    'share.imageTagline': 'My 10 dream villagers out of 391',
+    'share.imageTagline': 'My 10 dream villagers out of 407',
     'event.title': 'Dream Team Share Event',
     'event.lede': 'Save the image and post it on X — done!',
     'event.step1title': 'Save the image',
@@ -358,18 +362,18 @@ export const messages: Record<Locale, Record<string, string>> = {
     'event.copied': 'Copied!',
     'event.saveImage': 'Save image',
     'event.tweet': 'Tweet on X',
-    'event.tweetText': 'I made my Animal Crossing dream team! 🏝️ Pick 10 out of 391 #AnimalCrossing #ACNH',
+    'event.tweetText': 'I made my Animal Crossing dream team! 🏝️ Pick 10 out of 407 #AnimalCrossing #ACNH',
     'footer.event': 'Share event',
     'landing.eventCta': 'Join the event',
     'about.hint': 'About this site',
     'landing.back': 'Start picking villagers',
     'landing.tagline': 'Build your dream island lineup of 10 villagers',
     'landing.intro':
-      'Rate any of the 391 Animal Crossing villagers from S to C tier, and we recommend the best dream team for you — balancing your favorites with personality diversity. No install, no login, right in your browser.',
+      'Rate any of the 407 Animal Crossing villagers from S to C tier, and we recommend the best dream team for you — balancing your favorites with personality diversity. No install, no login, right in your browser.',
     'landing.start': 'Get started',
     'landing.about.title': 'About this site',
     'landing.about.body1':
-      'The Animal Crossing Villager Picker is a fan-made web tool that helps you choose your dream team from all 391 Animal Crossing: New Horizons villagers. Picking 10 out of 391 is harder than it sounds: stacking only your favorites skews personalities and makes island dialogue repetitive, while weighing every combination by hand is hopeless. This site exists to take that burden off your shoulders.',
+      'The Animal Crossing Villager Picker is a fan-made web tool that helps you choose your dream team from all 407 Animal Crossing: New Horizons villagers. Picking 10 out of 407 is harder than it sounds: stacking only your favorites skews personalities and makes island dialogue repetitive, while weighing every combination by hand is hopeless. This site exists to take that burden off your shoulders.',
     'landing.about.body2':
       'It is simple to use. Rate villagers from S to C tier, and the tool recommends the best-fitting team by balancing your ratings with species and personality diversity. No login or install is needed, and your ratings are stored only in your browser.',
     'landing.about.body3':
@@ -377,7 +381,7 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.featuresTitle': 'Features',
     'landing.feat.rate.title': 'Rate villagers',
     'landing.feat.rate.desc':
-      'Search and filter all 391 villagers and rate them S/A/B/C in seconds. Your ratings are saved in your browser automatically.',
+      'Search and filter all 407 villagers and rate them S/A/B/C in seconds. Your ratings are saved in your browser automatically.',
     'landing.feat.recommend.title': 'Smart recommendations',
     'landing.feat.recommend.desc':
       'We weigh your favorites against the diversity of all 8 personalities to pick the ideal team. Adjust team size from 3 to 10.',
@@ -450,6 +454,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'footer.changelog': 'Changelog',
     'changelog.title': 'Changelog',
     'changelog.intro': 'Major changes to the site, newest first.',
+    'changelog.e0.date': '2026-10-20',
+    'changelog.e0.title': '16 villagers from the 2.0 update added',
+    'changelog.e0.body':
+      'Sasha, Ione, Shino and 13 more villagers from the Animal Crossing: New Horizons 2.0 update have been added. You can now rate and get recommendations for all 407 villagers.',
     'changelog.e1.date': '2026-10-17',
     'changelog.e1.title': 'Content pages and domain unification',
     'changelog.e1.body':
@@ -468,10 +476,10 @@ export const messages: Record<Locale, Record<string, string>> = {
       'Launched with 391-villager tier ratings and dream team recommendations, in Korean, English, and Japanese.',
     'guide.title': 'Villager Personality Guide',
     'guide.intro':
-      'Each of the 391 Animal Crossing villagers has one of 8 personalities. Personality decides how a villager talks, what they chat about, their hobbies, and how they spend the day on your island. Fill your island with a single personality and conversations get repetitive fast; mix all 8 and you will hear something new every day. This page covers each personality with representative villagers, the 35 species, how to use tier ratings, and tips for building a balanced team.',
+      'Each of the 407 Animal Crossing villagers has one of 8 personalities. Personality decides how a villager talks, what they chat about, their hobbies, and how they spend the day on your island. Fill your island with a single personality and conversations get repetitive fast; mix all 8 and you will hear something new every day. This page covers each personality with representative villagers, the 35 species, how to use tier ratings, and tips for building a balanced team.',
     'guide.personalities.title': 'The 8 personalities',
     'guide.personalities.intro':
-      'Every one of the 391 villagers belongs to one of the 8 personalities below. Next to each personality we list representative villagers that players love.',
+      'Every one of the 407 villagers belongs to one of the 8 personalities below. Next to each personality we list representative villagers that players love.',
     'guide.p.jock.body':
       'The sporty fitness enthusiast who lives for exercise. Jocks wake up early for a jog and recommend workouts to everyone they meet. Their cheerful energy makes them great island mood-makers, but their conversations revolve heavily around sports, so one or two is usually the sweet spot. Adding a jock makes the whole island feel lively.',
     'guide.p.lazy.body':
@@ -502,7 +510,7 @@ export const messages: Record<Locale, Record<string, string>> = {
       'Answers to common questions about the ACNH Villager Picker. If you cannot find what you need, reach out via a GitHub issue on the Contact page.',
     'faq.q1.q': 'What is this site?',
     'faq.q1.a':
-      'An unofficial fan tool for Animal Crossing: New Horizons. Rate the 391 villagers from S to C tier, and it recommends a dream team that balances your favorites with personality and species diversity. No install or sign-up — it runs right in your browser.',
+      'An unofficial fan tool for Animal Crossing: New Horizons. Rate the 407 villagers from S to C tier, and it recommends a dream team that balances your favorites with personality and species diversity. No install or sign-up — it runs right in your browser.',
     'faq.q2.q': 'Is this an official Nintendo site?',
     'faq.q2.a':
       'No. It is an unofficial site made by a fan, with no affiliation to Nintendo or Animal Crossing. All villager names and images belong to Nintendo.',
@@ -619,11 +627,11 @@ export const messages: Record<Locale, Record<string, string>> = {
     'share.viewHint': '友達が共有したドリーム住民チーム',
     'share.invalid': '共有リンクが無効です',
     'share.ctaTitle': 'あなたのドリームチームも作ってみよう',
-    'share.ctaHint': '391人の中から10人 — S〜Cティア評価でおすすめ',
+    'share.ctaHint': '407人の中から10人 — S〜Cティア評価でおすすめ',
     'share.cta': '自分も作ってみる',
     'share.xText': 'あつ森ドリームチーム！🏝️',
     'share.imageTitle': 'マイドリームチーム',
-    'share.imageTagline': '391人から選んだドリーム住民10人',
+    'share.imageTagline': '407人から選んだドリーム住民10人',
     'event.title': 'ドリームチーム共有イベント',
     'event.lede': '画像を保存してXに投稿するだけ！',
     'event.step1title': '画像を保存',
@@ -635,18 +643,18 @@ export const messages: Record<Locale, Record<string, string>> = {
     'event.copied': 'コピーしました',
     'event.saveImage': '画像を保存',
     'event.tweet': 'Xでツイート',
-    'event.tweetText': 'あつ森ドリームチーム作ってみた！🏝️ 391人から10人を診断 #あつ森 #どうぶつの森',
+    'event.tweetText': 'あつ森ドリームチーム作ってみた！🏝️ 407人から10人を診断 #あつ森 #どうぶつの森',
     'footer.event': '共有イベント',
     'landing.eventCta': 'イベントに参加',
     'about.hint': 'サイト紹介を見る',
     'landing.back': '住民を選びに行く',
     'landing.tagline': '好みで選ぶ、夢の島の住民10人',
     'landing.intro':
-      '391人のどうぶつの森の住民をS・A・B・Cで評価すると、性格の多様性まで考慮して最適なドリーム住民チームをおすすめします。インストールもログインも不要、ブラウザですぐに。',
+      '407人のどうぶつの森の住民をS・A・B・Cで評価すると、性格の多様性まで考慮して最適なドリーム住民チームをおすすめします。インストールもログインも不要、ブラウザですぐに。',
     'landing.start': 'はじめる',
     'landing.about.title': 'このサイトについて',
     'landing.about.body1':
-      '「どうぶつの森 住民ピッカー」は、「あつまれ どうぶつの森」の全391人の住民から、自分だけのドリームチームを選ぶためのファンメイドWebツールです。391人から10人を選ぶのは想像以上に大変です。お気に入りだけを集めると性格が偏って島の会話が単調になりがちですし、組み合わせを一つひとつ検討するのは現実的ではありません。このサイトはそんな悩みを解消するために作られました。',
+      '「どうぶつの森 住民ピッカー」は、「あつまれ どうぶつの森」の全407人の住民から、自分だけのドリームチームを選ぶためのファンメイドWebツールです。407人から10人を選ぶのは想像以上に大変です。お気に入りだけを集めると性格が偏って島の会話が単調になりがちですし、組み合わせを一つひとつ検討するのは現実的ではありません。このサイトはそんな悩みを解消するために作られました。',
     'landing.about.body2':
       '使い方はシンプルです。住民をSからCのティアで評価すると、評価点と種族・性格の多様性を考慮して、最も相性の良いチームを提案します。ログインやインストールは不要で、評価データはブラウザにのみ保存されます。',
     'landing.about.body3':
@@ -654,7 +662,7 @@ export const messages: Record<Locale, Record<string, string>> = {
     'landing.featuresTitle': '主な機能',
     'landing.feat.rate.title': '住民を評価',
     'landing.feat.rate.desc':
-      '391人すべてを検索・フィルターしながらS/A/B/Cで素早く評価。評価はブラウザに自動保存されます。',
+      '407人すべてを検索・フィルターしながらS/A/B/Cで素早く評価。評価はブラウザに自動保存されます。',
     'landing.feat.recommend.title': 'スマートおすすめ',
     'landing.feat.recommend.desc':
       'お気に入り度と8種類の性格の多様性を両立して最適なチームを選定。人数は3〜10人で調整できます。',
@@ -727,6 +735,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'footer.changelog': '更新履歴',
     'changelog.title': '更新履歴',
     'changelog.intro': 'サイトの主な変更を新しい順にまとめています。',
+    'changelog.e0.date': '2026-10-20',
+    'changelog.e0.title': '2.0アップデートの住民16人を追加',
+    'changelog.e0.body':
+      'ミッチェル、スピカ、よしのなど『あつまれ どうぶつの森』2.0アップデートの住民16人を追加しました。全407人の住民を評価・診断できるようになりました。',
     'changelog.e1.date': '2026-10-17',
     'changelog.e1.title': 'コンテンツページの追加とドメイン統一',
     'changelog.e1.body':
@@ -745,10 +757,10 @@ export const messages: Record<Locale, Record<string, string>> = {
       '391人の住民ティア評価とドリームチーム提案機能を備えた最初のバージョンを公開しました。韓国語・英語・日本語に対応しています。',
     'guide.title': '住民の性格ガイド',
     'guide.intro':
-      'どうぶつの森の住民391人には、それぞれ8種類の性格のうち1つが設定されています。性格は住民の口調や会話の話題、趣味、島での一日の過ごし方を決めます。同じ性格ばかり集めると会話がすぐ重複して飽きてしまいますが、8種類をバランスよく混ぜると毎日新しい会話が聞けます。このページでは性格ごとの特徴と代表的な住民、35種類の種族、ティア評価の活用法、バランスのよいチームの作り方をまとめました。',
+      'どうぶつの森の住民407人には、それぞれ8種類の性格のうち1つが設定されています。性格は住民の口調や会話の話題、趣味、島での一日の過ごし方を決めます。同じ性格ばかり集めると会話がすぐ重複して飽きてしまいますが、8種類をバランスよく混ぜると毎日新しい会話が聞けます。このページでは性格ごとの特徴と代表的な住民、35種類の種族、ティア評価の活用法、バランスのよいチームの作り方をまとめました。',
     'guide.personalities.title': '8種類の性格',
     'guide.personalities.intro':
-      '391人の住民はすべて、下の8種類の性格のいずれかに属します。性格の名前の横には、実際に人気の高い代表的な住民を併記しました。',
+      '407人の住民はすべて、下の8種類の性格のいずれかに属します。性格の名前の横には、実際に人気の高い代表的な住民を併記しました。',
     'guide.p.jock.body':
       '運動とトレーニングの話が口癖の熱血スポーツマンタイプ。早朝にジョギングをし、出会う住民みんなに運動をすすめます。明るく元気な会話で島のムードメーカーになりますが、話題が運動に偏りがちなので1〜2人くらいがちょうどいいでしょう。チームに入れると島全体が活気づいた感じになります。',
     'guide.p.lazy.body':
@@ -779,7 +791,7 @@ export const messages: Record<Locale, Record<string, string>> = {
       'あつ森ドリーム住民ピッカーについてよくいただく質問をまとめました。答えが見つからない場合は、お問い合わせページのGitHub Issueからご連絡ください。',
     'faq.q1.q': 'このサイトは何ですか？',
     'faq.q1.a':
-      '『あつまれ どうぶつの森』の住民391人をS・A・B・Cで評価すると、自分の好みと性格・種族の多様性を両立したドリーム住民チームをおすすめする非公式ファンツールです。インストールや会員登録は不要で、ブラウザですぐに使えます。',
+      '『あつまれ どうぶつの森』の住民407人をS・A・B・Cで評価すると、自分の好みと性格・種族の多様性を両立したドリーム住民チームをおすすめする非公式ファンツールです。インストールや会員登録は不要で、ブラウザですぐに使えます。',
     'faq.q2.q': '任天堂の公式サイトですか？',
     'faq.q2.a':
       'いいえ。ファンが個人的に作成した非公式サイトで、Nintendoやどうぶつの森とは一切提携していません。住民の名前や画像の権利はNintendoに帰属します。',
