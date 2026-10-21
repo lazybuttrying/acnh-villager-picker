@@ -180,6 +180,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'changelog.intro': '사이트의 주요 변경 사항을 최신순으로 정리했습니다.',
     'changelog.e0.date': '2026-10-20',
     'changelog.e0.title': '2.0 업데이트 주민 16명 추가',
+    'changelog.e5.date': '2026-10-21',
+    'changelog.e5.title': '포켓몬 포코피아 버전 출시',
+    'changelog.e5.body':
+      '「포켓몬 포코피아」 드림타운 조합기를 새로 열었습니다. 등장 포켓몬 307마리를 평가하면 특기 커버리지와 타입 다양성까지 계산해 드림타운 10마리를 추천해 드려요. 하단 링크에서 바로 갈 수 있습니다.',
     'changelog.e0.body':
       '미첼, 스피카, 요비 등 「모여봐요 동물의 숲」 2.0 업데이트 주민 16명이 추가되어, 이제 총 407명의 주민을 평가하고 추천받을 수 있습니다.',
     'changelog.e1.date': '2026-10-17',
@@ -466,6 +470,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'changelog.intro': 'Major changes to the site, newest first.',
     'changelog.e0.date': '2026-10-20',
     'changelog.e0.title': '16 villagers from the 2.0 update added',
+    'changelog.e5.date': '2026-10-21',
+    'changelog.e5.title': 'Pokemon Pokopia version launched',
+    'changelog.e5.body':
+      'The Pokopia Dream Town Picker is now open. Rate any of the 307 Pokemon in Pokemon Pokopia and get a dream town of 10 with specialty coverage and type diversity calculated in. Find it in the footer link.',
     'changelog.e0.body':
       'Sasha, Ione, Shino and 13 more villagers from the Animal Crossing: New Horizons 2.0 update have been added. You can now rate and get recommendations for all 407 villagers.',
     'changelog.e1.date': '2026-10-17',
@@ -752,6 +760,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'changelog.intro': 'サイトの主な変更を新しい順にまとめています。',
     'changelog.e0.date': '2026-10-20',
     'changelog.e0.title': '2.0アップデートの住民16人を追加',
+    'changelog.e5.date': '2026-10-21',
+    'changelog.e5.title': 'ポケモンポコピア版を公開',
+    'changelog.e5.body':
+      '『ポケモンポコピア』ドリームタウン診断を新しく公開しました。登場ポケモン307匹を評価すると、特技のカバー範囲とタイプの多様性まで計算してドリームタウン10匹をおすすめします。下部のリンクからどうぞ。',
     'changelog.e0.body':
       'ミッチェル、スピカ、よしのなど『あつまれ どうぶつの森』2.0アップデートの住民16人を追加しました。全407人の住民を評価・診断できるようになりました。',
     'changelog.e1.date': '2026-10-17',

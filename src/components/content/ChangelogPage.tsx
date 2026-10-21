@@ -3,7 +3,7 @@ import { useLocale, LanguageSwitcher } from '@/i18n'
 import { Button } from '@/components/ui/button'
 
 // Update history, newest first. Entry copy lives in i18n (changelog.eN.*).
-const ENTRIES = [0, 1, 2, 3, 4] as const
+const ENTRIES = [5, 0, 1, 2, 3, 4] as const
 
 // Changelog page — rendered by App for the 'changelog' view (same pattern as
 // the other content pages). Signals an actively maintained site.
