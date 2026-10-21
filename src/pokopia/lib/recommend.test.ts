@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import type { Pokemon } from '../data/types'
-import { PRESETS, recommend, scoreBreakdown, coveredSpecialties } from './recommend'
+import { PRESETS, recommend, scoreBreakdown, coveredSpecialties, formHouses } from './recommend'
 
-function mk(id: string, specialties: string[], types: string[], score = 0): Pokemon & { score: number } {
+function mk(id: string, specialties: string[], types: string[], score = 0, habitat = 'Bright'): Pokemon & { score: number } {
   return {
     id,
     dex: 0,
@@ -10,7 +10,7 @@ function mk(id: string, specialties: string[], types: string[], score = 0): Poke
     nameEn: id,
     types,
     specialties,
-    habitat: 'Bright',
+    habitat,
     natId: 0,
     image: '',
     score,
@@ -71,5 +71,34 @@ describe('pokopia recommend', () => {
     const diverse = scoreBreakdown([a, c], {}, PRESETS.type)
     expect(dup.typeDup).toBe(1)
     expect(diverse.total).toBeGreaterThan(dup.total)
+  })
+})
+
+describe('formHouses', () => {
+  it('never puts more than 4 in a house', () => {
+    const team = Array.from({ length: 12 }, (_, i) => mk(`p${i}`, ['Build'], ['Normal'], 0, i % 2 ? 'Bright' : 'Dark'))
+    const houses = formHouses(team, {}, 3)
+    expect(houses).toHaveLength(3)
+    for (const h of houses) expect(h.length).toBeLessThanOrEqual(4)
+    expect(houses.flat()).toHaveLength(12)
+  })
+
+  it('keeps housemates in the same habitat when possible', () => {
+    const team = [
+      ...Array.from({ length: 4 }, (_, i) => mk(`b${i}`, ['Build'], ['Normal'], 0, 'Bright')),
+      ...Array.from({ length: 4 }, (_, i) => mk(`d${i}`, ['Chop'], ['Normal'], 0, 'Dark')),
+    ]
+    const houses = formHouses(team, {}, 2)
+    expect(houses).toHaveLength(2)
+    for (const h of houses) {
+      expect(new Set(h.map((p) => p.habitat)).size).toBe(1)
+    }
+  })
+
+  it('splits houses to reach the requested count', () => {
+    const team = Array.from({ length: 8 }, (_, i) => mk(`p${i}`, ['Build'], ['Normal']))
+    const houses = formHouses(team, {}, 4)
+    expect(houses).toHaveLength(4)
+    for (const h of houses) expect(h.length).toBe(2)
   })
 })

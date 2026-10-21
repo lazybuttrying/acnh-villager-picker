@@ -2,17 +2,18 @@ import { useMemo, useState } from 'react'
 import { Check, Copy, Download, Share2 } from 'lucide-react'
 import type { Pokemon, PresetId } from '../data/types'
 import type { Tier } from '@/data/types'
-import { PRESETS, recommend, scoreBreakdown } from '../lib/recommend'
+import { PRESETS, recommend, scoreBreakdown, formHouses } from '../lib/recommend'
 import { usePokopiaState, scoresFromRatings } from '../lib/store'
-import { usePk, pokemonName } from '../i18n'
+import { usePk, pokemonName, houseLabel, habitatLabel } from '../i18n'
 import { encodeTeam, teamUrl } from '../lib/shareTeam'
+import type { TeamEntry } from '../lib/shareTeam'
 import { renderTeamImage } from '../lib/teamImage'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { cn } from '@/lib/utils'
 
 const PRESET_IDS: PresetId[] = ['fav', 'specialty', 'type']
-const SIZES = [5, 6, 7, 8, 9, 10, 11, 12]
+const HOUSE_COUNTS = [1, 2, 3, 4, 5, 6]
 
 const TIER_CHIP: Record<Tier, string> = {
   S: 'bg-amber-400 text-amber-950',
@@ -25,29 +26,32 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
   const { locale, t } = usePk()
   const state = usePokopiaState()
   const [preset, setPreset] = useState<PresetId>('fav')
-  const [size, setSize] = useState(10)
+  const [houseCount, setHouseCount] = useState(3)
   const [copied, setCopied] = useState(false)
 
   const ratedCount = Object.keys(state.ratings).length
 
-  const { team, breakdown } = useMemo(() => {
+  const { houses, breakdown } = useMemo(() => {
     const scores = scoresFromRatings(state.ratings)
     const blacklist = new Set(state.blacklist)
     const recruitedSet = new Set(state.recruited)
     const pinned = all.filter((p) => recruitedSet.has(p.id))
     const pool = all.filter((p) => !blacklist.has(p.id) && !recruitedSet.has(p.id))
     const w = PRESETS[preset]
-    const { team } = recommend(pool, scores, w, size, pinned)
-    return { team, breakdown: scoreBreakdown(team, scores, w) }
-  }, [all, state.ratings, state.blacklist, state.recruited, preset, size])
+    const { team } = recommend(pool, scores, w, houseCount * 4, pinned)
+    return {
+      houses: formHouses(team, scores, houseCount),
+      breakdown: scoreBreakdown(team, scores, w),
+    }
+  }, [all, state.ratings, state.blacklist, state.recruited, preset, houseCount])
 
-  const teamWithTiers = team.map((pokemon) => ({
-    pokemon,
-    tier: state.ratings[pokemon.id],
-  }))
+  const housesWithTiers: TeamEntry[][] = houses.map((house) =>
+    house.map((pokemon) => ({ pokemon, tier: state.ratings[pokemon.id] })),
+  )
+  const flatTeam = houses.flat()
 
   async function handleCopy() {
-    const code = encodeTeam(teamWithTiers)
+    const code = encodeTeam(housesWithTiers)
     try {
       await navigator.clipboard.writeText(teamUrl(code))
       setCopied(true)
@@ -58,8 +62,8 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
   }
 
   function handleTweet() {
-    const code = encodeTeam(teamWithTiers)
-    const names = team.map((p) => pokemonName(p, locale)).join(', ')
+    const code = encodeTeam(housesWithTiers)
+    const names = flatTeam.map((p) => pokemonName(p, locale)).join(', ')
     const text = `${t('share.imageTagline')}\n${names}\n${teamUrl(code)}`
     window.open(
       `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
@@ -69,10 +73,11 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
   }
 
   async function handleSaveImage() {
-    const blob = await renderTeamImage(teamWithTiers, {
+    const blob = await renderTeamImage(housesWithTiers, {
       title: t('hero.title'),
       tagline: t('share.imageTagline'),
       locale,
+      houseLabel: (n) => houseLabel(n, locale),
     })
     if (!blob) return
     const url = URL.createObjectURL(blob)
@@ -110,14 +115,14 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
               {t(`rec.preset.${id}`)}
             </button>
           ))}
-          <span className="ml-2 text-sm text-muted-foreground">{t('rec.size')}</span>
+          <span className="ml-2 text-sm text-muted-foreground">{t('rec.houses')}</span>
           <select
-            value={size}
-            onChange={(e) => setSize(Number(e.target.value))}
+            value={houseCount}
+            onChange={(e) => setHouseCount(Number(e.target.value))}
             className="rounded-md border border-border bg-background px-2 py-1 text-sm"
-            aria-label={t('rec.size')}
+            aria-label={t('rec.houses')}
           >
-            {SIZES.map((n) => (
+            {HOUSE_COUNTS.map((n) => (
               <option key={n} value={n}>
                 {n}
               </option>
@@ -129,32 +134,52 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
           <p className="text-sm text-muted-foreground">{t('rec.empty')}</p>
         ) : (
           <>
-            <div className="grid grid-cols-5 gap-2">
-              {teamWithTiers.map(({ pokemon, tier }) => (
-                <div key={pokemon.id} className="flex flex-col items-center gap-1">
-                  <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-md bg-muted">
-                    <img
-                      src={pokemon.image}
-                      alt={pokemonName(pokemon, locale)}
-                      loading="lazy"
-                      className="h-full w-full object-contain p-1"
-                    />
-                    {tier && (
-                      <span
-                        className={cn(
-                          'absolute bottom-1 right-1 rounded-full px-1.5 text-[10px] font-bold',
-                          TIER_CHIP[tier],
-                        )}
-                      >
-                        {tier}
+            <div className="space-y-3">
+              {housesWithTiers.map((house, hi) => {
+                const habitats = [...new Set(house.map(({ pokemon }) => pokemon.habitat))]
+                return (
+                  <div key={hi} className="rounded-lg border border-border p-2">
+                    <div className="mb-2 flex items-center gap-2 px-1">
+                      <span className="text-sm font-bold">{houseLabel(hi + 1, locale)}</span>
+                      <span className="rounded-full bg-secondary px-2 py-0.5 text-[11px] text-secondary-foreground">
+                        {habitats.length === 1
+                          ? habitatLabel(habitats[0], locale)
+                          : t('rec.mixed')}
                       </span>
-                    )}
+                      <span className="ml-auto text-xs text-muted-foreground">
+                        {house.length}/4
+                      </span>
+                    </div>
+                    <div className="grid grid-cols-4 gap-2">
+                      {house.map(({ pokemon, tier }) => (
+                        <div key={pokemon.id} className="flex flex-col items-center gap-1">
+                          <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-md bg-muted">
+                            <img
+                              src={pokemon.image}
+                              alt={pokemonName(pokemon, locale)}
+                              loading="lazy"
+                              className="h-full w-full object-contain p-1"
+                            />
+                            {tier && (
+                              <span
+                                className={cn(
+                                  'absolute bottom-1 right-1 rounded-full px-1.5 text-[10px] font-bold',
+                                  TIER_CHIP[tier],
+                                )}
+                              >
+                                {tier}
+                              </span>
+                            )}
+                          </div>
+                          <span className="w-full truncate text-center text-[11px] leading-tight">
+                            {pokemonName(pokemon, locale)}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                  <span className="w-full truncate text-center text-[11px] leading-tight">
-                    {pokemonName(pokemon, locale)}
-                  </span>
-                </div>
-              ))}
+                )
+              })}
             </div>
 
             <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm sm:grid-cols-4">
@@ -168,9 +193,7 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
               </div>
               <div>
                 <span className="text-muted-foreground">{t('rec.score.coverage')}: </span>
-                <strong>
-                  {breakdown.coverage}/16
-                </strong>
+                <strong>{breakdown.coverage}/16</strong>
               </div>
               <div>
                 <span className="text-muted-foreground">{t('rec.score.typeDup')}: </span>

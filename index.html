@@ -1,25 +1,41 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="동물의 숲 드림 주민 조합기 — 평가 기반 8성격 + 종족 다양성 최적 10명 추천" />
+    <meta
+      name="description"
+      content="villagertier.com — 동물의 숲 드림 주민 조합기와 포켓몬 포코피아 드림타운 조합기. 내 취향과 균형을 함께 계산하는 마을 주민 추천 도구 모음"
+    />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="villagertier.com" />
-    <meta property="og:title" content="모동숲 드림 주민 조합기 / ACNH Villager Picker" />
-    <meta property="og:description" content="동물의 숲 주민 407명 중 드림팀 10명을 추천해주는 무료 웹 도구 — S~C 티어 평가와 성격·종족 다양성 기반 추천" />
+    <meta property="og:title" content="villagertier.com — 드림 주민·드림타운 조합기" />
+    <meta
+      property="og:description"
+      content="동물의 숲 407명 주민 추천과 포켓몬 포코피아 307마리 드림타운 추천 — 무료 웹 도구 모음"
+    />
     <meta property="og:image" content="https://villagertier.com/og-image.png" />
     <meta property="og:url" content="https://villagertier.com/" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="모동숲 드림 주민 조합기 / ACNH Villager Picker" />
-    <meta name="twitter:description" content="동물의 숲 주민 407명 중 드림팀 10명을 추천해주는 무료 웹 도구 — S~C 티어 평가와 성격·종족 다양성 기반 추천" />
+    <meta name="twitter:title" content="villagertier.com — 드림 주민·드림타운 조합기" />
+    <meta
+      name="twitter:description"
+      content="동물의 숲 407명 주민 추천과 포켓몬 포코피아 307마리 드림타운 추천 — 무료 웹 도구 모음"
+    />
     <meta name="twitter:image" content="https://villagertier.com/og-image.png" />
     <meta name="google-adsense-account" content="ca-pub-8432597408587239" />
-    <title>모동숲 드림 주민 조합기 / ACNH Villager Picker</title>
+    <title>villagertier.com — 드림 주민·드림타운 조합기</title>
+    <script>
+      // Legacy links: the ACNH picker used to live at the root with hash
+      // routes (/#/app, #/team/<code>, ...). It now lives under /acnh/.
+      if (location.hash.indexOf('#/') === 0) {
+        location.replace('acnh/' + location.hash);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="/src/hub/main.tsx"></script>
   </body>
 </html>

@@ -153,7 +153,7 @@ function App() {
               aria-label={t('about.hint')}
               className="flex items-center gap-2 rounded transition-colors hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
-              <img src="favicon.svg" alt="" aria-hidden="true" className="h-7 w-7 shrink-0" />
+              <img src="/favicon.svg" alt="" aria-hidden="true" className="h-7 w-7 shrink-0" />
               <span className="hidden truncate sm:inline">{t('app.title')}</span>
             </button>
           </h1>
@@ -214,7 +214,7 @@ function App() {
       <footer className="container flex flex-col items-center gap-2 py-6 text-center text-xs text-muted-foreground">
         <p>{t('footer.disclaimer')}</p>
         <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
-          <a href="pokopia/" className="font-semibold text-primary underline hover:text-primary">
+          <a href="../pokopia/" className="font-semibold text-primary underline hover:text-primary">
             {t('footer.pokopia')}
           </a>
           <button type="button" onClick={goAbout} className="underline hover:text-primary">

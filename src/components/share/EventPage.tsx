@@ -3,7 +3,7 @@ import { ArrowLeft, Check, Copy, Download } from 'lucide-react'
 import { LanguageSwitcher, useLocale } from '@/i18n'
 import { Button } from '@/components/ui/button'
 
-const PROMO_IMAGE = 'event-promo.png'
+const PROMO_IMAGE = '/event-promo.png'
 const SITE_URL = 'https://villagertier.com/'
 
 /** X logo (brand icons are not in lucide). */

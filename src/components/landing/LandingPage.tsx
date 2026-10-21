@@ -59,7 +59,7 @@ export function LandingPage({ onEnter, onEvent }: { onEnter: () => void; onEvent
       <main className="container max-w-3xl py-10">
         {/* 히어로 */}
         <section className="flex flex-col items-center text-center">
-          <img src="favicon.svg" alt="" className="mb-4 h-16 w-16" />
+          <img src="/favicon.svg" alt="" className="mb-4 h-16 w-16" />
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('app.title')}</h1>
           <p className="mt-3 text-xl font-medium text-primary">{t('landing.tagline')}</p>
           <p className="mt-4 max-w-2xl text-pretty text-lg text-muted-foreground">{t('landing.intro')}</p>
@@ -176,7 +176,7 @@ export function LandingPage({ onEnter, onEvent }: { onEnter: () => void; onEvent
             <h2 className="text-lg font-extrabold">{t('landing.pokopia.title')}</h2>
             <p className="mt-1 text-sm text-muted-foreground">{t('landing.pokopia.lede')}</p>
             <Button asChild className="mt-4 gap-2">
-              <a href="pokopia/">
+              <a href="../pokopia/">
                 {t('landing.pokopia.cta')}
                 <ArrowRight className="h-4 w-4" />
               </a>

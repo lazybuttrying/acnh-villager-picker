@@ -10,6 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: path.resolve(__dirname, 'index.html'),
+        acnh: path.resolve(__dirname, 'acnh/index.html'),
         pokopia: path.resolve(__dirname, 'pokopia/index.html'),
       },
     },

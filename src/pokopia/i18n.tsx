@@ -58,7 +58,7 @@ const ko: Dict = {
   'nav.acnh': '동물의 숲 버전',
   'hero.title': '포코피아 드림타운 조합기',
   'hero.subtitle':
-    '포켓몬 포코피아에 부르고 싶은 10마리, 특기 커버리지까지 계산해서 추천해 드려요.',
+    '포켓몬 포코피아에 부르고 싶은 포켓몬, 특기 커버리지까지 계산해서 집 단위(1~4마리)로 추천해 드려요.',
   'hero.cta': '내 드림타운 만들기',
   'hero.note': '설치도 로그인도 없이, 브라우저에서 바로. 평가는 자동 저장돼요.',
   'steps.title': '이렇게 쓰세요',
@@ -67,7 +67,7 @@ const ko: Dict = {
     '포코피아에 등장하는 307마리를 S·A·B·C 티어로 평가하세요. 이미 영입한 포켓몬은 집 아이콘으로 표시해 두면 추천에 고정돼요.',
   'steps.2.title': '2. 추천 방식을 고르세요',
   'steps.2.desc':
-    '내 취향 우선, 특기 커버리지 우선, 타입 다양성 우선 — 세 가지 방식 중 하나로 드림타운 10마리를 추천받아요.',
+    '내 취향 우선, 특기 커버리지 우선, 타입 다양성 우선 — 세 가지 방식 중 하나로, 집 개수에 맞춰 드림타운을 추천받아요.',
   'steps.3.title': '3. 공유하세요',
   'steps.3.desc': '링크나 이미지 카드로 내 드림타운을 자랑하고, 친구의 팀도 구경해 보세요.',
   'features.title': '추천이 계산하는 것',
@@ -102,6 +102,8 @@ const ko: Dict = {
   'rec.preset.specialty': '특기 커버 우선',
   'rec.preset.type': '타입 다양성 우선',
   'rec.size': '인원',
+  'rec.houses': '집 수',
+  'rec.mixed': '혼합 서식지',
   'rec.empty': '아직 평가한 포켓몬이 없어요. 마음에 드는 포켓몬부터 평가해 보세요.',
   'rec.score.total': '총점',
   'rec.score.tier': '티어 점수',
@@ -114,7 +116,7 @@ const ko: Dict = {
   'share.copyLink': '링크 복사',
   'share.tweet': 'X에 공유',
   'share.saveImage': '이미지 저장',
-  'share.imageTagline': '307마리 중 고른 내 드림타운 10마리',
+  'share.imageTagline': '307마리 중 고른 우리 마을 드림타운',
   'shared.title': '공유받은 드림타운',
   'shared.cta': '나도 만들어보기',
   'footer.disclaimer':
@@ -127,7 +129,7 @@ const en: Dict = {
   'nav.acnh': 'Animal Crossing version',
   'hero.title': 'Pokopia Dream Town Picker',
   'hero.subtitle':
-    'Pick the 10 Pokemon you want in your Pokopia town — recommended with specialty coverage calculated in.',
+    'Pick the Pokemon you want in your Pokopia town — recommended by house (1-4 each), with specialty coverage calculated in.',
   'hero.cta': 'Build my dream town',
   'hero.note': 'No install, no login, right in your browser. Your ratings save automatically.',
   'steps.title': 'How it works',
@@ -136,7 +138,7 @@ const en: Dict = {
     'Rate any of the 307 Pokemon in Pokopia from S to C tier. Mark Pokemon you already recruited with the home icon and they stay pinned in your recommendations.',
   'steps.2.title': '2. Choose a recommendation style',
   'steps.2.desc':
-    'Your taste first, specialty coverage first, or type diversity first — get a dream town of 10 in one of three styles.',
+    'Your taste first, specialty coverage first, or type diversity first — get a dream town sized by your number of houses.',
   'steps.3.title': '3. Share it',
   'steps.3.desc': 'Show off your dream town with a link or an image card, and peek at your friends\u2019 teams.',
   'features.title': 'What the recommendation calculates',
@@ -171,6 +173,8 @@ const en: Dict = {
   'rec.preset.specialty': 'Specialty coverage first',
   'rec.preset.type': 'Type diversity first',
   'rec.size': 'Team size',
+  'rec.houses': 'Houses',
+  'rec.mixed': 'Mixed habitats',
   'rec.empty': 'You have not rated anyone yet. Start by rating the Pokemon you love.',
   'rec.score.total': 'Total',
   'rec.score.tier': 'Tier score',
@@ -183,7 +187,7 @@ const en: Dict = {
   'share.copyLink': 'Copy link',
   'share.tweet': 'Share on X',
   'share.saveImage': 'Save image',
-  'share.imageTagline': 'My 10 dream town picks out of 307',
+  'share.imageTagline': 'My dream town picks out of 307',
   'shared.title': 'A shared dream town',
   'shared.cta': 'Make your own',
   'footer.disclaimer':
@@ -196,7 +200,7 @@ const ja: Dict = {
   'nav.acnh': 'あつ森バージョン',
   'hero.title': 'ポコピア ドリームタウン診断',
   'hero.subtitle':
-    'ポケモンポコピアに呼びたい10匹を、特技のカバー範囲まで計算しておすすめします。',
+    'ポケモンポコピアに呼びたいポケモンを、特技のカバー範囲まで計算して家ごと（1〜4匹）におすすめします。',
   'hero.cta': 'ドリームタウンを作る',
   'hero.note': 'インストールもログインも不要、ブラウザですぐ。評価は自動保存されます。',
   'steps.title': '使い方',
@@ -205,7 +209,7 @@ const ja: Dict = {
     'ポコピアに登場する307匹をS・A・B・Cティアで評価。すでに仲間にしたポケモンは家のアイコンで固定できます。',
   'steps.2.title': '2. おすすめ方式を選ぶ',
   'steps.2.desc':
-    '好み優先、特技カバー優先、タイプ多様性優先 — 3つの方式からドリームタウン10匹をおすすめ。',
+    '好み優先、特技カバー優先、タイプ多様性優先 — 3つの方式から、家の数に合わせたドリームタウンをおすすめ。',
   'steps.3.title': '3. 共有する',
   'steps.3.desc': 'リンクや画像カードでドリームタウンを自慢。友達のチームも見てみましょう。',
   'features.title': 'おすすめが計算するもの',
@@ -240,6 +244,8 @@ const ja: Dict = {
   'rec.preset.specialty': '特技カバー優先',
   'rec.preset.type': 'タイプ多様性優先',
   'rec.size': '人数',
+  'rec.houses': '家の数',
+  'rec.mixed': 'ミックス',
   'rec.empty': 'まだ評価したポケモンがいません。好きなポケモンから評価してみてください。',
   'rec.score.total': '合計',
   'rec.score.tier': 'ティア点数',
@@ -252,7 +258,7 @@ const ja: Dict = {
   'share.copyLink': 'リンクをコピー',
   'share.tweet': 'Xで共有',
   'share.saveImage': '画像を保存',
-  'share.imageTagline': '307匹から選んだドリームタウン10匹',
+  'share.imageTagline': '307匹から選んだドリームタウン',
   'shared.title': '共有されたドリームタウン',
   'shared.cta': '自分も作ってみる',
   'footer.disclaimer':
@@ -261,6 +267,12 @@ const ja: Dict = {
 }
 
 const MESSAGES: Record<Locale, Dict> = { ko, en, ja }
+
+export function houseLabel(n: number, locale: Locale): string {
+  if (locale === 'ko') return `${n}번 집`
+  if (locale === 'ja') return `${n}軒目`
+  return `House ${n}`
+}
 
 export function usePk(): { locale: Locale; t: (key: string) => string } {
   const { locale } = useLocale()

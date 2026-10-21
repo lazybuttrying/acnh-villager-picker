@@ -149,3 +149,63 @@ export function recommend(
 
   return { team, score: totalScore(team, scores, w) }
 }
+
+function scoreSum(set: Pokemon[], scores: Scores): number {
+  return set.reduce((acc, p) => acc + (scores[p.id] ?? 0), 0)
+}
+
+/**
+ * Partition a selected team into houses of 1-4 (the way Pokopia homes work).
+ * Housemates prefer sharing an ideal habitat: full habitat groups are chunked
+ * into houses of 4 first, leftovers merge into mixed houses, and if fewer
+ * houses than requested come out, the largest houses split to reach the count.
+ */
+export function formHouses(team: Pokemon[], scores: Scores, houseCount: number): Pokemon[][] {
+  if (team.length === 0) return []
+  const target = Math.max(1, Math.min(houseCount, team.length))
+
+  const groups = new Map<string, Pokemon[]>()
+  for (const p of team) {
+    const g = groups.get(p.habitat) ?? []
+    g.push(p)
+    groups.set(p.habitat, g)
+  }
+  for (const g of groups.values()) {
+    g.sort((a, b) => (scores[b.id] ?? 0) - (scores[a.id] ?? 0))
+  }
+  const ordered = [...groups.values()].sort(
+    (a, b) => b.length - a.length || scoreSum(b, scores) - scoreSum(a, scores),
+  )
+
+  const houses: Pokemon[][] = []
+  const partials: Pokemon[] = []
+  for (const g of ordered) {
+    let i = 0
+    while (g.length - i >= 4) {
+      houses.push(g.slice(i, i + 4))
+      i += 4
+    }
+    for (; i < g.length; i++) partials.push(g[i])
+  }
+  partials.sort((a, b) => (scores[b.id] ?? 0) - (scores[a.id] ?? 0))
+  for (let i = 0; i < partials.length; i += 4) {
+    houses.push(partials.slice(i, i + 4))
+  }
+
+  while (houses.length < target) {
+    let idx = -1
+    let max = 1
+    houses.forEach((h, i) => {
+      if (h.length > max) {
+        max = h.length
+        idx = i
+      }
+    })
+    if (idx === -1) break
+    const h = houses[idx]
+    const half = Math.ceil(h.length / 2)
+    houses.splice(idx, 1, h.slice(0, half), h.slice(half))
+  }
+
+  return houses.sort((a, b) => scoreSum(b, scores) - scoreSum(a, scores))
+}

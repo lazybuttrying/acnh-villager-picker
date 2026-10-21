@@ -22,6 +22,12 @@ export default function App() {
   const { t } = usePk()
   const [view, setView] = useState<View>(() => parseHash())
 
+  // Warm Pokopia palette: scoped to this page via a body class (portal-safe).
+  useEffect(() => {
+    document.body.classList.add('pk-theme')
+    return () => document.body.classList.remove('pk-theme')
+  }, [])
+
   useEffect(() => {
     const onChange = () => setView(parseHash())
     window.addEventListener('hashchange', onChange)
@@ -66,7 +72,7 @@ export default function App() {
             <span className="sm:hidden">Pokopia</span>
           </a>
           <div className="ml-auto flex items-center gap-2">
-            <a href="../" className="text-sm text-muted-foreground underline-offset-4 hover:underline">
+            <a href="../acnh/" className="text-sm text-muted-foreground underline-offset-4 hover:underline">
               {t('nav.acnh')}
             </a>
             <LanguageSwitcher />

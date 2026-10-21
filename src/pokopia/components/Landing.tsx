@@ -112,7 +112,7 @@ export function Landing({
             <h2 className="text-lg font-bold">{t('cross.title')}</h2>
             <p className="mt-1 text-sm text-muted-foreground">{t('cross.body')}</p>
             <Button asChild variant="outline" className="mt-3">
-              <a href="../">
+              <a href="../acnh/">
                 {t('cross.cta')}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
