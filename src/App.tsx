@@ -214,6 +214,9 @@ function App() {
       <footer className="container flex flex-col items-center gap-2 py-6 text-center text-xs text-muted-foreground">
         <p>{t('footer.disclaimer')}</p>
         <nav className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+          <a href="pokopia/" className="font-semibold text-primary underline hover:text-primary">
+            {t('footer.pokopia')}
+          </a>
           <button type="button" onClick={goAbout} className="underline hover:text-primary">
             {t('footer.about')}
           </button>

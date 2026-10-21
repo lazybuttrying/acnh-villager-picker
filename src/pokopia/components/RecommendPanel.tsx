@@ -1,0 +1,209 @@
+import { useMemo, useState } from 'react'
+import { Check, Copy, Download, Share2 } from 'lucide-react'
+import type { Pokemon, PresetId } from '../data/types'
+import type { Tier } from '@/data/types'
+import { PRESETS, recommend, scoreBreakdown } from '../lib/recommend'
+import { usePokopiaState, scoresFromRatings } from '../lib/store'
+import { usePk, pokemonName } from '../i18n'
+import { encodeTeam, teamUrl } from '../lib/shareTeam'
+import { renderTeamImage } from '../lib/teamImage'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Button } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
+
+const PRESET_IDS: PresetId[] = ['fav', 'specialty', 'type']
+const SIZES = [5, 6, 7, 8, 9, 10, 11, 12]
+
+const TIER_CHIP: Record<Tier, string> = {
+  S: 'bg-amber-400 text-amber-950',
+  A: 'bg-emerald-500 text-white',
+  B: 'bg-blue-500 text-white',
+  C: 'bg-gray-400 text-white',
+}
+
+export function RecommendPanel({ all }: { all: Pokemon[] }) {
+  const { locale, t } = usePk()
+  const state = usePokopiaState()
+  const [preset, setPreset] = useState<PresetId>('fav')
+  const [size, setSize] = useState(10)
+  const [copied, setCopied] = useState(false)
+
+  const ratedCount = Object.keys(state.ratings).length
+
+  const { team, breakdown } = useMemo(() => {
+    const scores = scoresFromRatings(state.ratings)
+    const blacklist = new Set(state.blacklist)
+    const recruitedSet = new Set(state.recruited)
+    const pinned = all.filter((p) => recruitedSet.has(p.id))
+    const pool = all.filter((p) => !blacklist.has(p.id) && !recruitedSet.has(p.id))
+    const w = PRESETS[preset]
+    const { team } = recommend(pool, scores, w, size, pinned)
+    return { team, breakdown: scoreBreakdown(team, scores, w) }
+  }, [all, state.ratings, state.blacklist, state.recruited, preset, size])
+
+  const teamWithTiers = team.map((pokemon) => ({
+    pokemon,
+    tier: state.ratings[pokemon.id],
+  }))
+
+  async function handleCopy() {
+    const code = encodeTeam(teamWithTiers)
+    try {
+      await navigator.clipboard.writeText(teamUrl(code))
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      // clipboard unavailable
+    }
+  }
+
+  function handleTweet() {
+    const code = encodeTeam(teamWithTiers)
+    const names = team.map((p) => pokemonName(p, locale)).join(', ')
+    const text = `${t('share.imageTagline')}\n${names}\n${teamUrl(code)}`
+    window.open(
+      `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`,
+      '_blank',
+      'noopener',
+    )
+  }
+
+  async function handleSaveImage() {
+    const blob = await renderTeamImage(teamWithTiers, {
+      title: t('hero.title'),
+      tagline: t('share.imageTagline'),
+      locale,
+    })
+    if (!blob) return
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'pokopia-dream-town.png'
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  return (
+    <Card>
+      <CardHeader className="pb-3">
+        <CardTitle className="flex items-center gap-2 text-lg">
+          <Share2 className="h-5 w-5 text-primary" />
+          {t('rec.title')}
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <div className="flex flex-wrap items-center gap-2">
+          <span className="text-sm text-muted-foreground">{t('rec.preset')}</span>
+          {PRESET_IDS.map((id) => (
+            <button
+              key={id}
+              type="button"
+              onClick={() => setPreset(id)}
+              aria-pressed={preset === id}
+              className={cn(
+                'rounded-full border px-3 py-1 text-sm transition-colors',
+                preset === id
+                  ? 'border-transparent bg-primary text-primary-foreground'
+                  : 'border-border bg-background text-muted-foreground hover:bg-accent',
+              )}
+            >
+              {t(`rec.preset.${id}`)}
+            </button>
+          ))}
+          <span className="ml-2 text-sm text-muted-foreground">{t('rec.size')}</span>
+          <select
+            value={size}
+            onChange={(e) => setSize(Number(e.target.value))}
+            className="rounded-md border border-border bg-background px-2 py-1 text-sm"
+            aria-label={t('rec.size')}
+          >
+            {SIZES.map((n) => (
+              <option key={n} value={n}>
+                {n}
+              </option>
+            ))}
+          </select>
+        </div>
+
+        {ratedCount === 0 && state.recruited.length === 0 ? (
+          <p className="text-sm text-muted-foreground">{t('rec.empty')}</p>
+        ) : (
+          <>
+            <div className="grid grid-cols-5 gap-2">
+              {teamWithTiers.map(({ pokemon, tier }) => (
+                <div key={pokemon.id} className="flex flex-col items-center gap-1">
+                  <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-md bg-muted">
+                    <img
+                      src={pokemon.image}
+                      alt={pokemonName(pokemon, locale)}
+                      loading="lazy"
+                      className="h-full w-full object-contain p-1"
+                    />
+                    {tier && (
+                      <span
+                        className={cn(
+                          'absolute bottom-1 right-1 rounded-full px-1.5 text-[10px] font-bold',
+                          TIER_CHIP[tier],
+                        )}
+                      >
+                        {tier}
+                      </span>
+                    )}
+                  </div>
+                  <span className="w-full truncate text-center text-[11px] leading-tight">
+                    {pokemonName(pokemon, locale)}
+                  </span>
+                </div>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm sm:grid-cols-4">
+              <div>
+                <span className="text-muted-foreground">{t('rec.score.total')}: </span>
+                <strong>{breakdown.total.toFixed(1)}</strong>
+              </div>
+              <div>
+                <span className="text-muted-foreground">{t('rec.score.tier')}: </span>
+                <strong>{breakdown.fav}</strong>
+              </div>
+              <div>
+                <span className="text-muted-foreground">{t('rec.score.coverage')}: </span>
+                <strong>
+                  {breakdown.coverage}/16
+                </strong>
+              </div>
+              <div>
+                <span className="text-muted-foreground">{t('rec.score.typeDup')}: </span>
+                <strong>{breakdown.typeDup}</strong>
+              </div>
+            </div>
+            <div className="space-y-1 text-xs text-muted-foreground">
+              <p>
+                <span className="font-semibold text-foreground">{t('rec.covered')}: </span>
+                {breakdown.covered.join(', ') || '-'}
+              </p>
+              <p>
+                <span className="font-semibold text-foreground">{t('rec.missing')}: </span>
+                {breakdown.missing.join(', ') || '-'}
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              <Button type="button" size="sm" onClick={handleCopy}>
+                {copied ? <Check className="mr-1.5 h-4 w-4" /> : <Copy className="mr-1.5 h-4 w-4" />}
+                {copied ? t('share.copied') : t('share.copyLink')}
+              </Button>
+              <Button type="button" size="sm" variant="outline" onClick={handleTweet}>
+                {t('share.tweet')}
+              </Button>
+              <Button type="button" size="sm" variant="outline" onClick={handleSaveImage}>
+                <Download className="mr-1.5 h-4 w-4" />
+                {t('share.saveImage')}
+              </Button>
+            </div>
+          </>
+        )}
+      </CardContent>
+    </Card>
+  )
+}

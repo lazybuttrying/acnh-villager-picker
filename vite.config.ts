@@ -6,6 +6,14 @@ import path from 'node:path'
 export default defineConfig({
   base: './', // GitHub Pages: 상대경로 — 리포명 무관, Pages/로컬 양쪽 안전
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+        pokopia: path.resolve(__dirname, 'pokopia/index.html'),
+      },
+    },
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

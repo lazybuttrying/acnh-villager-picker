@@ -170,6 +170,20 @@ export function LandingPage({ onEnter, onEvent }: { onEnter: () => void; onEvent
           </div>
         </section>
 
+        {/* 포코피아 버전 안내 */}
+        <section className="mx-auto mt-8 max-w-xl">
+          <div className="flex flex-col items-center rounded-2xl border bg-gradient-to-br from-amber-50 to-orange-50 p-6 text-center dark:from-amber-950/40 dark:to-orange-950/20">
+            <h2 className="text-lg font-extrabold">{t('landing.pokopia.title')}</h2>
+            <p className="mt-1 text-sm text-muted-foreground">{t('landing.pokopia.lede')}</p>
+            <Button asChild className="mt-4 gap-2">
+              <a href="pokopia/">
+                {t('landing.pokopia.cta')}
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </Button>
+          </div>
+        </section>
+
         {/* 하단 CTA */}
         <section className="mt-16 flex flex-col items-center">
           <Button size="lg" className="gap-2" onClick={onEnter}>
