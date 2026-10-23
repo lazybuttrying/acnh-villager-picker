@@ -1,0 +1,132 @@
+# Daily Dream Team — card content.
+# Edit this file to change what the cards show, then run:
+#   python3 generate.py            (all days, JP + EN)
+#   python3 generate.py 3          (Day 3 only)
+#   python3 generate.py 3 --lang en
+# Members use English villager names; portraits and JP/EN display names are
+# resolved from the villagertier.com app data (villagers.json + public images).
+# Tiers are the illustrative ratings shown on each card (S/A/B/C).
+
+series:
+  title:
+    ja: "今日のドリームチーム"
+    en: "Today's Dream Team"
+  footer:
+    ja: "あなたのドリームチームは？プロフィールのリンクから診断"
+    en: "What's your dream team? Find yours — link in bio"
+
+days:
+  - day: 1
+    theme:
+      ja: "全8性格コンプリート"
+      en: "All 8 personalities"
+    members:
+      - { name: "Marshal",  tier: S }
+      - { name: "Raymond",  tier: S }
+      - { name: "Fauna",    tier: A }
+      - { name: "Rosie",    tier: A }
+      - { name: "Stitches", tier: A }
+      - { name: "Diana",    tier: A }
+      - { name: "Apollo",   tier: B }
+      - { name: "Kid Cat",  tier: B }
+      - { name: "Cherry",   tier: B }
+      - { name: "Marina",   tier: A }
+
+  - day: 2
+    theme:
+      ja: "猫オールスター"
+      en: "Cat all-stars"
+    members:
+      - { name: "Raymond", tier: S }
+      - { name: "Rosie",   tier: S }
+      - { name: "Ankha",   tier: S }
+      - { name: "Bob",     tier: A }
+      - { name: "Kid Cat", tier: A }
+      - { name: "Merry",   tier: A }
+      - { name: "Purrl",   tier: B }
+      - { name: "Tom",     tier: B }
+      - { name: "Tangy",   tier: B }
+      - { name: "Lolly",   tier: A }
+
+  - day: 3
+    theme:
+      ja: "パステルドリーム"
+      en: "Pastel dream"
+    members:
+      - { name: "Judy",     tier: S }
+      - { name: "Marina",   tier: A }
+      - { name: "Merengue", tier: A }
+      - { name: "Gayle",    tier: B }
+      - { name: "Flurry",   tier: A }
+      - { name: "Diana",    tier: A }
+      - { name: "Chrissy",  tier: A }
+      - { name: "Dom",      tier: B }
+      - { name: "Bunnie",   tier: B }
+      - { name: "Francine", tier: B }
+
+  - day: 4
+    theme:
+      ja: "Sティアオールスター"
+      en: "S-tier all-stars"
+    # NOTE: the original Day 4 card mistakenly showed Chrissy in slot 6 while
+    # the PLAN/tweet texts list Dom. This YAML follows the texts (Dom, tier A
+    # assumed — the tier the wrong Chrissy tile carried).
+    members:
+      - { name: "Marshal",  tier: S }
+      - { name: "Raymond",  tier: S }
+      - { name: "Judy",     tier: S }
+      - { name: "Ankha",    tier: S }
+      - { name: "Sherb",    tier: S }
+      - { name: "Dom",      tier: A }
+      - { name: "Stitches", tier: S }
+      - { name: "Marina",   tier: S }
+      - { name: "Fauna",    tier: S }
+      - { name: "Cherry",   tier: S }
+
+  - day: 5
+    theme:
+      ja: "秋の島"
+      en: "Autumn island"
+    members:
+      - { name: "Maple",   tier: A }
+      - { name: "Erik",    tier: B }
+      - { name: "Beau",    tier: A }
+      - { name: "Fauna",   tier: A }
+      - { name: "Deirdre", tier: B }
+      - { name: "Molly",   tier: A }
+      - { name: "Poppy",   tier: B }
+      - { name: "Sylvana", tier: B }
+      - { name: "Bones",   tier: B }
+      - { name: "Goldie",  tier: A }
+
+  - day: 6
+    theme:
+      ja: "犬とオオカミ"
+      en: "Dogs & wolves"
+    members:
+      - { name: "Lucky",    tier: A }
+      - { name: "Cherry",   tier: A }
+      - { name: "Goldie",   tier: A }
+      - { name: "Cookie",   tier: B }
+      - { name: "Walker",   tier: B }
+      - { name: "Wolfgang", tier: A }
+      - { name: "Fang",     tier: A }
+      - { name: "Audie",    tier: S }
+      - { name: "Whitney",  tier: A }
+      - { name: "Skye",     tier: B }
+
+  - day: 7
+    theme:
+      ja: "隠れた実力者"
+      en: "Underrated gems"
+    members:
+      - { name: "Kiki",     tier: A }
+      - { name: "Biskit",   tier: B }
+      - { name: "Moe",      tier: B }
+      - { name: "Pudge",    tier: B }
+      - { name: "Hazel",    tier: B }
+      - { name: "Nana",     tier: B }
+      - { name: "Raddle",   tier: C }
+      - { name: "Wart Jr.", tier: C }
+      - { name: "Plucky",   tier: B }
+      - { name: "Derwin",   tier: C }
