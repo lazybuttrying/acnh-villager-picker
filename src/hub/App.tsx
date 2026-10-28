@@ -79,6 +79,17 @@ export default function App() {
           <h2 className="text-lg font-bold">{t('about.title')}</h2>
           <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{t('about.body')}</p>
         </section>
+
+        <section className="mx-auto mt-12 max-w-2xl text-center">
+          <h2 className="text-lg font-bold">{t('guides.title')}</h2>
+          <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{t('guides.desc')}</p>
+          <Button asChild variant="outline" className="mt-4 gap-2">
+            <a href="guides/">
+              {t('guides.cta')}
+              <ArrowRight className="h-4 w-4" />
+            </a>
+          </Button>
+        </section>
       </main>
 
       <footer className="border-t border-border py-4">

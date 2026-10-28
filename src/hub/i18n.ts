@@ -21,6 +21,9 @@ const ko: Dict = {
   'about.title': '이런 분께 추천해요',
   'about.body':
     '섬이나 마을에 누구를 부를지 늘 고민하는 분, 인기 순위 말고 내 취향 기준으로 고르고 싶은 분, 성격이나 특기가 한쪽으로 쏠리지 않게 균형을 맞추고 싶은 분. 두 도구 모두 추천 점수의 근거를 숫자로 보여줘서, 왜 이 조합인지 납득하고 고를 수 있습니다.',
+  'guides.title': '주민 가이드',
+  'guides.desc': '성격 8종, 종 35종별 주민 목록과 드림팀 아카이브까지, 검색에서도 읽을 수 있는 가이드 45개 페이지를 모았습니다.',
+  'guides.cta': '가이드 보기',
   'footer':
     '비공식 팬 메이드 도구 모음입니다. 동물의 숲은 Nintendo의, 포켓몬 포코피아는 Nintendo·Creatures Inc.·GAME FREAK inc.의 상표입니다.',
 }
@@ -42,6 +45,9 @@ const en: Dict = {
   'about.title': 'Who this is for',
   'about.body':
     'Anyone who agonizes over who to invite to their island or town, anyone who wants picks based on their own taste rather than a popularity chart, and anyone who wants personalities or specialties balanced instead of lopsided. Both tools show the numbers behind every recommendation, so you can decide with confidence.',
+  'guides.title': 'Villager guides',
+  'guides.desc': '45 readable guide pages: every villager by personality (8) and species (35), plus the Dream Team archive.',
+  'guides.cta': 'Browse the guides',
   'footer':
     'An unofficial fan-made collection. Animal Crossing is a trademark of Nintendo. Pokemon Pokopia is a trademark of Nintendo, Creatures Inc. and GAME FREAK inc.',
 }
@@ -63,6 +69,9 @@ const ja: Dict = {
   'about.title': 'こんな方におすすめ',
   'about.body':
     '島や街に誰を呼ぶかいつも悩む方、人気順ではなく自分の好みで選びたい方、性格や特技が偏らないようバランスを取りたい方。どちらのツールもおすすめの根拠を数字で表示するので、納得して選べます。',
+  'guides.title': '住民ガイド',
+  'guides.desc': '性格8種・種族35種ごとの住民一覧とドリームチームアーカイブまで、検索でも読めるガイド45ページを集めました。',
+  'guides.cta': 'ガイドを見る',
   'footer':
     '非公式のファンメイドツール集です。どうぶつの森はNintendoの、ポケモンポコピアはNintendo・Creatures Inc.・GAME FREAK inc.の商標です。',
 }

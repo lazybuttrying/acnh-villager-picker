@@ -184,6 +184,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'changelog.e5.title': '포켓몬 포코피아 버전 출시',
     'changelog.e5.body':
       '「포켓몬 포코피아」 드림타운 조합기를 새로 열었습니다. 등장 포켓몬 307마리를 평가하면 특기 커버리지와 타입 다양성까지 계산해 드림타운 10마리를 추천해 드려요. 하단 링크에서 바로 갈 수 있습니다.',
+    'changelog.e6.date': '2026-10-28',
+    'changelog.e6.title': '주민 가이드 섹션 공개',
+    'changelog.e6.body':
+      '검색에서도 읽을 수 있는 정적 가이드 페이지를 새로 열었습니다. 성격 8종, 종 35종별 주민 목록과 매일 연재하는 드림팀 아카이브까지 총 45개 페이지로, 조합기 데이터와 같은 407명 목록을 그대로 보여줍니다.',
     'changelog.e0.body':
       '미첼, 스피카, 요비 등 「모여봐요 동물의 숲」 2.0 업데이트 주민 16명이 추가되어, 이제 총 407명의 주민을 평가하고 추천받을 수 있습니다.',
     'changelog.e1.date': '2026-10-17',
@@ -474,6 +478,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'changelog.e5.title': 'Pokemon Pokopia version launched',
     'changelog.e5.body':
       'The Pokopia Dream Town Picker is now open. Rate any of the 307 Pokemon in Pokemon Pokopia and get a dream town of 10 with specialty coverage and type diversity calculated in. Find it in the footer link.',
+    'changelog.e6.date': '2026-10-28',
+    'changelog.e6.title': 'Villager guides section launched',
+    'changelog.e6.body':
+      'A new section of static guide pages is open: 45 pages covering all 8 personalities, all 35 species, and the daily Dream Team archive, all generated from the same 407-villager data as the picker.',
     'changelog.e0.body':
       'Sasha, Ione, Shino and 13 more villagers from the Animal Crossing: New Horizons 2.0 update have been added. You can now rate and get recommendations for all 407 villagers.',
     'changelog.e1.date': '2026-10-17',
@@ -764,6 +772,10 @@ export const messages: Record<Locale, Record<string, string>> = {
     'changelog.e5.title': 'ポケモンポコピア版を公開',
     'changelog.e5.body':
       '『ポケモンポコピア』ドリームタウン診断を新しく公開しました。登場ポケモン307匹を評価すると、特技のカバー範囲とタイプの多様性まで計算してドリームタウン10匹をおすすめします。下部のリンクからどうぞ。',
+    'changelog.e6.date': '2026-10-28',
+    'changelog.e6.title': '住民ガイドセクションを公開',
+    'changelog.e6.body':
+      '検索でも読める静的なガイドページを新しく公開しました。性格8種、種族35種ごとの住民一覧と、毎日連載のドリームチームアーカイブまで全45ページで、診断と同じ407人のデータを使っています。',
     'changelog.e0.body':
       'ミッチェル、スピカ、よしのなど『あつまれ どうぶつの森』2.0アップデートの住民16人を追加しました。全407人の住民を評価・診断できるようになりました。',
     'changelog.e1.date': '2026-10-17',
