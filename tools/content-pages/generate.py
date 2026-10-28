@@ -118,8 +118,9 @@ def shell(title: str, desc: str, path: str, body: str) -> str:
 def member_card(v: dict) -> str:
     names = v["names"]
     return (
-        f'<div class="card"><img src="{html.escape(v["image"])}" alt="{html.escape(v["nameEn"])}" loading="lazy">'
-        f'<div class="en">{html.escape(v["nameEn"])}</div>'
+        f'<div class="card"><a href="/guides/villager/{slug(v["nameEn"])}/">'
+        f'<img src="{html.escape(v["image"])}" alt="{html.escape(v["nameEn"])}" loading="lazy"></a>'
+        f'<div class="en"><a href="/guides/villager/{slug(v["nameEn"])}/">{html.escape(v["nameEn"])}</a></div>'
         f'<div class="loc">{html.escape(names.get("ko", ""))} / {html.escape(names.get("ja", ""))}</div>'
         f'<div class="tag">{html.escape(v["species"])} &middot; {html.escape(v["personality"])}</div></div>'
     )
@@ -230,6 +231,9 @@ def main() -> int:
         f'<ul class="cols">{pers_items}</ul>'
         "<h2>By species</h2>"
         f'<ul class="cols">{spec_items}</ul>'
+        '<h2><a href="/guides/villagers/">All villagers</a></h2>'
+        "<p>Every villager has a detail page with favorite styles and colors, hobby, "
+        "default clothing, food, drink, and gift tips.</p>"
         '<h2><a href="/guides/dream-teams/">Dream Team archive</a></h2>'
         "<p>Seven themed ten-villager teams from the daily series, with members and tier ratings.</p>"
         '<p><a href="/acnh/">Open the Animal Crossing picker &rarr;</a></p>'
