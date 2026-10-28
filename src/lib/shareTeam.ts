@@ -1,4 +1,5 @@
 import type { Tier, Villager } from '@/data/types'
+import { decodeBase64Url, encodeBase64Url } from './base64url'
 
 export interface SharedMember {
   id: string
@@ -8,17 +9,17 @@ export interface SharedMember {
 const TIERS: Tier[] = ['S', 'A', 'B', 'C']
 const MAX_MEMBERS = 10
 
-/** Encode team members (id + tier) into a URL-safe string. IDs are ASCII, so btoa is safe. */
+/** Encode team members (id + tier) into a URL-safe string. */
 export function encodeTeam(members: SharedMember[]): string {
   const payload = members.map((m) => `${m.id}:${m.tier}`).join(',')
-  return btoa(payload).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
+  return encodeBase64Url(payload)
 }
 
 /** Decode a share code back into members. Returns null on invalid input. */
 export function decodeTeam(code: string): SharedMember[] | null {
   try {
     if (!code || !/^[A-Za-z0-9_-]+$/.test(code)) return null
-    const payload = atob(code.replace(/-/g, '+').replace(/_/g, '/'))
+    const payload = decodeBase64Url(code)
     if (!payload) return null
     const members = payload.split(',').map((part) => {
       const idx = part.lastIndexOf(':')

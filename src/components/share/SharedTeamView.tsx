@@ -60,6 +60,7 @@ export function SharedTeamView({ onBack }: { onBack: () => void }) {
                     src={v.image}
                     alt={villagerName(v, locale)}
                     loading="lazy"
+                    decoding="async"
                     className="aspect-square w-full object-cover"
                   />
                   <div className="p-3">

@@ -158,6 +158,7 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
                               src={pokemon.image}
                               alt={pokemonName(pokemon, locale)}
                               loading="lazy"
+                              decoding="async"
                               className="h-full w-full object-contain p-1"
                             />
                             {tier && (

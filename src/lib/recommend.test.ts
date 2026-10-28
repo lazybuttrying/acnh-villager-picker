@@ -1,7 +1,8 @@
 import { describe, it, expect } from 'vitest'
 import type { Villager, Scores, PersonalityKey } from '@/data/types'
 import { PERSONALITY_KEYS, TEAM_SIZE, TIER_SCORE } from '@/data/types'
-import { recommend, totalScore, dupPairs, coverageOK, PRESETS } from './recommend'
+import { recommend, totalScore, coverageOK, PRESETS } from './recommend'
+import { dupPairs } from './dupPairs'
 
 function mk(
   id: string,

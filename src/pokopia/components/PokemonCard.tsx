@@ -108,6 +108,7 @@ export function PokemonCard({
             <img
               src={pokemon.image}
               loading="lazy"
+              decoding="async"
               alt={name}
               onError={() => setImgError(true)}
               className="h-full w-full object-contain p-1.5"

@@ -137,6 +137,7 @@ export function VillagerCard({
             <img
               src={villager.image}
               loading="lazy"
+              decoding="async"
               alt={name}
               onError={() => setImgError(true)}
               className="h-full w-full object-contain"

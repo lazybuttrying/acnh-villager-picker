@@ -1,5 +1,6 @@
 import type { Villager, Scores, PersonalityKey, PresetId } from '@/data/types'
 import { TEAM_SIZE, PERSONALITY_KEYS } from '@/data/types'
+import { dupPairs } from './dupPairs'
 
 export interface Weights {
   fav: number
@@ -14,15 +15,6 @@ export const PRESETS: Record<PresetId, Weights> = {
 }
 
 const EPS = 1e-9
-
-/** Σ c*(c-1)/2 over group counts. */
-export function dupPairs(counts: Map<string, number>): number {
-  let sum = 0
-  for (const c of counts.values()) {
-    sum += (c * (c - 1)) / 2
-  }
-  return sum
-}
 
 function countBy(set: Villager[], key: (v: Villager) => string): Map<string, number> {
   const m = new Map<string, number>()

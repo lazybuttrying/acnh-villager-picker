@@ -119,6 +119,7 @@ export function PersonalityTable() {
                               src={v.image}
                               alt=""
                               loading="lazy"
+                              decoding="async"
                               width={18}
                               height={18}
                               className="h-[18px] w-[18px] shrink-0 rounded-full object-cover"

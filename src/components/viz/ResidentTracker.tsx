@@ -49,6 +49,7 @@ export function ResidentTracker() {
               src={v.image}
               alt=""
               loading="lazy"
+              decoding="async"
               width={20}
               height={20}
               className="h-5 w-5 rounded-full object-cover"

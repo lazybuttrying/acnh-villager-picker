@@ -119,7 +119,7 @@ def member_card(v: dict) -> str:
     names = v["names"]
     return (
         f'<div class="card"><a href="/guides/villager/{slug(v["nameEn"])}/">'
-        f'<img src="{html.escape(v["image"])}" alt="{html.escape(v["nameEn"])}" loading="lazy"></a>'
+        f'<img src="{html.escape(v["image"])}" alt="{html.escape(v["nameEn"])}" loading="lazy" decoding="async" width="96" height="96"></a>'
         f'<div class="en"><a href="/guides/villager/{slug(v["nameEn"])}/">{html.escape(v["nameEn"])}</a></div>'
         f'<div class="loc">{html.escape(names.get("ko", ""))} / {html.escape(names.get("ja", ""))}</div>'
         f'<div class="tag">{html.escape(v["species"])} &middot; {html.escape(v["personality"])}</div></div>'

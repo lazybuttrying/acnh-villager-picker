@@ -1,5 +1,6 @@
 import type { Pokemon } from '../data/types'
 import type { Tier } from '@/data/types'
+import { decodeBase64Url, encodeBase64Url } from '@/lib/base64url'
 
 const MAX_HOUSES = 6
 const MAX_PER_HOUSE = 4
@@ -22,15 +23,13 @@ export function encodeTeam(houses: TeamEntry[][]): string {
     )
     .filter((s) => s.length > 0)
     .join(';')
-  const b64 = btoa(unescape(encodeURIComponent(raw)))
-  return b64.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '')
+  return encodeBase64Url(raw)
 }
 
 export function decodeTeam(code: string, all: Pokemon[]): TeamEntry[][] {
   let raw: string
   try {
-    const b64 = code.replace(/-/g, '+').replace(/_/g, '/')
-    raw = decodeURIComponent(escape(atob(b64)))
+    raw = decodeBase64Url(code)
   } catch {
     return []
   }

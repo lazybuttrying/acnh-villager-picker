@@ -2,6 +2,7 @@ import type { Pokemon, PresetId } from '../data/types'
 import { COVERAGE_SPECIALTIES, TEAM_SIZE } from '../data/types'
 import type { Tier } from '@/data/types'
 import { TIER_SCORE } from '@/data/types'
+import { dupPairs } from '@/lib/dupPairs'
 
 export type Scores = Record<string, number>
 
@@ -21,15 +22,6 @@ const EPS = 1e-9
 
 export function tierScore(tier: Tier | undefined): number {
   return tier ? TIER_SCORE[tier] : 0
-}
-
-/** Sum over groups of c*(c-1)/2 (number of duplicate pairs). */
-export function dupPairs(counts: Map<string, number>): number {
-  let sum = 0
-  for (const c of counts.values()) {
-    sum += (c * (c - 1)) / 2
-  }
-  return sum
 }
 
 function typeCounts(set: Pokemon[]): Map<string, number> {

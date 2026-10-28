@@ -237,6 +237,7 @@ export function RecommendPanel({
                     src={v.image}
                     alt={villagerName(v, locale)}
                     loading="lazy"
+                    decoding="async"
                     width={48}
                     height={48}
                     className="h-12 w-12 shrink-0 rounded-md object-cover"

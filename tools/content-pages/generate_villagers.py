@@ -100,7 +100,7 @@ def main() -> int:
         body = (
             f"<h1>{esc(name)}</h1>"
             f"<p class=\"names\">{esc(names.get('ko', ''))} / {esc(names.get('ja', ''))}</p>"
-            f"<img class=\"portrait\" src=\"{esc(v['image'])}\" alt=\"{esc(name)}\">"
+            f"<img class=\"portrait\" src=\"{esc(v['image'])}\" alt=\"{esc(name)}\" width=\"160\" height=\"160\" decoding=\"async\">"
             f"<p class=\"lead\">{esc(name)} is a {esc(v['personality'])} "
             f"{esc(v['species'])} villager in Animal Crossing: New Horizons. "
             f"Villagers like gifts that match any of their favorite colors or styles.</p>"
