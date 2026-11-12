@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 // 개인정보처리방침 — useView('privacy')일 때 App이 이 화면만 렌더한다(랜딩과 동일 패턴).
 // AdSense 승인 요건(개인정보처리방침 페이지) 충족 + 광고 쿠키/동의 고지.
-const UPDATED = '2026-06-04'
+const UPDATED = '2026-11-12'
 
 export function PrivacyPolicy({ onBack }: { onBack: () => void }) {
   const { t } = useLocale()
@@ -12,6 +12,7 @@ export function PrivacyPolicy({ onBack }: { onBack: () => void }) {
   const sections = [
     { title: t('privacy.localStorage.title'), body: t('privacy.localStorage.body') },
     { title: t('privacy.ads.title'), body: t('privacy.ads.body') },
+    { title: t('privacy.analytics.title'), body: t('privacy.analytics.body') },
     { title: t('privacy.cookies.title'), body: t('privacy.cookies.body') },
     { title: t('privacy.consent.title'), body: t('privacy.consent.body') },
     { title: t('privacy.contact.title'), body: t('privacy.contact.body') },

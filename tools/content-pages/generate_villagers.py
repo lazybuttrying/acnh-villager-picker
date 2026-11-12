@@ -29,6 +29,11 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parent.parent
 OUT = REPO / "public" / "guides" / "villager"
 SITE = "https://villagertier.com"
+GA_SNIPPET = (
+    '<script async src="https://www.googletagmanager.com/gtag/js?id=G-WEQ0FJKYDL"></script>'
+    "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+    "gtag('js',new Date());gtag('config','G-WEQ0FJKYDL');</script>"
+)
 UPDATED = "2026-10-29"
 
 EXTRA_PATH = HERE / "villagers_extra.json"
@@ -118,7 +123,7 @@ def main() -> int:
             "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">"
             f"<title>{esc(title)}</title><meta name=\"description\" content=\"{esc(desc)}\">"
             f"<link rel=\"canonical\" href=\"{SITE}/guides/villager/{s}/\">"
-            "<link rel=\"stylesheet\" href=\"/guides/style.css\"></head><body>"
+            "<link rel=\"stylesheet\" href=\"/guides/style.css\">" + GA_SNIPPET + "</head><body>"
             "<header><a href=\"/\">villagertier.com</a><nav>"
             "<a href=\"/\">Home</a><a href=\"/acnh/\">Animal Crossing picker</a>"
             "<a href=\"/pokopia/\">Pokopia picker</a><a href=\"/guides/\">Villager guides</a>"
@@ -145,7 +150,7 @@ def main() -> int:
         "<title>All villagers — Animal Crossing: New Horizons</title>"
         "<meta name=\"description\" content=\"All 407 Animal Crossing: New Horizons villagers with favorite styles, colors, food, and gift tips.\">"
         f"<link rel=\"canonical\" href=\"{SITE}/guides/villagers/\">"
-        "<link rel=\"stylesheet\" href=\"/guides/style.css\"></head><body>"
+        "<link rel=\"stylesheet\" href=\"/guides/style.css\">" + GA_SNIPPET + "</head><body>"
         "<header><a href=\"/\">villagertier.com</a><nav>"
         "<a href=\"/\">Home</a><a href=\"/acnh/\">Animal Crossing picker</a>"
         "<a href=\"/pokopia/\">Pokopia picker</a><a href=\"/guides/\">Villager guides</a>"

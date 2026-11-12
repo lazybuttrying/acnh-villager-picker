@@ -29,6 +29,11 @@ COMBOS = yaml.safe_load((REPO / "tools" / "daily-combos" / "combos.yml").read_te
 OUT = REPO / "public" / "guides"
 SITE = "https://villagertier.com"
 UPDATED = "2026-10-28"
+GA_SNIPPET = (
+    '<script async src="https://www.googletagmanager.com/gtag/js?id=G-WEQ0FJKYDL"></script>'
+    "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+    "gtag('js',new Date());gtag('config','G-WEQ0FJKYDL');</script>"
+)
 
 # "Uchi" is the internal name for the Sisterly personality; the data carries
 # both labels, so merge them into one Sisterly guide.
@@ -97,6 +102,7 @@ def shell(title: str, desc: str, path: str, body: str) -> str:
 <meta property="og:url" content="{canon}">
 <meta property="og:type" content="article">
 <style>{STYLE}</style>
+{GA_SNIPPET}
 </head>
 <body>
 <header>

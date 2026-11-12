@@ -150,6 +150,9 @@ export const messages: Record<Locale, Record<string, string>> = {
     'privacy.ads.title': '광고 (Google AdSense)',
     'privacy.ads.body':
       '본 사이트는 Google AdSense를 통해 광고를 게재할 수 있습니다. Google 및 제3자 광고 사업자는 쿠키 등을 사용해 사용자의 이전 방문 기록을 바탕으로 맞춤 광고를 제공할 수 있습니다.',
+    'privacy.analytics.title': '방문 분석 (Google Analytics)',
+    'privacy.analytics.body':
+      '본 사이트는 방문 통계를 위해 Google Analytics를 사용합니다. 페이지 조회와 대략적인 이용 패턴이 익명, 집계 형태로 수집되며, 주민 평가 등 브라우저에 저장되는 데이터는 수집 대상이 아닙니다. Google Analytics도 쿠키를 사용할 수 있습니다.',
     'privacy.cookies.title': '쿠키',
     'privacy.cookies.body':
       '광고 게재 과정에서 Google이 쿠키를 사용할 수 있습니다. 사용자는 브라우저 설정에서 쿠키를 차단하거나 삭제할 수 있습니다.',
@@ -444,6 +447,9 @@ export const messages: Record<Locale, Record<string, string>> = {
     'privacy.ads.title': 'Advertising (Google AdSense)',
     'privacy.ads.body':
       'This site may display ads through Google AdSense. Google and third-party vendors may use cookies to serve ads based on your prior visits to this and other websites.',
+    'privacy.analytics.title': 'Analytics (Google Analytics)',
+    'privacy.analytics.body':
+      'This site uses Google Analytics to measure visits. Page views and general usage patterns are collected in aggregate, anonymous form; data stored in your browser, such as villager ratings, is not collected. Google Analytics may also use cookies.',
     'privacy.cookies.title': 'Cookies',
     'privacy.cookies.body':
       'Google may use cookies when serving ads. You can block or delete cookies in your browser settings.',
@@ -738,6 +744,9 @@ export const messages: Record<Locale, Record<string, string>> = {
     'privacy.ads.title': '広告（Google AdSense）',
     'privacy.ads.body':
       '本サイトはGoogle AdSenseを通じて広告を表示する場合があります。Googleおよび第三者の広告事業者は、Cookieなどを使用して過去のアクセス情報に基づくパーソナライズ広告を配信することがあります。',
+    'privacy.analytics.title': 'アクセス解析（Google Analytics）',
+    'privacy.analytics.body':
+      '本サイトはアクセス統計のためにGoogle Analyticsを使用しています。ページビューや大まかな利用パターンが匿名・集計形式で収集されます。住民の評価などブラウザに保存されるデータは収集対象ではありません。Google AnalyticsもCookieを使用する場合があります。',
     'privacy.cookies.title': 'Cookie',
     'privacy.cookies.body':
       '広告配信の際にGoogleがCookieを使用する場合があります。ユーザーはブラウザの設定でCookieをブロックまたは削除できます。',

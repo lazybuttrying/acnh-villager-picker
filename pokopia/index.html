@@ -25,6 +25,26 @@
       content="포켓몬 포코피아 307마리 중 드림타운 10마리를 추천해주는 무료 웹 도구 — 티어 평가와 특기 커버리지 기반 추천"
     />
     <meta name="twitter:image" content="https://villagertier.com/pokopia-og-image.png" />
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEQ0FJKYDL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-WEQ0FJKYDL', { send_page_view: false });
+      function gaPageView() {
+        gtag('event', 'page_view', {
+          page_location: window.location.href,
+          page_title: document.title,
+        });
+      }
+      window.addEventListener('load', gaPageView);
+      window.addEventListener('hashchange', function () {
+        window.setTimeout(gaPageView, 60);
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
