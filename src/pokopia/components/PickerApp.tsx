@@ -4,6 +4,8 @@ import type { Pokemon } from '../data/types'
 import { ALL_SPECIALTIES, HABITATS, TYPES } from '../data/types'
 import { PokemonCard } from './PokemonCard'
 import { RecommendPanel } from './RecommendPanel'
+import { HabitatPlanner } from './HabitatPlanner'
+import { RareSpecialties } from './RareSpecialties'
 import { usePk, typeLabel, habitatLabel, specialtyLabel } from '../i18n'
 import { usePokopiaState, setTier, toggleIn } from '../lib/store'
 import { Input } from '@/components/ui/input'
@@ -155,6 +157,9 @@ export function PickerApp({ all }: { all: Pokemon[] }) {
           </div>
         </div>
       </div>
+
+      <HabitatPlanner all={all} />
+      <RareSpecialties all={all} />
     </div>
   )
 }

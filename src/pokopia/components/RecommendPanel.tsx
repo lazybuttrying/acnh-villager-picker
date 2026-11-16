@@ -1,10 +1,11 @@
 import { useMemo, useState } from 'react'
 import { Check, Copy, Download, Share2 } from 'lucide-react'
 import type { Pokemon, PresetId } from '../data/types'
+import { COVERAGE_SPECIALTIES } from '../data/types'
 import type { Tier } from '@/data/types'
-import { PRESETS, recommend, scoreBreakdown, formHouses } from '../lib/recommend'
-import { usePokopiaState, scoresFromRatings } from '../lib/store'
-import { usePk, pokemonName, houseLabel, habitatLabel } from '../i18n'
+import { PRESETS, recommend, scoreBreakdown, formHouses, fixCandidates } from '../lib/recommend'
+import { usePokopiaState, scoresFromRatings, toggleIn } from '../lib/store'
+import { usePk, pokemonName, houseLabel, habitatLabel, specialtyLabel } from '../i18n'
 import { encodeTeam, teamUrl } from '../lib/shareTeam'
 import type { TeamEntry } from '../lib/shareTeam'
 import { renderTeamImage } from '../lib/teamImage'
@@ -31,7 +32,7 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
 
   const ratedCount = Object.keys(state.ratings).length
 
-  const { houses, breakdown } = useMemo(() => {
+  const { houses, breakdown, fixes } = useMemo(() => {
     const scores = scoresFromRatings(state.ratings)
     const blacklist = new Set(state.blacklist)
     const recruitedSet = new Set(state.recruited)
@@ -42,6 +43,7 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
     return {
       houses: formHouses(team, scores, houseCount),
       breakdown: scoreBreakdown(team, scores, w),
+      fixes: fixCandidates(team, pool, scores),
     }
   }, [all, state.ratings, state.blacklist, state.recruited, preset, houseCount])
 
@@ -137,6 +139,9 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
             <div className="space-y-3">
               {housesWithTiers.map((house, hi) => {
                 const habitats = [...new Set(house.map(({ pokemon }) => pokemon.habitat))]
+                const houseSpecs = COVERAGE_SPECIALTIES.filter((s) =>
+                  house.some(({ pokemon }) => pokemon.specialties.includes(s)),
+                )
                 return (
                   <div key={hi} className="rounded-lg border border-border p-2">
                     <div className="mb-2 flex items-center gap-2 px-1">
@@ -150,6 +155,18 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
                         {house.length}/4
                       </span>
                     </div>
+                    {houseSpecs.length > 0 && (
+                      <div className="mb-2 flex flex-wrap gap-1 px-1">
+                        {houseSpecs.map((s) => (
+                          <span
+                            key={s}
+                            className="rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary"
+                          >
+                            {specialtyLabel(s)}
+                          </span>
+                        ))}
+                      </div>
+                    )}
                     <div className="grid grid-cols-4 gap-2">
                       {house.map(({ pokemon, tier }) => (
                         <div key={pokemon.id} className="flex flex-col items-center gap-1">
@@ -211,6 +228,41 @@ export function RecommendPanel({ all }: { all: Pokemon[] }) {
                 {breakdown.missing.join(', ') || '-'}
               </p>
             </div>
+
+            {fixes.length > 0 && (
+              <div className="space-y-1.5">
+                <p className="text-xs font-semibold">{t('rec.fix.title')}</p>
+                {fixes.map(({ specialty, candidates }) => (
+                  <div key={specialty} className="flex flex-wrap items-center gap-1.5 text-xs">
+                    <span className="w-16 font-semibold">{specialtyLabel(specialty)}</span>
+                    {candidates.map((p) => {
+                      const tier = state.ratings[p.id]
+                      return (
+                        <button
+                          key={p.id}
+                          type="button"
+                          title={t('rec.fix.pin')}
+                          onClick={() => toggleIn('recruited', p.id)}
+                          className="rounded-full border border-border bg-background px-2 py-0.5 transition-colors hover:bg-accent"
+                        >
+                          {pokemonName(p, locale)}
+                          {tier && (
+                            <span
+                              className={cn(
+                                'ml-1 rounded-full px-1 text-[10px] font-bold',
+                                TIER_CHIP[tier],
+                              )}
+                            >
+                              {tier}
+                            </span>
+                          )}
+                        </button>
+                      )
+                    })}
+                  </div>
+                ))}
+              </div>
+            )}
 
             <div className="flex flex-wrap gap-2">
               <Button type="button" size="sm" onClick={handleCopy}>

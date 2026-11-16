@@ -107,6 +107,21 @@ export function Landing({
       </section>
 
       <section className="mt-8 text-center">
+        <Card>
+          <CardContent className="p-5">
+            <h2 className="text-lg font-bold">{t('guides.title')}</h2>
+            <p className="mt-1 text-sm text-muted-foreground">{t('guides.body')}</p>
+            <Button asChild variant="outline" className="mt-3">
+              <a href="../pokopia-guides/">
+                {t('guides.cta')}
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </a>
+            </Button>
+          </CardContent>
+        </Card>
+      </section>
+
+      <section className="mt-8 text-center">
         <Card className="border-primary/40 bg-primary/5">
           <CardContent className="p-5">
             <h2 className="text-lg font-bold">{t('cross.title')}</h2>

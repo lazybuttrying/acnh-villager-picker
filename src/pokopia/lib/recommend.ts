@@ -73,6 +73,36 @@ export function totalScore(set: Pokemon[], scores: Scores, w: Weights): number {
   return scoreBreakdown(set, scores, w).total
 }
 
+export interface FixSuggestion {
+  specialty: string
+  candidates: Pokemon[]
+}
+
+/**
+ * For every coverage specialty the team misses, list the best-scored pool
+ * members who have it, so the user can pin one and re-run the recommendation
+ * with the gap closed. Specialties nobody in the pool can fix are omitted.
+ */
+export function fixCandidates(
+  team: Pokemon[],
+  pool: Pokemon[],
+  scores: Scores,
+  perSpecialty = 3,
+): FixSuggestion[] {
+  const covered = coveredSpecialties(team)
+  const inTeam = new Set(team.map((p) => p.id))
+  const out: FixSuggestion[] = []
+  for (const specialty of COVERAGE_SPECIALTIES) {
+    if (covered.has(specialty)) continue
+    const candidates = pool
+      .filter((p) => !inTeam.has(p.id) && p.specialties.includes(specialty))
+      .sort((a, b) => (scores[b.id] ?? 0) - (scores[a.id] ?? 0) || a.dex - b.dex)
+      .slice(0, perSpecialty)
+    if (candidates.length > 0) out.push({ specialty, candidates })
+  }
+  return out
+}
+
 /**
  * Build a recommended town team.
  * Greedy fill by marginal gain, then a swap-improvement pass.
